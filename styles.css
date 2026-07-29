@@ -1179,36 +1179,118 @@ html>body{padding:0}
       display: none;
     }
 
-    #eo-content-overview .eo-donut {
+    #eo-content-overview .eo-donut-wrap {
       position: relative;
       width: min(100%, 164px);
       aspect-ratio: 1;
       margin-inline: auto;
-      border-radius: 50%;
-      background:
-        conic-gradient(
-          var(--eo-youtube) 0 65%,
-          var(--eo-magazine) 65% 75%,
-          var(--eo-instagram) 75% 95%,
-          var(--eo-x) 95% 100%
-        );
     }
 
-    #eo-content-overview .eo-donut::after {
+    #eo-content-overview .eo-donut {
+      width: 100%;
+      overflow: visible;
+      transform: rotate(-90deg);
+    }
+
+    #eo-content-overview .eo-donut-track,
+    #eo-content-overview .eo-donut-segment {
+      fill: none;
+      stroke-width: 20;
+    }
+
+    #eo-content-overview .eo-donut-track {
+      stroke: var(--eo-panel-2);
+    }
+
+    #eo-content-overview .eo-donut-segment {
+      cursor: help;
+      outline: none;
+      transition: stroke-width 140ms ease, filter 140ms ease;
+    }
+
+    #eo-content-overview .eo-donut-segment:hover,
+    #eo-content-overview .eo-donut-segment:focus-visible,
+    #eo-content-overview .eo-donut-segment.is-active {
+      stroke-width: 23;
+      filter: brightness(1.06);
+    }
+
+    #eo-content-overview .eo-donut-segment:focus-visible {
+      filter: brightness(1.06) drop-shadow(0 0 2px var(--eo-ink));
+    }
+
+    #eo-content-overview .eo-donut-youtube { stroke: var(--eo-youtube); }
+    #eo-content-overview .eo-donut-magazine { stroke: var(--eo-magazine); }
+    #eo-content-overview .eo-donut-instagram { stroke: var(--eo-instagram); }
+    #eo-content-overview .eo-donut-x { stroke: var(--eo-x); }
+
+    #eo-content-overview .eo-donut-tooltip {
       position: absolute;
-      inset: 27%;
-      border-radius: 50%;
-      background: var(--eo-panel);
-      content: "";
+      z-index: 3;
+      width: 148px;
+      padding: 9px 10px;
+      border: 1px solid #44474c;
+      border-radius: 9px;
+      color: #f4f5f5;
+      background: #1b1c1e;
+      box-shadow: 0 10px 24px rgb(0 0 0 / 24%);
+      pointer-events: none;
+      font-size: 10px;
+      font-variant-numeric: tabular-nums;
+    }
+
+    #eo-content-overview .eo-donut-tooltip[hidden] {
+      display: none;
+    }
+
+    #eo-content-overview .eo-tooltip-platform,
+    #eo-content-overview .eo-tooltip-share {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      gap: 7px;
+      align-items: center;
+    }
+
+    #eo-content-overview .eo-tooltip-platform strong,
+    #eo-content-overview .eo-tooltip-share strong {
+      color: #ffffff;
+      font-size: 11px;
+      font-weight: 650;
+    }
+
+    #eo-content-overview .eo-tooltip-share {
+      grid-template-columns: 1fr auto;
+      margin-top: 7px;
+      padding-top: 7px;
+      border-top: 1px solid #44474c;
+      color: #cdd1d7;
+    }
+
+    #eo-content-overview .eo-tooltip-color {
+      width: 8px;
+      height: 8px;
+      border-radius: 3px;
+    }
+
+    #eo-content-overview .eo-tooltip-color-youtube { background: var(--eo-youtube); }
+    #eo-content-overview .eo-tooltip-color-magazine { background: var(--eo-magazine); }
+    #eo-content-overview .eo-tooltip-color-instagram { background: var(--eo-instagram); }
+    #eo-content-overview .eo-tooltip-color-x { background: var(--eo-x); }
+
+    @media (prefers-reduced-motion: reduce) {
+      #eo-content-overview .eo-donut-segment {
+        transition: none;
+      }
     }
 
     #eo-content-overview .eo-donut-center {
       position: absolute;
       z-index: 1;
-      inset: 27%;
+      inset: 30%;
       display: grid;
       place-content: center;
       text-align: center;
+      pointer-events: none;
     }
 
     #eo-content-overview .eo-donut-center strong {

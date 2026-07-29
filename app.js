@@ -82,6 +82,11 @@ const initializeOverview = async () => {
   ];
   const channelBars = root.querySelector("#channel-bars");
   const channelDonut = root.querySelector("#channel-donut");
+  const donutWrap = root.querySelector(".eo-donut-wrap");
+  const donutTooltip = root.querySelector("#channel-donut-tooltip");
+  const donutSegments = [
+    ...root.querySelectorAll(".eo-donut-segment"),
+  ];
 
   const { youtube, magazine } = await loadMasterData();
   const youtubeContents = youtube.originalContents.map((content) => {
@@ -436,6 +441,58 @@ const initializeOverview = async () => {
         item.classList.toggle("btn-ghost", !active);
       });
     });
+  });
+  const placeDonutTooltip = (clientX, clientY) => {
+    const bounds = donutWrap.getBoundingClientRect();
+    const tooltipBounds = donutTooltip.getBoundingClientRect();
+    const padding = 8;
+    const left = Math.min(
+      Math.max(clientX - bounds.left + 12, padding),
+      bounds.width - tooltipBounds.width - padding,
+    );
+    const top = Math.min(
+      Math.max(clientY - bounds.top - tooltipBounds.height / 2, padding),
+      bounds.height - tooltipBounds.height - padding,
+    );
+    donutTooltip.style.left = `${left}px`;
+    donutTooltip.style.top = `${top}px`;
+  };
+  const showDonutTooltip = (segment, clientX, clientY) => {
+    donutTooltip.querySelector(".eo-tooltip-platform i").className =
+      `eo-tooltip-color eo-tooltip-color-${segment.dataset.color}`;
+    donutTooltip.querySelector(".eo-tooltip-platform span").textContent =
+      segment.dataset.platform;
+    donutTooltip.querySelector(".eo-tooltip-platform strong").textContent =
+      segment.dataset.views;
+    donutTooltip.querySelector(".eo-tooltip-share strong").textContent =
+      segment.dataset.share;
+    donutTooltip.hidden = false;
+    segment.classList.add("is-active");
+    placeDonutTooltip(clientX, clientY);
+  };
+  const hideDonutTooltip = (segment) => {
+    donutTooltip.hidden = true;
+    segment.classList.remove("is-active");
+  };
+  donutSegments.forEach((segment) => {
+    segment.addEventListener("pointerenter", (event) => {
+      showDonutTooltip(segment, event.clientX, event.clientY);
+    });
+    segment.addEventListener("pointermove", (event) => {
+      placeDonutTooltip(event.clientX, event.clientY);
+    });
+    segment.addEventListener("pointerleave", () => {
+      if (document.activeElement !== segment) hideDonutTooltip(segment);
+    });
+    segment.addEventListener("focus", () => {
+      const bounds = donutWrap.getBoundingClientRect();
+      showDonutTooltip(
+        segment,
+        bounds.left + bounds.width / 2,
+        bounds.top + bounds.height / 2,
+      );
+    });
+    segment.addEventListener("blur", () => hideDonutTooltip(segment));
   });
   render();
 };

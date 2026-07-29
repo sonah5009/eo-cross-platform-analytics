@@ -136,8 +136,21 @@
             </div>
           </div>
           <div class="eo-channel-donut-view" id="channel-donut" hidden>
-            <div class="eo-donut" role="img" aria-label="YouTube 65%, Magazine 10%, Instagram 20%, X 5%">
+            <div class="eo-donut-wrap">
+              <svg class="eo-donut" viewBox="0 0 100 100" role="img" aria-labelledby="channel-donut-title channel-donut-desc">
+                <title id="channel-donut-title">Channel contribution by platform</title>
+                <desc id="channel-donut-desc">Interactive donut chart. Focus or hover a platform segment to see its exact views and share.</desc>
+                <circle class="eo-donut-track" cx="50" cy="50" r="40" pathLength="100"></circle>
+                <circle class="eo-donut-segment eo-donut-youtube" cx="50" cy="50" r="40" pathLength="100" stroke-dasharray="65 35" stroke-dashoffset="0" tabindex="0" role="img" aria-label="YouTube: 8,300,000 views, 65 percent" data-platform="YouTube" data-views="8,300,000" data-share="65%" data-color="youtube"></circle>
+                <circle class="eo-donut-segment eo-donut-magazine" cx="50" cy="50" r="40" pathLength="100" stroke-dasharray="10 90" stroke-dashoffset="-65" tabindex="0" role="img" aria-label="Magazine: 1,300,000 views, 10 percent" data-platform="Magazine" data-views="1,300,000" data-share="10%" data-color="magazine"></circle>
+                <circle class="eo-donut-segment eo-donut-instagram" cx="50" cy="50" r="40" pathLength="100" stroke-dasharray="20 80" stroke-dashoffset="-75" tabindex="0" role="img" aria-label="Instagram: 2,600,000 views, 20 percent" data-platform="Instagram" data-views="2,600,000" data-share="20%" data-color="instagram"></circle>
+                <circle class="eo-donut-segment eo-donut-x" cx="50" cy="50" r="40" pathLength="100" stroke-dasharray="5 95" stroke-dashoffset="-95" tabindex="0" role="img" aria-label="X: 600,000 views, 5 percent" data-platform="X" data-views="600,000" data-share="5%" data-color="x"></circle>
+              </svg>
               <div class="eo-donut-center"><strong>12.8M</strong><span>Total views</span></div>
+              <div class="eo-donut-tooltip" id="channel-donut-tooltip" role="tooltip" hidden>
+                <div class="eo-tooltip-platform"><i></i><span></span><strong></strong></div>
+                <div class="eo-tooltip-share"><span>Share</span><strong></strong></div>
+              </div>
             </div>
             <div class="eo-donut-legend">
               <span><i style="background: var(--eo-youtube)"></i>YouTube <strong>65%</strong></span>
