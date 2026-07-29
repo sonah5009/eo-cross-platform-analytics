@@ -13,6 +13,7 @@ const files = [
   ["data/youtube-content-master.csv", "text/csv; charset=utf-8"],
   ["data/magazine-content-candidates.json", "application/json; charset=utf-8"],
   ["data/magazine-content-candidates.csv", "text/csv; charset=utf-8"],
+  ["data/magazine-link-decisions.json", "application/json; charset=utf-8"],
 ];
 
 const routes = [];

@@ -66,23 +66,32 @@ const initializeOverview = async () => {
   const sortSelect = root.querySelector("#content-sort");
 
   const { youtube, magazine } = await loadMasterData();
-  const youtubeContents = youtube.originalContents.map((content) => ({
-    id: content.originalContentId,
-    platform: "youtube",
-    title: content.title,
-    imageUrl: thumbnailUrl(content.originalContentId),
-    taxonomy: content.ipSeries || content.collectionTags[0] || "Uncategorized",
-    searchable: [
-      content.title,
-      content.ipSeries,
-      ...content.collectionTags,
-    ].filter(Boolean).join(" "),
-    assetCount: content.assetCount,
-    shortCount: content.assetTypeCounts.shorts ?? 0,
-    views: null,
-    publishedAt: null,
-    status: "Approved anchor",
-  }));
+  const youtubeContents = youtube.originalContents.map((content) => {
+    const linkedMagazineCount = magazine.articles.filter(
+      (article) =>
+        article.review_status === "Approved" &&
+        article.original_content_id === content.originalContentId,
+    ).length;
+    return {
+      id: content.originalContentId,
+      platform: "youtube",
+      title: content.title,
+      imageUrl: thumbnailUrl(content.originalContentId),
+      taxonomy: content.ipSeries || content.collectionTags[0] || "Uncategorized",
+      searchable: [
+        content.title,
+        content.ipSeries,
+        ...content.collectionTags,
+      ].filter(Boolean).join(" "),
+      assetCount: content.assetCount + linkedMagazineCount,
+      youtubeAssetCount: content.assetCount,
+      linkedMagazineCount,
+      shortCount: content.assetTypeCounts.shorts ?? 0,
+      views: null,
+      publishedAt: null,
+      status: "Approved anchor",
+    };
+  });
   const magazineContents = magazine.articles.map((article) => ({
     id: article.magazine_id,
     platform: "magazine",
@@ -102,9 +111,11 @@ const initializeOverview = async () => {
     views: article.view_count_at_import ?? 0,
     publishedAt: article.published_at,
     status:
-      article.link_status === "Suggested"
-        ? `${article.match_confidence} match candidate`
-        : "Magazine-native candidate",
+      article.link_status === "Linked"
+        ? "Approved · linked to YouTube"
+        : article.link_status === "Suggested"
+          ? `${article.match_confidence} match candidate`
+          : "Magazine-native candidate",
   }));
   const contents = [...youtubeContents, ...magazineContents];
   let platform = "all";
@@ -235,6 +246,11 @@ const initializeOverview = async () => {
       ? "var(--eo-magazine)"
       : "var(--eo-youtube)";
     const platformLabel = isMagazine ? "Magazine · M" : "YouTube · YT";
+    const mixMarkup =
+      !isMagazine && content.linkedMagazineCount
+        ? `<span class="eo-mix" style="width: 78%; background: var(--eo-youtube)"></span>
+           <span class="eo-mix" style="width: 22%; background: var(--eo-magazine)"></span>`
+        : `<span class="eo-mix" style="width: 100%; background: ${platformColor}"></span>`;
     return `
       <tr data-platforms="${content.platform}">
         <td>
@@ -252,11 +268,17 @@ const initializeOverview = async () => {
         </td>
         <td>
           <div class="eo-platform-mix" aria-label="${platformLabel}">
-            <span class="eo-mix" style="width: 100%; background: ${platformColor}"></span>
+            ${mixMarkup}
           </div>
           <div class="eo-source">
             <span class="eo-platform-chip eo-platform-chip-${content.platform}">${isMagazine ? "M" : "YT"}</span>
-            ${isMagazine ? escapeHtml(content.status) : `${content.assetCount} owned · ${content.shortCount} Shorts`}
+            ${
+              isMagazine
+                ? escapeHtml(content.status)
+                : content.linkedMagazineCount
+                  ? `${content.youtubeAssetCount} YouTube · ${content.linkedMagazineCount} Magazine`
+                  : `${content.youtubeAssetCount} owned · ${content.shortCount} Shorts`
+            }
           </div>
         </td>
         <td class="text-end"><a class="eo-row-action" href="${detailUrl(content.platform, content.id)}">View detail ↗</a></td>
@@ -421,9 +443,9 @@ const initializeDetail = async () => {
               <span class="eo-badge" style="background: var(--eo-youtube)">YT</span>
               <div class="eo-published-main">
                 <a class="eo-published-name eo-published-link" href="${escapeHtml(matchedYoutubeAsset.url)}" target="_blank" rel="noreferrer">${escapeHtml(matchedYoutubeAsset.title)}</a>
-                <div class="eo-published-date">${escapeHtml(content.match_confidence)} candidate · score ${content.match_score}</div>
+                <div class="eo-published-date">${content.review_status === "Approved" ? "Approved same original" : `${escapeHtml(content.match_confidence)} candidate · score ${content.match_score}`}</div>
               </div>
-              <span class="eo-source-badge eo-review-badge">Needs review</span>
+              <span class="eo-source-badge ${content.review_status === "Approved" ? "" : "eo-review-badge"}">${escapeHtml(content.review_status)}</span>
             </li>`
           : `<li class="eo-published eo-candidate-row">
               <span class="eo-badge" style="background: var(--eo-panel-2); color: var(--eo-ink-2)">—</span>
@@ -442,10 +464,15 @@ const initializeDetail = async () => {
       )
       .filter(Boolean)
       .sort((a, b) => Number(b.isAnchor) - Number(a.isAnchor));
+    const linkedMagazineArticles = magazine.articles.filter(
+      (article) =>
+        article.review_status === "Approved" &&
+        article.original_content_id === content.originalContentId,
+    );
     root.querySelector("#detail-series").textContent =
       content.ipSeries || "Uncategorized";
     root.querySelector("#detail-asset-summary").textContent =
-      `${content.assetCount} owned YouTube assets`;
+      `${content.assetCount} YouTube assets · ${linkedMagazineArticles.length} Magazine articles`;
     root.querySelector("#detail-original-link").href = content.canonicalUrl;
     root.querySelector("#detail-thumbnail").src = thumbnailUrl(
       content.originalContentId,
@@ -467,7 +494,20 @@ const initializeDetail = async () => {
         </li>
       `,
       )
-      .join("");
+      .join("") + linkedMagazineArticles
+        .map(
+          (article) => `
+            <li class="eo-published">
+              <span class="eo-badge" style="background: var(--eo-magazine)">M</span>
+              <div class="eo-published-main">
+                <a class="eo-published-name eo-published-link" href="${escapeHtml(article.article_url)}" target="_blank" rel="noreferrer">${escapeHtml(article.title)}</a>
+                <div class="eo-published-date">${formatDate(article.published_at)} · Approved same original</div>
+              </div>
+              <span class="eo-source-badge">Owned</span>
+            </li>
+          `,
+        )
+        .join("");
   }
 
   const externalToggle = root.querySelector("#external-toggle");

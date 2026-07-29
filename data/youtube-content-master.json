@@ -7,11 +7,11 @@
   },
   "summary": {
     "assetCount": 433,
-    "originalContentCount": 59,
-    "linkedAssetCount": 179,
-    "linkedAnchorCount": 59,
+    "originalContentCount": 67,
+    "linkedAssetCount": 187,
+    "linkedAnchorCount": 67,
     "linkedShortCount": 120,
-    "unassignedAssetCount": 254,
+    "unassignedAssetCount": 246,
     "suggestedAssetCount": 0
   },
   "taxonomy": {
@@ -276,6 +276,23 @@
       }
     },
     {
+      "originalContentId": "PGp-RAC8oTA",
+      "title": "Everyone Said \"It's unsexy\". Now We're Serving 30M Patients | MedMe Health, Purya Sarmadi",
+      "canonicalUrl": "https://www.youtube.com/watch?v=PGp-RAC8oTA",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "PGp-RAC8oTA"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
       "originalContentId": "UA_gYKaXHS0",
       "title": "First Lesson Taught in Harvard MBA in 18 Minutes | Thales Teixeira",
       "canonicalUrl": "https://www.youtube.com/watch?v=UA_gYKaXHS0",
@@ -379,6 +396,23 @@
       }
     },
     {
+      "originalContentId": "_Q2ZEBhVyTw",
+      "title": "He Built $100B at Google, Then Failed. Now He Runs an $80B+ Company | Snowflake, Sridhar Ramaswamy",
+      "canonicalUrl": "https://www.youtube.com/watch?v=_Q2ZEBhVyTw",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Over $100 Billion CEO Interviews"
+      ],
+      "assetIds": [
+        "_Q2ZEBhVyTw"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
       "originalContentId": "I-BERqPprrc",
       "title": "He Built a $5.5B Legal AI Company by 26 | Legora, Max Junestrand",
       "canonicalUrl": "https://www.youtube.com/watch?v=I-BERqPprrc",
@@ -453,6 +487,23 @@
       }
     },
     {
+      "originalContentId": "bVSzAkuuymw",
+      "title": "How Gong Built a $7B+ Company in the Age of Vibe Coding | Amit Bendov",
+      "canonicalUrl": "https://www.youtube.com/watch?v=bVSzAkuuymw",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "bVSzAkuuymw"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
       "originalContentId": "5qfwNBs3IVE",
       "title": "How Great Tech Leaders Think and Decide | Ex-Meta CTO & Gigascale Founder, Mike Schroepfer",
       "canonicalUrl": "https://www.youtube.com/watch?v=5qfwNBs3IVE",
@@ -511,6 +562,23 @@
       }
     },
     {
+      "originalContentId": "YTj2SkZ13hw",
+      "title": "How I Raised $17M in 14 Days | Pylon, Marty Kausas",
+      "canonicalUrl": "https://www.youtube.com/watch?v=YTj2SkZ13hw",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "YTj2SkZ13hw"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
       "originalContentId": "LBn0eAxQpb8",
       "title": "How Luma Built a $200M AI by Shipping Fast, Not Perfect | Luma AI, Amit Jain",
       "canonicalUrl": "https://www.youtube.com/watch?v=LBn0eAxQpb8",
@@ -527,6 +595,23 @@
       "assetTypeCounts": {
         "long_form": 1,
         "shorts": 1
+      }
+    },
+    {
+      "originalContentId": "LgewaIpQVko",
+      "title": "How Prompt Engineering Inventor Built $1.5B in 3 Years | You.com, Richard Socher",
+      "canonicalUrl": "https://www.youtube.com/watch?v=LgewaIpQVko",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "LgewaIpQVko"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
       }
     },
     {
@@ -664,6 +749,23 @@
       "assetTypeCounts": {
         "long_form": 1,
         "shorts": 2
+      }
+    },
+    {
+      "originalContentId": "CCX1Zc3q5cY",
+      "title": "I Hit $1M ARR in 117 Days. Bootstrapped to $10M. Here's My Playbook | Chatbase, Yasser Elsaid",
+      "canonicalUrl": "https://www.youtube.com/watch?v=CCX1Zc3q5cY",
+      "anchorPlatform": "youtube",
+      "ipSeries": "Playbook",
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "CCX1Zc3q5cY"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
       }
     },
     {
@@ -1056,6 +1158,23 @@
       }
     },
     {
+      "originalContentId": "Fr_5Gk_w_o8",
+      "title": "This Humanoid Robot Just Got Human-Level Hands. Here's the Man Behind It | 1X, Bernt Børnich",
+      "canonicalUrl": "https://www.youtube.com/watch?v=Fr_5Gk_w_o8",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "Fr_5Gk_w_o8"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
       "originalContentId": "Ewgx5oBvMG8",
       "title": "This Insane AI Video Search Technology Selected by NVIDIA and Snowflake | Twelve Labs, Jae Lee",
       "canonicalUrl": "https://www.youtube.com/watch?v=Ewgx5oBvMG8",
@@ -1072,6 +1191,23 @@
       "assetTypeCounts": {
         "long_form": 1,
         "shorts": 1
+      }
+    },
+    {
+      "originalContentId": "h6aqpjrUd5c",
+      "title": "This Is How a 26-Year-Old Raised $108M in 1.5 Years | Reducto, Adit Abraham",
+      "canonicalUrl": "https://www.youtube.com/watch?v=h6aqpjrUd5c",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "h6aqpjrUd5c"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
       }
     },
     {
@@ -1271,11 +1407,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "PGp-RAC8oTA",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "_Q2ZEBhVyTw",
@@ -1290,11 +1426,11 @@
       "collectionTags": [
         "Over $100 Billion CEO Interviews"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "_Q2ZEBhVyTw",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "90UkODFm5P8",
@@ -1328,11 +1464,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "bVSzAkuuymw",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "9eHNYMuvQjA",
@@ -1423,11 +1559,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "CCX1Zc3q5cY",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "BAgxGp2WEu4",
@@ -1853,11 +1989,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "LgewaIpQVko",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "fqGTIyrtnBU",
@@ -1910,11 +2046,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "h6aqpjrUd5c",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "b_UMhn8E8lI",
@@ -2471,11 +2607,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "Fr_5Gk_w_o8",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "Xqsudhg-8qk",
@@ -3182,11 +3318,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "YTj2SkZ13hw",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "TNq79c8QNlg",

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-07-29",
+  "reviewedBy": "User",
+  "decisions": [
+    { "magazineId": 391, "youtubeId": "_Q2ZEBhVyTw", "decision": "Approved" },
+    { "magazineId": 388, "youtubeId": "PGp-RAC8oTA", "decision": "Approved" },
+    { "magazineId": 393, "youtubeId": "bVSzAkuuymw", "decision": "Approved" },
+    { "magazineId": 379, "youtubeId": "CCX1Zc3q5cY", "decision": "Approved" },
+    { "magazineId": 345, "youtubeId": "yPux3-jDW9g", "decision": "Approved" },
+    { "magazineId": 67, "youtubeId": "LgewaIpQVko", "decision": "Approved" },
+    { "magazineId": 46, "youtubeId": "h6aqpjrUd5c", "decision": "Approved" },
+    { "magazineId": 68, "youtubeId": "KBY0z6jSQsA", "decision": "Approved" },
+    { "magazineId": 149, "youtubeId": "Fr_5Gk_w_o8", "decision": "Approved" },
+    { "magazineId": 262, "youtubeId": "YTj2SkZ13hw", "decision": "Approved" }
+  ]
+}

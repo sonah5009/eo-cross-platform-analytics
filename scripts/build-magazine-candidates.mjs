@@ -3,6 +3,7 @@ import { resolve } from "node:path";
 
 const projectRoot = resolve(import.meta.dirname, "..");
 const youtubeMasterPath = resolve(projectRoot, "data/youtube-content-master.json");
+const decisionsPath = resolve(projectRoot, "data/magazine-link-decisions.json");
 const jsonOutputPath = resolve(projectRoot, "data/magazine-content-candidates.json");
 const csvOutputPath = resolve(projectRoot, "data/magazine-content-candidates.csv");
 
@@ -141,6 +142,10 @@ async function fetchCategory(category) {
 }
 
 const youtubeMaster = JSON.parse(await readFile(youtubeMasterPath, "utf8"));
+const reviewDecisions = JSON.parse(await readFile(decisionsPath, "utf8"));
+const decisionsByMagazineId = new Map(
+  reviewDecisions.decisions.map((decision) => [decision.magazineId, decision]),
+);
 const youtubeLongForms = youtubeMaster.assets.filter(
   (asset) => asset.contentType === "long_form",
 );
@@ -169,7 +174,7 @@ const candidates = articles
         ].filter(Boolean).join("; ")
       : "";
 
-    return {
+    const candidate = {
       magazine_id: article.id,
       source_platform: "magazine",
       asset_type: "article",
@@ -208,6 +213,30 @@ const candidates = articles
       link_status: matchedAsset ? "Suggested" : "Unassigned",
       review_status: matchedAsset ? "Needs review" : "Not reviewed",
     };
+    const decision = decisionsByMagazineId.get(article.id);
+    if (decision?.decision === "Approved") {
+      const approvedAsset = youtubeLongForms.find(
+        (asset) => asset.youtubeId === decision.youtubeId,
+      );
+      if (!approvedAsset?.originalContentId || !approvedAsset.isAnchor) {
+        throw new Error(
+          `Approved YouTube asset must be an anchor before Magazine linking: ${decision.youtubeId}`,
+        );
+      }
+      candidate.content_origin_candidate = "youtube_linked";
+      candidate.original_content_id = approvedAsset.originalContentId;
+      candidate.parent_candidate = approvedAsset.originalContentId;
+      candidate.parent_candidate_url = approvedAsset.url;
+      candidate.matched_youtube_title = approvedAsset.title;
+      candidate.matched_youtube_status = "Linked";
+      candidate.match_score = 1;
+      candidate.match_confidence = "Approved";
+      candidate.match_reason = "User-approved as the same original content";
+      candidate.recommended_action = "Linked to approved YouTube anchor";
+      candidate.link_status = "Linked";
+      candidate.review_status = "Approved";
+    }
+    return candidate;
   })
   .sort((left, right) =>
     String(right.published_at).localeCompare(String(left.published_at)) ||
@@ -227,6 +256,9 @@ const summary = {
   ),
   suggestedCount: candidates.filter((candidate) => candidate.link_status === "Suggested")
     .length,
+  approvedLinkedCount: candidates.filter(
+    (candidate) => candidate.link_status === "Linked",
+  ).length,
   existingAnchorCandidateCount: candidates.filter(
     (candidate) =>
       candidate.recommended_action === "Review and link to existing anchor",

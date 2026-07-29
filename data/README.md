@@ -8,6 +8,8 @@
   articles and proposed YouTube relationships.
 - `magazine-content-candidates.json` is the structured equivalent used by
   future dashboard integration.
+- `magazine-link-decisions.json` stores human approvals and rejections so they
+  survive future Magazine API refreshes.
 
 ## Identity rules
 
@@ -35,6 +37,8 @@ than this identity master.
 - Magazine categories remain in `magazine_category_raw`.
 - `Founder Focused` is a collection tag; `The Thinking Mode` is an IP series.
 - `original_content_id` remains empty until a reviewer approves a match.
+- Approved decisions populate `original_content_id` and change both link and
+  review status to `Linked / Approved`.
 - Matches to an approved YouTube group propose its existing anchor.
 - Matches to an unassigned YouTube long-form propose promoting that video to
   an anchor before linking the magazine article.
@@ -43,5 +47,6 @@ than this identity master.
 Refresh the review queue with:
 
 ```sh
+npm run data:reviews
 npm run data:magazine
 ```

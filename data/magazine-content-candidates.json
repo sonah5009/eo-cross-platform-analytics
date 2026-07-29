@@ -37,7 +37,7 @@
     "newAnchorRule": "A matched unassigned YouTube long-form must be promoted to an anchor before linking."
   },
   "summary": {
-    "generatedAt": "2026-07-29T22:28:20.329Z",
+    "generatedAt": "2026-07-29T22:45:05.358Z",
     "articleCount": 219,
     "categoryCounts": {
       "Founder Focused": 186,
@@ -46,9 +46,10 @@
       "Raise Report": 6,
       "The Thinking Mode": 11
     },
-    "suggestedCount": 143,
-    "existingAnchorCandidateCount": 34,
-    "newAnchorCandidateCount": 109,
+    "suggestedCount": 133,
+    "approvedLinkedCount": 10,
+    "existingAnchorCandidateCount": 32,
+    "newAnchorCandidateCount": 101,
     "magazineNativeCandidateCount": 76
   },
   "articles": [
@@ -322,18 +323,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "_Q2ZEBhVyTw",
       "parent_candidate": "_Q2ZEBhVyTw",
       "parent_candidate_url": "https://www.youtube.com/watch?v=_Q2ZEBhVyTw",
       "matched_youtube_title": "He Built $100B at Google, Then Failed. Now He Runs an $80B+ Company | Snowflake, Sridhar Ramaswamy",
-      "matched_youtube_status": "Unassigned",
+      "matched_youtube_status": "Linked",
       "match_score": 1,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: he built 100b at google then failed now; title tokens: 100b, google, then, failed, runs, 80b, sridhar, ramaswamy, snowflake; distinctive tokens: sridhar, ramaswamy, snowflake",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 388,
@@ -355,18 +356,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "PGp-RAC8oTA",
       "parent_candidate": "PGp-RAC8oTA",
       "parent_candidate_url": "https://www.youtube.com/watch?v=PGp-RAC8oTA",
       "matched_youtube_title": "Everyone Said \"It's unsexy\". Now We're Serving 30M Patients | MedMe Health, Purya Sarmadi",
-      "matched_youtube_status": "Unassigned",
+      "matched_youtube_status": "Linked",
       "match_score": 1,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: everyone said it s unsexy now we re; title tokens: everyone, said, unsexy, serving, 30m, patients, purya, sarmadi, medme, health; distinctive tokens: everyone, serving, patients, sarmadi",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 383,
@@ -473,7 +474,7 @@
       "open_graph_image_url": "https://eo-mag-backend.s3.us-west-1.amazonaws.com/article/380/384ce5f5-5721-46e5-ba6e-e2863043c7a6",
       "published_at": "2026-06-22T08:00:00+00:00",
       "reading_time_minutes": 10,
-      "view_count_at_import": 656,
+      "view_count_at_import": 657,
       "written_by": "Jason Jin",
       "magazine_category_id": 3,
       "magazine_category_raw": "Inside Hacker Houses",
@@ -512,18 +513,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "bVSzAkuuymw",
       "parent_candidate": "bVSzAkuuymw",
       "parent_candidate_url": "https://www.youtube.com/watch?v=bVSzAkuuymw",
       "matched_youtube_title": "How Gong Built a $7B+ Company in the Age of Vibe Coding | Amit Bendov",
-      "matched_youtube_status": "Unassigned",
+      "matched_youtube_status": "Linked",
       "match_score": 1,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: gong built a 7b company in the age; title tokens: gong, age, vibe, coding, amit, bendov",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 377,
@@ -576,18 +577,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "CCX1Zc3q5cY",
       "parent_candidate": "CCX1Zc3q5cY",
       "parent_candidate_url": "https://www.youtube.com/watch?v=CCX1Zc3q5cY",
       "matched_youtube_title": "I Hit $1M ARR in 117 Days. Bootstrapped to $10M. Here's My Playbook | Chatbase, Yasser Elsaid",
-      "matched_youtube_status": "Unassigned",
+      "matched_youtube_status": "Linked",
       "match_score": 1,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: yasser elsaid; title tokens: 10m, arr, chatbase, playbook, yasser, elsaid; distinctive tokens: chatbase, playbook, bootstrapped",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 374,
@@ -863,18 +864,18 @@
       "magazine_category_raw": "The Thinking Mode",
       "ip_series": "The Thinking Mode",
       "collection_tags": [],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "yPux3-jDW9g",
       "parent_candidate": "yPux3-jDW9g",
       "parent_candidate_url": "https://www.youtube.com/watch?v=yPux3-jDW9g",
       "matched_youtube_title": "China Doesn't Need Better Al to Beat America | Stanford China Researcher, Dan Wang",
       "matched_youtube_status": "Linked",
       "match_score": 1,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: china doesn t need better al to beat; title tokens: china, doesn, need, better, beat, america, dan, wang, stanford; distinctive tokens: america, stanford",
-      "recommended_action": "Review and link to existing anchor",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 343,
@@ -1400,18 +1401,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "LgewaIpQVko",
       "parent_candidate": "LgewaIpQVko",
       "parent_candidate_url": "https://www.youtube.com/watch?v=LgewaIpQVko",
       "matched_youtube_title": "How Prompt Engineering Inventor Built $1.5B in 3 Years | You.com, Richard Socher",
-      "matched_youtube_status": "Unassigned",
+      "matched_youtube_status": "Linked",
       "match_score": 1,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: how prompt engineering inventor built 1 5b in; title tokens: prompt, engineering, inventor, richard, socher, com; distinctive tokens: engineering, inventor, richard",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 59,
@@ -1561,18 +1562,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "h6aqpjrUd5c",
       "parent_candidate": "h6aqpjrUd5c",
       "parent_candidate_url": "https://www.youtube.com/watch?v=h6aqpjrUd5c",
       "matched_youtube_title": "This Is How a 26-Year-Old Raised $108M in 1.5 Years | Reducto, Adit Abraham",
-      "matched_youtube_status": "Unassigned",
+      "matched_youtube_status": "Linked",
       "match_score": 1,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: adit abraham; title tokens: adit, abraham, reducto, 108m; distinctive tokens: abraham, reducto",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 44,
@@ -1627,18 +1628,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "KBY0z6jSQsA",
       "parent_candidate": "KBY0z6jSQsA",
       "parent_candidate_url": "https://www.youtube.com/watch?v=KBY0z6jSQsA",
       "matched_youtube_title": "How an 18-Year-Old High School Dropout Raised $6.2M | Nozomio, Arlan Rakhmetzhanov",
       "matched_youtube_status": "Linked",
       "match_score": 1,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: how an 18 year old high school dropout; title tokens: high, school, dropout, raised, arlan, rakhmetzhanov, nozomio; distinctive tokens: dropout, rakhmetzhanov, nozomio",
-      "recommended_action": "Review and link to existing anchor",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 138,
@@ -2481,18 +2482,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "Fr_5Gk_w_o8",
       "parent_candidate": "Fr_5Gk_w_o8",
       "parent_candidate_url": "https://www.youtube.com/watch?v=Fr_5Gk_w_o8",
       "matched_youtube_title": "This Humanoid Robot Just Got Human-Level Hands. Here's the Man Behind It | 1X, Bernt Børnich",
-      "matched_youtube_status": "Unassigned",
+      "matched_youtube_status": "Linked",
       "match_score": 1,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: this humanoid robot just got human level hands; title tokens: humanoid, robot, got, human, level, hands, here, man, bernt, rnich; distinctive tokens: humanoid",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 326,
@@ -2935,7 +2936,7 @@
       "open_graph_image_url": "https://eo-mag-backend.s3.us-west-1.amazonaws.com/article/197/c1b2a17f-127a-4f4c-b5af-0a5b59a72fda",
       "published_at": "2025-05-19T08:00:00+00:00",
       "reading_time_minutes": 16,
-      "view_count_at_import": 149,
+      "view_count_at_import": 150,
       "written_by": "Jessica Lee",
       "magazine_category_id": 1,
       "magazine_category_raw": "Founder Focused",
@@ -3537,18 +3538,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "YTj2SkZ13hw",
       "parent_candidate": "YTj2SkZ13hw",
       "parent_candidate_url": "https://www.youtube.com/watch?v=YTj2SkZ13hw",
       "matched_youtube_title": "How I Raised $17M in 14 Days | Pylon, Marty Kausas",
-      "matched_youtube_status": "Unassigned",
+      "matched_youtube_status": "Linked",
       "match_score": 1,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: raised 17m in 14 days; title tokens: marty, kausas, raised, 17m, days, pylon",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 307,
