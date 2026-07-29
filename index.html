@@ -10,118 +10,176 @@
   <script src="./app.js" defer></script>
 </head>
 <body data-page="overview">
-  <header class="site-header">
-    <a class="brand" href="./index.html" aria-label="EO Content Performance 홈">
-      <span class="brand-mark">EO</span>
-      <span>Content Performance</span>
-    </a>
-    <div class="header-status">
-      <span class="status-dot" aria-hidden="true"></span>
-      YouTube master connected
-    </div>
-  </header>
-
-  <main class="page-shell">
-    <section class="page-intro">
-      <div>
-        <p class="eyebrow">Cross-platform dashboard</p>
-        <h1>Content overview</h1>
-        <p class="page-description">EO의 원본 콘텐츠와 플랫폼별 파생 에셋을 한곳에서 확인합니다.</p>
+<div id="eo-content-overview">
+<section class="eo-app" aria-label="EO cross-platform content overview">
+    <header class="eo-topbar">
+      <div class="eo-brand">
+        <span class="eo-logo">EO</span>
+        <span>Content Performance</span>
       </div>
-      <div class="data-note">
-        <span>Initial source</span>
-        <strong>@eoglobal</strong>
-        <small>433 YouTube assets</small>
+      <div class="eo-top-actions">
+        <span>Updated Jul 28, 2026 · 09:00</span>
+        <button class="btn btn-ghost" type="button">
+          <i data-lucide="refresh-cw" aria-hidden="true"></i>
+          Refresh
+        </button>
       </div>
-    </section>
+    </header>
 
-    <section class="filter-panel" aria-label="콘텐츠 필터">
-      <label class="field field-search">
-        <span>콘텐츠 검색</span>
-        <input id="content-search" type="search" placeholder="제목, 시리즈 검색…" autocomplete="off">
-      </label>
-      <label class="field">
-        <span>IP / 시리즈</span>
-        <select id="series-filter">
-          <option value="">전체 시리즈</option>
-        </select>
-      </label>
-      <label class="field">
-        <span>에셋 구성</span>
-        <select id="asset-filter">
-          <option value="">전체 콘텐츠</option>
-          <option value="with-shorts">Shorts 포함</option>
-          <option value="original-only">원본만</option>
-        </select>
-      </label>
-      <label class="field">
-        <span>정렬</span>
-        <select id="content-sort">
-          <option value="assets-desc">연결 에셋 많은순</option>
-          <option value="title-asc">제목순</option>
-          <option value="series-asc">시리즈순</option>
-        </select>
-      </label>
-      <button class="button button-secondary reset-button" id="reset-filters" type="button">초기화</button>
-    </section>
-
-    <section class="kpi-grid" aria-label="마스터 데이터 요약">
-      <article class="kpi-card">
-        <span>Original contents</span>
-        <strong id="original-count">—</strong>
-        <small>승인된 원본 그룹</small>
-      </article>
-      <article class="kpi-card">
-        <span>Linked assets</span>
-        <strong id="linked-count">—</strong>
-        <small>원본에 연결 완료</small>
-      </article>
-      <article class="kpi-card">
-        <span>Linked Shorts</span>
-        <strong id="short-count">—</strong>
-        <small>파생 영상 에셋</small>
-      </article>
-      <article class="kpi-card">
-        <span>Unassigned</span>
-        <strong id="unassigned-count">—</strong>
-        <small>향후 검토 대상</small>
-      </article>
-    </section>
-
-    <section class="coverage-panel">
-      <div>
-        <p class="eyebrow">Data coverage</p>
-        <h2>Platform sources</h2>
-      </div>
-      <div class="platform-list" aria-label="플랫폼 데이터 연결 상태">
-        <span class="platform-pill platform-youtube"><b>YT</b> YouTube <em>Connected</em></span>
-        <span class="platform-pill platform-magazine"><b>M</b> Magazine <em>Pending</em></span>
-        <span class="platform-pill platform-instagram"><b>IG</b> Instagram <em>Pending</em></span>
-        <span class="platform-pill platform-x"><b>X</b> X <em>Pending</em></span>
-      </div>
-    </section>
-
-    <section class="content-section">
-      <div class="section-heading">
+    <main class="eo-main">
+      <section class="eo-page-head">
         <div>
-          <p class="eyebrow">Original content library</p>
-          <h2>Mapped stories</h2>
+          <p class="eo-eyebrow">Cross-platform dashboard</p>
+          <h2>Content overview</h2>
+          <p class="eo-description">See how EO stories travel across every publishing channel.</p>
         </div>
-        <p id="result-count" class="result-count" aria-live="polite">불러오는 중…</p>
+        <div class="eo-filters">
+          <label class="form-label" for="overview-range">
+            <select class="form-select" id="overview-range">
+              <option value="7">Last 7 days</option>
+              <option value="30" selected>Last 30 days</option>
+              <option value="90">Last 90 days</option>
+              <option value="365">Last year</option>
+            </select>
+          </label>
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" id="overview-external" checked>
+            <label class="form-check-label" for="overview-external">External included</label>
+          </div>
+        </div>
+      </section>
+
+      <div class="eo-tabs" role="tablist" aria-label="Filter by platform">
+        <button class="btn eo-tab" type="button" role="tab" aria-selected="true" data-filter="all">All platforms</button>
+        <button class="btn btn-ghost eo-tab" type="button" role="tab" aria-selected="false" data-filter="youtube"><span class="eo-dot" style="background: var(--eo-youtube)"></span>YouTube · YT</button>
+        <button class="btn btn-ghost eo-tab" type="button" role="tab" aria-selected="false" data-filter="magazine"><span class="eo-dot" style="background: var(--eo-magazine)"></span>Magazine · M</button>
+        <button class="btn btn-ghost eo-tab" type="button" role="tab" aria-selected="false" data-filter="instagram"><span class="eo-dot" style="background: var(--eo-instagram)"></span>Instagram · IG</button>
+        <button class="btn btn-ghost eo-tab" type="button" role="tab" aria-selected="false" data-filter="x"><span class="eo-dot" style="background: var(--eo-x)"></span>X</button>
       </div>
 
-      <div id="content-grid" class="content-grid" aria-live="polite"></div>
-      <div id="empty-state" class="empty-state" hidden>
-        <strong>조건에 맞는 콘텐츠가 없습니다.</strong>
-        <span>검색어나 필터를 변경해보세요.</span>
-      </div>
-      <button id="load-more" class="button load-more" type="button" hidden>더 보기</button>
-    </section>
-  </main>
+      <section class="viz-grid eo-summary" aria-label="Overview metrics">
+        <article class="card viz-stat">
+          <div class="eo-stat-label">Total cross-platform views</div>
+          <div class="eo-stat-value" id="overview-total">12.8M</div>
+          <div class="eo-stat-context"><span class="eo-positive">▲ 14.2%</span> vs. previous period</div>
+        </article>
+        <article class="card viz-stat">
+          <div class="eo-stat-label">Published content</div>
+          <div class="eo-stat-value" id="overview-content-count">42</div>
+          <div class="eo-stat-context">Original stories in this period</div>
+        </article>
+        <article class="card viz-stat">
+          <div class="eo-stat-label">External repost views</div>
+          <div class="eo-stat-value" id="overview-external-value">1.7M</div>
+          <div class="eo-stat-context" id="overview-external-context">13% of total · 18 discovered posts</div>
+        </article>
+      </section>
 
-  <footer class="site-footer">
-    <span>EO Cross-platform Analytics</span>
-    <span>Identity master v1 · 조회수 스냅샷 연결 전</span>
-  </footer>
+      <section class="eo-chart-grid">
+        <article class="card">
+          <div class="eo-section-head">
+            <div>
+              <h3>Views trend</h3>
+              <span class="text-small text-muted" id="overview-chart-label">Daily views · all platforms</span>
+            </div>
+          </div>
+          <svg class="eo-chart" id="overview-chart" viewBox="0 0 650 210" role="img" aria-labelledby="overview-chart-title overview-chart-desc">
+            <title id="overview-chart-title">Daily cross-platform views</title>
+            <desc id="overview-chart-desc">Daily views increased during the selected 30-day period, with the highest point near the end.</desc>
+            <g id="overview-grid"></g>
+            <path class="area" id="overview-area"></path>
+            <path class="line" id="overview-line"></path>
+            <g id="overview-points"></g>
+            <g id="overview-labels"></g>
+          </svg>
+        </article>
+
+        <article class="card">
+          <div class="eo-section-head">
+            <div>
+              <h3>Channel contribution</h3>
+              <span class="text-small text-muted">Share of visible views</span>
+            </div>
+          </div>
+          <div class="eo-channel-list">
+            <div class="eo-channel-row">
+              <div>
+                <div class="eo-channel-name"><span class="eo-dot" style="background: var(--eo-youtube)"></span>YouTube · YT</div>
+                <div class="eo-bar-track"><div class="eo-bar" style="width: 65%; background: var(--eo-youtube)"></div></div>
+              </div>
+              <div class="eo-channel-value">8.3M · 65%</div>
+            </div>
+            <div class="eo-channel-row">
+              <div>
+                <div class="eo-channel-name"><span class="eo-dot" style="background: var(--eo-instagram)"></span>Instagram · IG</div>
+                <div class="eo-bar-track"><div class="eo-bar" style="width: 20%; background: var(--eo-instagram)"></div></div>
+              </div>
+              <div class="eo-channel-value">2.6M · 20%</div>
+            </div>
+            <div class="eo-channel-row">
+              <div>
+                <div class="eo-channel-name"><span class="eo-dot" style="background: var(--eo-magazine)"></span>Magazine · M</div>
+                <div class="eo-bar-track"><div class="eo-bar" style="width: 10%; background: var(--eo-magazine)"></div></div>
+              </div>
+              <div class="eo-channel-value">1.3M · 10%</div>
+            </div>
+            <div class="eo-channel-row">
+              <div>
+                <div class="eo-channel-name"><span class="eo-dot" style="background: var(--eo-x)"></span>X</div>
+                <div class="eo-bar-track"><div class="eo-bar" style="width: 5%; background: var(--eo-x)"></div></div>
+              </div>
+              <div class="eo-channel-value">0.6M · 5%</div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <article class="card eo-content-card">
+        <div class="eo-section-head">
+          <div>
+            <h3>Content performance</h3>
+            <span class="text-small text-muted" id="content-result-label">Loading mapped stories…</span>
+          </div>
+          <div class="eo-content-tools">
+            <label class="form-label" for="content-search">
+              <input class="form-control" id="content-search" type="search" placeholder="Search content…">
+            </label>
+            <label class="form-label" for="series-filter">
+              <select class="form-select" id="series-filter">
+                <option value="">All series</option>
+              </select>
+            </label>
+            <label class="form-label" for="content-sort">
+              <select class="form-select" id="content-sort">
+                <option value="assets-desc">Most assets</option>
+                <option value="title-asc">Title A–Z</option>
+                <option value="series-asc">Series A–Z</option>
+              </select>
+            </label>
+          </div>
+        </div>
+
+        <div class="table-responsive">
+          <table class="table eo-content-table">
+            <thead>
+              <tr>
+                <th>Original content</th>
+                <th class="text-end">Views</th>
+                <th>Platform mix</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody id="content-rows">
+              <tr>
+                <td colspan="4" class="eo-loading-row">Loading master data…</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </article>
+    </main>
+  </section>
+
+</div>
 </body>
 </html>

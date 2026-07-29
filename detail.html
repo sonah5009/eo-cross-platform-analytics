@@ -4,120 +4,199 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="referrer" content="no-referrer">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https://i.ytimg.com; connect-src 'self'; frame-src https://www.youtube-nocookie.com; object-src 'none'; base-uri 'self'; form-action 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https://i.ytimg.com; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
   <title>Content detail · EO Analytics</title>
   <link rel="stylesheet" href="./styles.css">
   <script src="./app.js" defer></script>
 </head>
 <body data-page="detail">
-  <header class="site-header">
-    <a class="brand" href="./index.html" aria-label="EO Content Performance 홈">
-      <span class="brand-mark">EO</span>
-      <span>Content Performance</span>
-    </a>
-    <a class="button button-secondary" href="./index.html">← Overview</a>
-  </header>
+<div id="eo-content-detail">
+<section class="eo-app" aria-label="EO cross-platform content performance detail">
+    <header class="eo-topbar">
+      <div class="eo-brand">
+        <span class="eo-logo">EO</span>
+        <span>Content Performance</span>
+      </div>
+      <div class="eo-top-actions">
+        <span class="eo-last-sync">Updated Jul 28, 2026 · 09:00</span>
+        <button class="btn btn-ghost" type="button" aria-label="Refresh data">
+          <i data-lucide="refresh-cw" aria-hidden="true"></i>
+          Refresh
+        </button>
+      </div>
+    </header>
 
-  <main class="page-shell detail-shell">
-    <div id="detail-loading" class="loading-state">콘텐츠를 불러오는 중…</div>
-    <section id="detail-content" hidden>
-      <nav class="breadcrumb" aria-label="현재 위치">
-        <a href="./index.html">Content overview</a>
-        <span>/</span>
+    <main class="eo-main">
+      <nav class="eo-breadcrumb" aria-label="Breadcrumb">
+        <a href="./index.html">Contents</a>
+        <i data-lucide="chevron-right" aria-hidden="true"></i>
         <span>Detail</span>
       </nav>
 
-      <section class="detail-hero">
-        <img id="detail-thumbnail" class="detail-thumbnail" alt="">
-        <div class="detail-copy">
-          <div id="detail-tags" class="tag-row"></div>
-          <h1 id="detail-title"></h1>
-          <p id="detail-summary" class="page-description"></p>
-          <div class="detail-actions">
-            <a id="youtube-link" class="button button-primary" href="#" target="_blank" rel="noreferrer">YouTube에서 보기 ↗</a>
-            <button id="copy-link" class="button button-secondary" type="button">링크 복사</button>
+      <section class="eo-content-head">
+        <div>
+          <p class="eo-eyebrow">Cross-platform performance</p>
+          <h2 id="detail-heading">Loading content…</h2>
+          <div class="eo-meta">
+            <span id="detail-series">YouTube master</span>
+            <span id="detail-asset-summary">Loading assets…</span>
+            <span>Analytics snapshot pending</span>
+            <a id="detail-original-link" href="#" target="_blank" rel="noreferrer">Open original ↗</a>
+          </div>
+        </div>
+
+        <div class="eo-controls">
+          <span class="eo-switch-label">External reposts</span>
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" id="external-toggle" checked>
+            <label class="form-check-label" for="external-toggle">Included</label>
           </div>
         </div>
       </section>
 
-      <section class="kpi-grid detail-kpis" aria-label="콘텐츠 연결 요약">
-        <article class="kpi-card">
-          <span>Linked assets</span>
-          <strong id="detail-asset-count">—</strong>
-          <small>원본 포함</small>
+      <div class="eo-tabs" role="tablist" aria-label="Platform view">
+        <button class="btn eo-tab" type="button" role="tab" aria-selected="true" data-platform="all">
+          Overview
+        </button>
+        <button class="btn btn-ghost eo-tab" type="button" role="tab" aria-selected="false" data-platform="youtube">
+          <span class="eo-dot" style="background: var(--eo-youtube)"></span>YouTube
+        </button>
+        <button class="btn btn-ghost eo-tab" type="button" role="tab" aria-selected="false" data-platform="magazine">
+          <span class="eo-dot" style="background: var(--eo-magazine)"></span>Magazine
+        </button>
+        <button class="btn btn-ghost eo-tab" type="button" role="tab" aria-selected="false" data-platform="instagram">
+          <span class="eo-dot" style="background: var(--eo-instagram)"></span>Instagram
+        </button>
+        <button class="btn btn-ghost eo-tab" type="button" role="tab" aria-selected="false" data-platform="x">
+          <span class="eo-dot" style="background: var(--eo-x)"></span>X
+        </button>
+      </div>
+
+      <section class="viz-grid eo-summary" aria-label="Performance summary">
+        <article class="card viz-stat">
+          <div class="eo-stat-label">
+            <i data-lucide="eye" aria-hidden="true"></i>
+            Total views
+          </div>
+          <div class="eo-stat-value" id="total-views">1.24M</div>
+          <div class="eo-stat-context"><span class="eo-positive">▲ 18.4%</span> vs. previous 30 days</div>
         </article>
-        <article class="kpi-card">
-          <span>Long-form</span>
-          <strong id="detail-long-count">—</strong>
-          <small>YouTube originals</small>
+        <article class="card viz-stat">
+          <div class="eo-stat-label">
+            <i data-lucide="radio" aria-hidden="true"></i>
+            Owned channels
+          </div>
+          <div class="eo-stat-value" id="owned-views">1.10M</div>
+          <div class="eo-stat-context" id="owned-share">89% of total views</div>
         </article>
-        <article class="kpi-card">
-          <span>Shorts</span>
-          <strong id="detail-short-count">—</strong>
-          <small>파생 영상</small>
-        </article>
-        <article class="kpi-card pending-kpi">
-          <span>Views</span>
-          <strong>—</strong>
-          <small>Analytics snapshot pending</small>
+        <article class="card viz-stat">
+          <div class="eo-stat-label">
+            <i data-lucide="repeat-2" aria-hidden="true"></i>
+            External reposts
+          </div>
+          <div class="eo-stat-value" id="external-views">138K</div>
+          <div class="eo-stat-context" id="external-share">11% of total views · 2 posts</div>
         </article>
       </section>
 
-      <section class="detail-layout">
-        <article class="panel">
-          <div class="section-heading compact-heading">
-            <div>
-              <p class="eyebrow">Distribution assets</p>
-              <h2>YouTube videos</h2>
+      <section class="eo-body-grid">
+        <div class="eo-section">
+          <article class="card">
+            <div class="eo-chart-head">
+              <div>
+                <h3>Views over time</h3>
+                <span class="text-small text-muted" id="chart-subtitle">Cumulative cross-platform views</span>
+              </div>
+              <div class="eo-range" aria-label="Time range">
+                <button class="btn btn-ghost" type="button" data-range="7">7D</button>
+                <button class="btn btn-ghost" type="button" data-range="14">14D</button>
+                <button class="btn" type="button" data-range="30" aria-pressed="true">30D</button>
+                <button class="btn btn-ghost" type="button" data-range="90">90D</button>
+              </div>
             </div>
-          </div>
-          <div id="asset-list" class="asset-list"></div>
-        </article>
 
-        <aside class="panel insight-panel">
-          <p class="eyebrow">Performance tracking</p>
-          <h2>조회수 데이터 연결 전</h2>
-          <p>이 콘텐츠 ID를 기준으로 일별 조회수 스냅샷을 연결하면 게시 후 3·7·14·30·90일 성과와 장기 추세를 확인할 수 있습니다.</p>
-          <div class="milestone-list" aria-label="성과 분석 기간">
-            <span>3D</span>
-            <span>7D</span>
-            <span>14D</span>
-            <span>30D</span>
-            <span>90D</span>
-          </div>
-          <dl class="identity-list">
-            <div>
-              <dt>Original content ID</dt>
-              <dd id="detail-id"></dd>
+            <div class="eo-chart-wrap">
+              <svg class="eo-chart" id="views-chart" viewBox="0 0 700 270" role="img" aria-labelledby="chart-title chart-desc">
+                <title id="chart-title">Cumulative content views over time</title>
+                <desc id="chart-desc">Cumulative views rise from zero at publication to 1.24 million after 30 days.</desc>
+                <g id="chart-grid"></g>
+                <g id="chart-milestones"></g>
+                <path class="total-area" id="chart-area"></path>
+                <path class="total-line" id="chart-line"></path>
+                <g id="chart-points"></g>
+                <g id="chart-labels"></g>
+              </svg>
             </div>
-            <div>
-              <dt>Anchor platform</dt>
-              <dd>YouTube</dd>
+
+            <div class="eo-legend" aria-label="Platform legend">
+              <span class="eo-legend-item"><span class="eo-legend-mark" style="background: var(--eo-youtube)"></span>YouTube · YT</span>
+              <span class="eo-legend-item"><span class="eo-legend-mark" style="background: var(--eo-magazine)"></span>Magazine · M</span>
+              <span class="eo-legend-item"><span class="eo-legend-mark" style="background: var(--eo-instagram)"></span>Instagram · IG</span>
+              <span class="eo-legend-item"><span class="eo-legend-mark" style="background: var(--eo-x)"></span>X</span>
             </div>
-            <div>
-              <dt>Review status</dt>
-              <dd><span class="approved-badge">Approved</span></dd>
+          </article>
+
+          <article class="card" style="margin-top: 18px">
+            <div class="eo-chart-head">
+              <div>
+                <h3>Platform contribution</h3>
+                <span class="text-small text-muted">Views in the selected period</span>
+              </div>
             </div>
-          </dl>
+            <div class="eo-platform-list" id="platform-list">
+              <div class="eo-platform-row" data-row-platform="youtube">
+                <div class="eo-platform-label"><span class="eo-dot" style="background: var(--eo-youtube)"></span>YouTube · YT</div>
+                <div class="eo-bar-track"><div class="eo-bar" style="width: 68%; background: var(--eo-youtube)"></div></div>
+                <div class="eo-platform-value">843K<span class="eo-platform-share">68%</span></div>
+              </div>
+              <div class="eo-platform-row" data-row-platform="instagram">
+                <div class="eo-platform-label"><span class="eo-dot" style="background: var(--eo-instagram)"></span>Instagram · IG</div>
+                <div class="eo-bar-track"><div class="eo-bar" style="width: 21%; background: var(--eo-instagram)"></div></div>
+                <div class="eo-platform-value">260K<span class="eo-platform-share">21%</span></div>
+              </div>
+              <div class="eo-platform-row" data-row-platform="magazine">
+                <div class="eo-platform-label"><span class="eo-dot" style="background: var(--eo-magazine)"></span>Magazine · M</div>
+                <div class="eo-bar-track"><div class="eo-bar" style="width: 7%; background: var(--eo-magazine)"></div></div>
+                <div class="eo-platform-value">87K<span class="eo-platform-share">7%</span></div>
+              </div>
+              <div class="eo-platform-row" data-row-platform="x">
+                <div class="eo-platform-label"><span class="eo-dot" style="background: var(--eo-x)"></span>X</div>
+                <div class="eo-bar-track"><div class="eo-bar" style="width: 4%; background: var(--eo-x)"></div></div>
+                <div class="eo-platform-value">50K<span class="eo-platform-share">4%</span></div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <aside class="eo-section">
+          <article class="card eo-original">
+            <p class="eo-eyebrow">Original content</p>
+            <div class="eo-thumb">
+              <img id="detail-thumbnail" alt="">
+            </div>
+            <div class="eo-title-row">
+              <h3 id="detail-card-title">Loading content…</h3>
+              <span class="eo-badge" style="background: var(--eo-youtube)">YT</span>
+            </div>
+            <p class="eo-copy">EO Global · Original content<br><span id="detail-content-id"></span></p>
+          </article>
+
+          <article class="card">
+            <div class="eo-chart-head">
+              <div>
+                <h3>Published posts</h3>
+                <span class="text-small text-muted">Connected to this original</span>
+              </div>
+            </div>
+            <ul class="eo-publish-list" id="published-posts">
+              <li class="eo-published">Loading connected assets…</li>
+            </ul>
+          </article>
         </aside>
       </section>
+    </main>
+  </section>
 
-      <nav class="detail-pagination" aria-label="다른 콘텐츠">
-        <a id="previous-content" class="button button-secondary" href="./index.html">← 이전 콘텐츠</a>
-        <a id="next-content" class="button button-secondary" href="./index.html">다음 콘텐츠 →</a>
-      </nav>
-    </section>
-
-    <section id="detail-error" class="empty-state error-state" hidden>
-      <strong>콘텐츠를 찾을 수 없습니다.</strong>
-      <span>잘못된 링크이거나 마스터 데이터에 없는 콘텐츠입니다.</span>
-      <a class="button button-primary" href="./index.html">Overview로 돌아가기</a>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <span>EO Cross-platform Analytics</span>
-    <span>Identity master v1</span>
-  </footer>
+</div>
 </body>
 </html>
