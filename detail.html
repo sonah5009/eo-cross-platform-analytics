@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="referrer" content="no-referrer">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://i.ytimg.com; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://i.ytimg.com https://eo-mag-backend.s3.us-west-1.amazonaws.com https://eo-mag-backend.s3.amazonaws.com; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
   <title>Content detail · EO Analytics</title>
   <link rel="stylesheet" href="./styles.css">
   <script src="./app.js" defer></script>
@@ -176,9 +176,9 @@
             </div>
             <div class="eo-title-row">
               <h3 id="detail-card-title">Loading content…</h3>
-              <span class="eo-badge" style="background: var(--eo-youtube)">YT</span>
+              <span class="eo-badge" id="detail-platform-badge" style="background: var(--eo-youtube)">YT</span>
             </div>
-            <p class="eo-copy">EO Global · Original content<br><span id="detail-content-id"></span></p>
+            <p class="eo-copy"><span id="detail-owner-copy">EO Global · Original content</span><br><span id="detail-content-id"></span></p>
           </article>
 
           <article class="card">

@@ -1,4 +1,5 @@
-const DATA_URL = "./data/youtube-content-master.json";
+const YOUTUBE_DATA_URL = "./data/youtube-content-master.json";
+const MAGAZINE_DATA_URL = "./data/magazine-content-candidates.json";
 
 const escapeHtml = (value) =>
   String(value ?? "")
@@ -11,15 +12,33 @@ const escapeHtml = (value) =>
 const thumbnailUrl = (youtubeId) =>
   `https://i.ytimg.com/vi/${encodeURIComponent(youtubeId)}/hqdefault.jpg`;
 
-const detailUrl = (originalContentId) =>
-  `./detail.html?id=${encodeURIComponent(originalContentId)}`;
+const detailUrl = (platform, id) =>
+  `./detail.html?platform=${encodeURIComponent(platform)}&id=${encodeURIComponent(id)}`;
 
 const loadMasterData = async () => {
-  const response = await fetch(DATA_URL);
-  if (!response.ok) {
-    throw new Error(`Master data request failed: ${response.status}`);
+  const [youtubeResponse, magazineResponse] = await Promise.all([
+    fetch(YOUTUBE_DATA_URL),
+    fetch(MAGAZINE_DATA_URL),
+  ]);
+  if (!youtubeResponse.ok || !magazineResponse.ok) {
+    throw new Error(
+      `Master data request failed: ${youtubeResponse.status}/${magazineResponse.status}`,
+    );
   }
-  return response.json();
+  const [youtube, magazine] = await Promise.all([
+    youtubeResponse.json(),
+    magazineResponse.json(),
+  ]);
+  return { youtube, magazine };
+};
+
+const formatDate = (value) => {
+  if (!value) return "Date unavailable";
+  return new Intl.DateTimeFormat("en", {
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+  }).format(new Date(value));
 };
 
 const initializeOverview = async () => {
@@ -46,11 +65,56 @@ const initializeOverview = async () => {
   const seriesFilter = root.querySelector("#series-filter");
   const sortSelect = root.querySelector("#content-sort");
 
-  const master = await loadMasterData();
-  const contents = master.originalContents;
+  const { youtube, magazine } = await loadMasterData();
+  const youtubeContents = youtube.originalContents.map((content) => ({
+    id: content.originalContentId,
+    platform: "youtube",
+    title: content.title,
+    imageUrl: thumbnailUrl(content.originalContentId),
+    taxonomy: content.ipSeries || content.collectionTags[0] || "Uncategorized",
+    searchable: [
+      content.title,
+      content.ipSeries,
+      ...content.collectionTags,
+    ].filter(Boolean).join(" "),
+    assetCount: content.assetCount,
+    shortCount: content.assetTypeCounts.shorts ?? 0,
+    views: null,
+    publishedAt: null,
+    status: "Approved anchor",
+  }));
+  const magazineContents = magazine.articles.map((article) => ({
+    id: article.magazine_id,
+    platform: "magazine",
+    title: article.title,
+    imageUrl: article.thumbnail_url,
+    taxonomy: article.ip_series || article.magazine_category_raw,
+    searchable: [
+      article.title,
+      article.subtitle,
+      article.magazine_category_raw,
+      article.ip_series,
+      ...(article.collection_tags || []),
+      article.written_by,
+    ].filter(Boolean).join(" "),
+    assetCount: 1,
+    shortCount: 0,
+    views: article.view_count_at_import ?? 0,
+    publishedAt: article.published_at,
+    status:
+      article.link_status === "Suggested"
+        ? `${article.match_confidence} match candidate`
+        : "Magazine-native candidate",
+  }));
+  const contents = [...youtubeContents, ...magazineContents];
   let platform = "all";
 
-  master.taxonomy.ipSeries.forEach((series) => {
+  const taxonomies = [
+    ...youtube.taxonomy.ipSeries,
+    ...youtube.taxonomy.collectionTags,
+    ...new Set(magazine.articles.map((article) => article.magazine_category_raw)),
+  ].filter((value, index, values) => value && values.indexOf(value) === index);
+  taxonomies.sort((a, b) => a.localeCompare(b)).forEach((series) => {
     const option = document.createElement("option");
     option.value = series;
     option.textContent = series;
@@ -58,11 +122,10 @@ const initializeOverview = async () => {
   });
 
   const totals = {
-    all: [12.8, contents.length],
-    youtube: [8.3, contents.length],
-    magazine: [1.3, 0],
-    instagram: [2.6, 0],
-    x: [.6, 0],
+    all: 12.8,
+    youtube: 8.3,
+    instagram: 2.6,
+    x: .6,
   };
 
   const drawChart = () => {
@@ -133,32 +196,32 @@ const initializeOverview = async () => {
   };
 
   const getFilteredContents = () => {
-    if (platform !== "all" && platform !== "youtube") return [];
-
     const query = searchInput.value.trim().toLocaleLowerCase();
     const series = seriesFilter.value;
     const filtered = contents.filter((content) => {
-      const searchable = [
-        content.title,
-        content.ipSeries,
-        ...content.collectionTags,
-      ]
-        .filter(Boolean)
-        .join(" ")
-        .toLocaleLowerCase();
       return (
-        (!query || searchable.includes(query)) &&
-        (!series || content.ipSeries === series)
+        (platform === "all" || content.platform === platform) &&
+        (!query || content.searchable.toLocaleLowerCase().includes(query)) &&
+        (!series || content.taxonomy === series)
       );
     });
 
     return filtered.sort((a, b) => {
+      if (sortSelect.value === "recent-desc") {
+        return (
+          String(b.publishedAt || "").localeCompare(String(a.publishedAt || "")) ||
+          a.title.localeCompare(b.title)
+        );
+      }
+      if (sortSelect.value === "views-desc") {
+        return (b.views ?? -1) - (a.views ?? -1) || a.title.localeCompare(b.title);
+      }
       if (sortSelect.value === "title-asc") {
         return a.title.localeCompare(b.title);
       }
       if (sortSelect.value === "series-asc") {
         return (
-          (a.ipSeries || "ZZZ").localeCompare(b.ipSeries || "ZZZ") ||
+          (a.taxonomy || "ZZZ").localeCompare(b.taxonomy || "ZZZ") ||
           a.title.localeCompare(b.title)
         );
       }
@@ -167,29 +230,36 @@ const initializeOverview = async () => {
   };
 
   const contentRow = (content) => {
-    const shortCount = content.assetTypeCounts.shorts ?? 0;
+    const isMagazine = content.platform === "magazine";
+    const platformColor = isMagazine
+      ? "var(--eo-magazine)"
+      : "var(--eo-youtube)";
+    const platformLabel = isMagazine ? "Magazine · M" : "YouTube · YT";
     return `
-      <tr data-platforms="youtube">
+      <tr data-platforms="${content.platform}">
         <td>
           <div class="eo-content-name">
-            <img class="eo-thumbnail" src="${thumbnailUrl(content.originalContentId)}" alt="" loading="lazy">
+            <img class="eo-thumbnail" src="${escapeHtml(content.imageUrl)}" alt="" loading="lazy">
             <div class="eo-content-copy">
               <div class="eo-content-title">${escapeHtml(content.title)}</div>
-              <div class="eo-content-date">${escapeHtml(content.ipSeries || "Uncategorized")} · ${content.assetCount} linked assets</div>
+              <div class="eo-content-date">${escapeHtml(content.taxonomy)} · ${isMagazine ? formatDate(content.publishedAt) : `${content.assetCount} linked assets`}</div>
             </div>
           </div>
         </td>
         <td class="text-end">
-          <span class="eo-view-value">—</span>
-          <span class="eo-data-pending">Snapshot pending</span>
+          <span class="eo-view-value">${isMagazine ? formatMetric(content.views) : "—"}</span>
+          <span class="eo-data-pending">${isMagazine ? "Imported snapshot" : "Snapshot pending"}</span>
         </td>
         <td>
-          <div class="eo-platform-mix" aria-label="YouTube assets only">
-            <span class="eo-mix" style="width: 100%; background: var(--eo-youtube)"></span>
+          <div class="eo-platform-mix" aria-label="${platformLabel}">
+            <span class="eo-mix" style="width: 100%; background: ${platformColor}"></span>
           </div>
-          <div class="eo-source">${content.assetCount} owned · ${shortCount} Shorts</div>
+          <div class="eo-source">
+            <span class="eo-platform-chip eo-platform-chip-${content.platform}">${isMagazine ? "M" : "YT"}</span>
+            ${isMagazine ? escapeHtml(content.status) : `${content.assetCount} owned · ${content.shortCount} Shorts`}
+          </div>
         </td>
-        <td class="text-end"><a class="eo-row-action" href="${detailUrl(content.originalContentId)}">View detail ↗</a></td>
+        <td class="text-end"><a class="eo-row-action" href="${detailUrl(content.platform, content.id)}">View detail ↗</a></td>
       </tr>
     `;
   };
@@ -199,12 +269,20 @@ const initializeOverview = async () => {
     rowsContainer.innerHTML = filtered.length
       ? filtered.map(contentRow).join("")
       : '<tr><td colspan="4" class="eo-empty-row">No mapped content matches this filter.</td></tr>';
-    resultLabel.textContent = `${filtered.length} original stories · master data`;
+    const youtubeCount = filtered.filter(
+      (content) => content.platform === "youtube",
+    ).length;
+    const magazineCount = filtered.length - youtubeCount;
+    resultLabel.textContent =
+      platform === "magazine"
+        ? `${magazineCount} real articles · public EO Magazine data`
+        : platform === "youtube"
+          ? `${youtubeCount} approved original stories · YouTube master`
+          : `${youtubeCount} YouTube originals + ${magazineCount} Magazine articles`;
     contentCount.textContent = String(filtered.length);
   };
 
   const render = () => {
-    const [baseTotal] = totals[platform];
     const externalIncluded = external.checked;
     const periodScale = {
       7: .28,
@@ -212,24 +290,37 @@ const initializeOverview = async () => {
       90: 2.3,
       365: 6.8,
     }[Number(range.value)];
-    const visibleTotal =
-      baseTotal * periodScale * (externalIncluded ? 1 : .87);
-
-    total.textContent =
-      visibleTotal < 1
-        ? `${Math.round(visibleTotal * 1000)}K`
-        : `${visibleTotal.toFixed(1)}M`;
-    externalValue.textContent = externalIncluded
-      ? `${(baseTotal * periodScale * .13).toFixed(1)}M`
-      : "—";
-    externalContext.textContent = externalIncluded
-      ? "13% of total · 18 discovered posts"
-      : "Excluded from totals";
+    if (platform === "magazine") {
+      const importedViews = getFilteredContents().reduce(
+        (sum, content) => sum + (content.views || 0),
+        0,
+      );
+      total.textContent = formatMetric(importedViews);
+      externalValue.textContent = "—";
+      externalContext.textContent = "No repost data in the initial import";
+    } else {
+      const baseTotal = totals[platform] ?? totals.all;
+      const visibleTotal =
+        baseTotal * periodScale * (externalIncluded ? 1 : .87);
+      total.textContent =
+        visibleTotal < 1
+          ? `${Math.round(visibleTotal * 1000)}K`
+          : `${visibleTotal.toFixed(1)}M`;
+      externalValue.textContent = externalIncluded
+        ? `${(baseTotal * periodScale * .13).toFixed(1)}M`
+        : "—";
+      externalContext.textContent = externalIncluded
+        ? "13% of total · 18 discovered posts"
+        : "Excluded from totals";
+    }
     externalLabel.textContent = externalIncluded
       ? "External included"
       : "Owned only";
     root.dataset.external = String(externalIncluded);
-    chartLabel.textContent = `Daily views · ${platform === "all" ? "all platforms" : platform} · ${range.value} days`;
+    chartLabel.textContent =
+      platform === "magazine"
+        ? "Trend begins after recurring snapshots are collected"
+        : `Daily views · ${platform === "all" ? "all platforms" : platform} · ${range.value} days`;
 
     renderContent();
     drawChart();
@@ -266,46 +357,106 @@ const initializeDetail = async () => {
   const root = document.querySelector("#eo-content-detail");
   if (!root) return;
 
-  const requestedId = new URLSearchParams(window.location.search).get("id");
+  const params = new URLSearchParams(window.location.search);
+  const requestedId = params.get("id");
+  const requestedPlatform = params.get("platform") || "youtube";
   if (!requestedId) {
     window.location.replace("./index.html");
     return;
   }
 
-  const master = await loadMasterData();
-  const content = master.originalContents.find(
-    (item) => item.originalContentId === requestedId,
-  );
+  const { youtube, magazine } = await loadMasterData();
+  const isMagazine = requestedPlatform === "magazine";
+  const content = isMagazine
+    ? magazine.articles.find(
+        (article) => String(article.magazine_id) === requestedId,
+      )
+    : youtube.originalContents.find(
+        (item) => item.originalContentId === requestedId,
+      );
   if (!content) {
     window.location.replace("./index.html");
     return;
   }
 
-  const assets = content.assetIds
-    .map((assetId) =>
-      master.assets.find((asset) => asset.youtubeId === assetId),
-    )
-    .filter(Boolean)
-    .sort((a, b) => Number(b.isAnchor) - Number(a.isAnchor));
-
   document.title = `${content.title} · EO Analytics`;
   root.querySelector("#detail-heading").textContent = content.title;
   root.querySelector("#detail-card-title").textContent = content.title;
-  root.querySelector("#detail-series").textContent =
-    content.ipSeries || "Uncategorized";
-  root.querySelector("#detail-asset-summary").textContent =
-    `${content.assetCount} owned YouTube assets`;
-  root.querySelector("#detail-original-link").href = content.canonicalUrl;
-  root.querySelector("#detail-thumbnail").src = thumbnailUrl(
-    content.originalContentId,
-  );
-  root.querySelector("#detail-thumbnail").alt =
-    `${content.title} YouTube thumbnail`;
-  root.querySelector("#detail-content-id").textContent =
-    `ID ${content.originalContentId}`;
-  root.querySelector("#published-posts").innerHTML = assets
-    .map(
-      (asset) => `
+  const platformBadge = root.querySelector("#detail-platform-badge");
+  const ownerCopy = root.querySelector("#detail-owner-copy");
+  const publishedPosts = root.querySelector("#published-posts");
+
+  if (isMagazine) {
+    const matchedYoutubeId = content.parent_candidate_url
+      ? new URL(content.parent_candidate_url).searchParams.get("v")
+      : null;
+    const matchedYoutubeAsset = matchedYoutubeId
+      ? youtube.assets.find((asset) => asset.youtubeId === matchedYoutubeId)
+      : null;
+    root.querySelector("#detail-series").textContent =
+      content.ip_series || content.magazine_category_raw;
+    root.querySelector("#detail-asset-summary").textContent =
+      `${content.reading_time_minutes || "—"} min read · ${formatDate(content.published_at)}`;
+    root.querySelector("#detail-original-link").href = content.article_url;
+    root.querySelector("#detail-thumbnail").src = content.thumbnail_url;
+    root.querySelector("#detail-thumbnail").alt =
+      `${content.title} magazine thumbnail`;
+    root.querySelector("#detail-content-id").textContent =
+      `Magazine ID ${content.magazine_id}`;
+    platformBadge.textContent = "M";
+    platformBadge.style.background = "var(--eo-magazine)";
+    ownerCopy.textContent = `EO Magazine · ${content.magazine_category_raw}`;
+    publishedPosts.innerHTML = `
+      <li class="eo-published">
+        <span class="eo-badge" style="background: var(--eo-magazine)">M</span>
+        <div class="eo-published-main">
+          <a class="eo-published-name eo-published-link" href="${escapeHtml(content.article_url)}" target="_blank" rel="noreferrer">${escapeHtml(content.title)}</a>
+          <div class="eo-published-date">${formatDate(content.published_at)} · ${content.reading_time_minutes || "—"} min read</div>
+        </div>
+        <span class="eo-source-badge">Owned</span>
+      </li>
+      ${
+        matchedYoutubeAsset
+          ? `<li class="eo-published eo-candidate-row">
+              <span class="eo-badge" style="background: var(--eo-youtube)">YT</span>
+              <div class="eo-published-main">
+                <a class="eo-published-name eo-published-link" href="${escapeHtml(matchedYoutubeAsset.url)}" target="_blank" rel="noreferrer">${escapeHtml(matchedYoutubeAsset.title)}</a>
+                <div class="eo-published-date">${escapeHtml(content.match_confidence)} candidate · score ${content.match_score}</div>
+              </div>
+              <span class="eo-source-badge eo-review-badge">Needs review</span>
+            </li>`
+          : `<li class="eo-published eo-candidate-row">
+              <span class="eo-badge" style="background: var(--eo-panel-2); color: var(--eo-ink-2)">—</span>
+              <div class="eo-published-main">
+                <span class="eo-published-name">No YouTube relationship proposed</span>
+                <div class="eo-published-date">Magazine-native original candidate</div>
+              </div>
+              <span class="eo-source-badge eo-review-badge">Not reviewed</span>
+            </li>`
+      }
+    `;
+  } else {
+    const assets = content.assetIds
+      .map((assetId) =>
+        youtube.assets.find((asset) => asset.youtubeId === assetId),
+      )
+      .filter(Boolean)
+      .sort((a, b) => Number(b.isAnchor) - Number(a.isAnchor));
+    root.querySelector("#detail-series").textContent =
+      content.ipSeries || "Uncategorized";
+    root.querySelector("#detail-asset-summary").textContent =
+      `${content.assetCount} owned YouTube assets`;
+    root.querySelector("#detail-original-link").href = content.canonicalUrl;
+    root.querySelector("#detail-thumbnail").src = thumbnailUrl(
+      content.originalContentId,
+    );
+    root.querySelector("#detail-thumbnail").alt =
+      `${content.title} YouTube thumbnail`;
+    root.querySelector("#detail-content-id").textContent =
+      `ID ${content.originalContentId}`;
+    publishedPosts.innerHTML = assets
+      .map(
+        (asset) => `
         <li class="eo-published">
           <span class="eo-badge" style="background: var(--eo-youtube)">${asset.isAnchor ? "YT" : "S"}</span>
           <div class="eo-published-main">
@@ -315,8 +466,9 @@ const initializeDetail = async () => {
           <span class="eo-source-badge">Owned</span>
         </li>
       `,
-    )
-    .join("");
+      )
+      .join("");
+  }
 
   const externalToggle = root.querySelector("#external-toggle");
   const externalLabel = root.querySelector('label[for="external-toggle"]');
@@ -336,18 +488,27 @@ const initializeDetail = async () => {
   const chartPoints = root.querySelector("#chart-points");
   const chartLabels = root.querySelector("#chart-labels");
 
-  const data = {
-    all: { owned: 1_102_000, external: 138_000 },
-    youtube: { owned: 761_000, external: 82_000 },
-    magazine: { owned: 87_000, external: 0 },
-    instagram: { owned: 214_000, external: 46_000 },
-    x: { owned: 40_000, external: 10_000 },
-  };
+  const data = isMagazine
+    ? {
+        all: { owned: content.view_count_at_import || 0, external: 0 },
+        youtube: { owned: 0, external: 0 },
+        magazine: { owned: content.view_count_at_import || 0, external: 0 },
+        instagram: { owned: 0, external: 0 },
+        x: { owned: 0, external: 0 },
+      }
+    : {
+        all: { owned: 1_102_000, external: 138_000 },
+        youtube: { owned: 761_000, external: 82_000 },
+        magazine: { owned: 87_000, external: 0 },
+        instagram: { owned: 214_000, external: 46_000 },
+        x: { owned: 40_000, external: 10_000 },
+      };
   let selectedPlatform = "all";
   let selectedRange = 30;
   let externalIncluded = true;
 
   const makeSeries = (days, totalValue) => {
+    if (isMagazine) return Array.from({ length: days + 1 }, () => totalValue);
     const anchors = [
       [0, 0],
       [1, .08],
@@ -393,7 +554,7 @@ const initializeDetail = async () => {
     const bottom = 34;
     const plotWidth = width - left - right;
     const plotHeight = height - top - bottom;
-    const max = Math.max(...values) * 1.08;
+    const max = Math.max(1, ...values) * 1.08;
     const x = (index) => left + (index / (values.length - 1)) * plotWidth;
     const y = (value) => top + plotHeight - (value / max) * plotHeight;
     const points = values.map((value, index) => [x(index), y(value)]);
@@ -472,14 +633,22 @@ const initializeDetail = async () => {
       ? formatMetric(current.external)
       : "—";
     externalShare.textContent = externalIncluded
-      ? `${100 - ownedPercent}% of visible views · 2 posts`
+      ? `${100 - ownedPercent}% of visible views · ${isMagazine ? 0 : 2} posts`
       : "Excluded from totals";
-    chartSubtitle.textContent =
-      `${selectedPlatform === "all" ? "Cumulative cross-platform" : selectedPlatform.charAt(0).toUpperCase() + selectedPlatform.slice(1)} views · ${selectedRange} days`;
+    chartSubtitle.textContent = isMagazine
+      ? "Imported snapshot only · history starts with the next refresh"
+      : `${selectedPlatform === "all" ? "Cumulative cross-platform" : selectedPlatform.charAt(0).toUpperCase() + selectedPlatform.slice(1)} views · ${selectedRange} days`;
     platformRows.forEach((row) => {
+      const rowPlatform = row.dataset.rowPlatform;
+      const rowData = data[rowPlatform];
+      const allOwned = data.all.owned || 1;
+      const share = Math.round((rowData.owned / allOwned) * 100);
+      row.querySelector(".eo-bar").style.width = `${share}%`;
+      row.querySelector(".eo-platform-value").innerHTML =
+        `${formatMetric(rowData.owned)}<span class="eo-platform-share">${share}%</span>`;
       row.hidden =
         selectedPlatform !== "all" &&
-        row.dataset.rowPlatform !== selectedPlatform;
+        rowPlatform !== selectedPlatform;
     });
     renderChart(visibleTotal);
   };

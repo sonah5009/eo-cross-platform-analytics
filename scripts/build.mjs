@@ -11,6 +11,8 @@ const files = [
   ["app.js", "text/javascript; charset=utf-8"],
   ["data/youtube-content-master.json", "application/json; charset=utf-8"],
   ["data/youtube-content-master.csv", "text/csv; charset=utf-8"],
+  ["data/magazine-content-candidates.json", "application/json; charset=utf-8"],
+  ["data/magazine-content-candidates.csv", "text/csv; charset=utf-8"],
 ];
 
 const routes = [];

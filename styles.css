@@ -1881,8 +1881,31 @@ html>body{padding:0}
 }
 
 #eo-content-overview .eo-data-pending {
+  display: block;
+  margin-top: 2px;
   color: var(--eo-ink-3);
   font-size: 11px;
+}
+
+#eo-content-overview .eo-platform-chip {
+  display: inline-grid;
+  flex: 0 0 auto;
+  width: 22px;
+  height: 18px;
+  place-items: center;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 9px;
+  font-weight: 650;
+  line-height: 1;
+}
+
+#eo-content-overview .eo-platform-chip-youtube {
+  background: var(--eo-youtube);
+}
+
+#eo-content-overview .eo-platform-chip-magazine {
+  background: var(--eo-magazine);
 }
 
 #eo-content-detail .eo-thumb {
@@ -1914,6 +1937,15 @@ html>body{padding:0}
 #eo-content-detail .eo-published-link:hover .eo-published-name {
   text-decoration: underline;
   text-underline-offset: 2px;
+}
+
+#eo-content-detail .eo-candidate-row {
+  background: color-mix(in srgb, var(--eo-magazine) 7%, transparent);
+}
+
+#eo-content-detail .eo-review-badge {
+  color: var(--eo-ink);
+  background: color-mix(in srgb, var(--eo-magazine) 18%, var(--eo-panel));
 }
 
 @media (max-width: 720px) {
