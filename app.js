@@ -1,5 +1,18 @@
 const YOUTUBE_DATA_URL = "./data/youtube-content-master.json";
 const MAGAZINE_DATA_URL = "./data/magazine-content-candidates.json";
+const PLATFORM_ORDER = ["youtube", "magazine", "instagram", "x"];
+const PLATFORM_LABELS = {
+  youtube: "YouTube",
+  magazine: "Magazine",
+  instagram: "Instagram",
+  x: "X",
+};
+const PLATFORM_COLORS = {
+  youtube: "var(--eo-youtube)",
+  magazine: "var(--eo-magazine)",
+  instagram: "var(--eo-instagram)",
+  x: "var(--eo-x)",
+};
 
 const escapeHtml = (value) =>
   String(value ?? "")
@@ -64,6 +77,11 @@ const initializeOverview = async () => {
   const searchInput = root.querySelector("#content-search");
   const seriesFilter = root.querySelector("#series-filter");
   const sortSelect = root.querySelector("#content-sort");
+  const channelViewButtons = [
+    ...root.querySelectorAll("[data-channel-view]"),
+  ];
+  const channelBars = root.querySelector("#channel-bars");
+  const channelDonut = root.querySelector("#channel-donut");
 
   const { youtube, magazine } = await loadMasterData();
   const youtubeContents = youtube.originalContents.map((content) => {
@@ -86,6 +104,12 @@ const initializeOverview = async () => {
       assetCount: content.assetCount + linkedMagazineCount,
       youtubeAssetCount: content.assetCount,
       linkedMagazineCount,
+      platformCounts: {
+        youtube: content.assetCount,
+        magazine: linkedMagazineCount,
+        instagram: 0,
+        x: 0,
+      },
       shortCount: content.assetTypeCounts.shorts ?? 0,
       views: null,
       publishedAt: null,
@@ -108,6 +132,13 @@ const initializeOverview = async () => {
     ].filter(Boolean).join(" "),
     assetCount: 1,
     shortCount: 0,
+    isNative: article.review_status !== "Approved",
+    platformCounts: {
+      youtube: 0,
+      magazine: 1,
+      instagram: 0,
+      x: 0,
+    },
     views: article.view_count_at_import ?? 0,
     publishedAt: article.published_at,
     status:
@@ -210,14 +241,24 @@ const initializeOverview = async () => {
     const query = searchInput.value.trim().toLocaleLowerCase();
     const series = seriesFilter.value;
     const filtered = contents.filter((content) => {
+      const platformMatches =
+        platform === "all"
+          ? content.platform === "youtube" ||
+            (content.platform === "magazine" && content.isNative)
+          : content.platform === platform;
       return (
-        (platform === "all" || content.platform === platform) &&
+        platformMatches &&
         (!query || content.searchable.toLocaleLowerCase().includes(query)) &&
         (!series || content.taxonomy === series)
       );
     });
 
     return filtered.sort((a, b) => {
+      const platformOrder =
+        platform === "all"
+          ? PLATFORM_ORDER.indexOf(a.platform) - PLATFORM_ORDER.indexOf(b.platform)
+          : 0;
+      if (platformOrder) return platformOrder;
       if (sortSelect.value === "recent-desc") {
         return (
           String(b.publishedAt || "").localeCompare(String(a.publishedAt || "")) ||
@@ -245,12 +286,28 @@ const initializeOverview = async () => {
     const platformColor = isMagazine
       ? "var(--eo-magazine)"
       : "var(--eo-youtube)";
-    const platformLabel = isMagazine ? "Magazine · M" : "YouTube · YT";
-    const mixMarkup =
-      !isMagazine && content.linkedMagazineCount
-        ? `<span class="eo-mix" style="width: 78%; background: var(--eo-youtube)"></span>
-           <span class="eo-mix" style="width: 22%; background: var(--eo-magazine)"></span>`
-        : `<span class="eo-mix" style="width: 100%; background: ${platformColor}"></span>`;
+    const platformEntries = PLATFORM_ORDER
+      .map((platformName) => [
+        platformName,
+        content.platformCounts?.[platformName] || 0,
+      ])
+      .filter(([, count]) => count > 0);
+    const platformTotal = platformEntries.reduce(
+      (sum, [, count]) => sum + count,
+      0,
+    );
+    const platformLabel = platformEntries
+      .map(
+        ([platformName, count]) =>
+          `${PLATFORM_LABELS[platformName]} ${count}`,
+      )
+      .join(", ");
+    const mixMarkup = platformEntries
+      .map(
+        ([platformName, count]) =>
+          `<span class="eo-mix" style="width: ${(count / platformTotal) * 100}%; background: ${PLATFORM_COLORS[platformName]}" title="${escapeHtml(`${PLATFORM_LABELS[platformName]} ${Math.round((count / platformTotal) * 100)}%`)}"></span>`,
+      )
+      .join("");
     return `
       <tr data-platforms="${content.platform}">
         <td>
@@ -295,12 +352,16 @@ const initializeOverview = async () => {
       (content) => content.platform === "youtube",
     ).length;
     const magazineCount = filtered.length - youtubeCount;
+    const linkedMagazineCount = filtered.reduce(
+      (sum, content) => sum + (content.linkedMagazineCount || 0),
+      0,
+    );
     resultLabel.textContent =
       platform === "magazine"
         ? `${magazineCount} real articles · public EO Magazine data`
         : platform === "youtube"
           ? `${youtubeCount} approved original stories · YouTube master`
-          : `${youtubeCount} YouTube originals + ${magazineCount} Magazine articles`;
+          : `${youtubeCount} YouTube originals · ${linkedMagazineCount} linked Magazine articles · ${magazineCount} Magazine originals`;
     contentCount.textContent = String(filtered.length);
   };
 
@@ -364,6 +425,18 @@ const initializeOverview = async () => {
   searchInput.addEventListener("input", renderContent);
   seriesFilter.addEventListener("change", renderContent);
   sortSelect.addEventListener("change", renderContent);
+  channelViewButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const selectedView = button.dataset.channelView;
+      channelBars.hidden = selectedView !== "bars";
+      channelDonut.hidden = selectedView !== "donut";
+      channelViewButtons.forEach((item) => {
+        const active = item === button;
+        item.setAttribute("aria-pressed", String(active));
+        item.classList.toggle("btn-ghost", !active);
+      });
+    });
+  });
   render();
 };
 

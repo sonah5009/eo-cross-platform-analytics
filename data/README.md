@@ -47,6 +47,7 @@ than this identity master.
 Refresh the review queue with:
 
 ```sh
+npm run data:approve-all # only when all current suggestions are approved
 npm run data:reviews
 npm run data:magazine
 ```

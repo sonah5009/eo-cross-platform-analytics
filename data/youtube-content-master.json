@@ -7,11 +7,11 @@
   },
   "summary": {
     "assetCount": 433,
-    "originalContentCount": 74,
-    "linkedAssetCount": 194,
-    "linkedAnchorCount": 74,
+    "originalContentCount": 161,
+    "linkedAssetCount": 281,
+    "linkedAnchorCount": 161,
     "linkedShortCount": 120,
-    "unassignedAssetCount": 239,
+    "unassignedAssetCount": 152,
     "suggestedAssetCount": 0
   },
   "taxonomy": {
@@ -34,6 +34,23 @@
   },
   "originalContents": [
     {
+      "originalContentId": "K0s86-6kqvs",
+      "title": "$100M Food Truck Brand After Betrayal by Cofounder | CUPBOP (3/3)",
+      "canonicalUrl": "https://www.youtube.com/watch?v=K0s86-6kqvs",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "K0s86-6kqvs"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
       "originalContentId": "4D94pqCOKyc",
       "title": "$270 Million Coffee Empire in Indonesia: The Journey Unveiled - Kopi Kenangan | Edward Tritanata",
       "canonicalUrl": "https://www.youtube.com/watch?v=4D94pqCOKyc",
@@ -49,6 +66,167 @@
       "assetTypeCounts": {
         "long_form": 1,
         "shorts": 2
+      }
+    },
+    {
+      "originalContentId": "3RYUA-ccgbw",
+      "title": "$400M-Worth Issue Tracker with No Marketing | Linear Karri Saarinen",
+      "canonicalUrl": "https://www.youtube.com/watch?v=3RYUA-ccgbw",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [],
+      "assetIds": [
+        "3RYUA-ccgbw"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "FZieYYj0ImE",
+      "title": "$8B in Just 2 Years, The World's Fastest-Growing Startup | Perplexity AI, Aravind Srinivas",
+      "canonicalUrl": "https://www.youtube.com/watch?v=FZieYYj0ImE",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "FZieYYj0ImE"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "JiSjMKptCKY",
+      "title": "10K Users from Product Launch Day 1 | TomoCredit Kristy Kim",
+      "canonicalUrl": "https://www.youtube.com/watch?v=JiSjMKptCKY",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "JiSjMKptCKY"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "EWOZrIZDbqc",
+      "title": "20 Years, CEO, Lessons Learned | Anza, Mike Hall",
+      "canonicalUrl": "https://www.youtube.com/watch?v=EWOZrIZDbqc",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [],
+      "assetIds": [
+        "EWOZrIZDbqc"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "pztijFSlfZs",
+      "title": "25 Years of Building Startups Explained in 17 Minutes | TaleTree, Matt Hagger",
+      "canonicalUrl": "https://www.youtube.com/watch?v=pztijFSlfZs",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "pztijFSlfZs"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "Drse9NLKG2s",
+      "title": "27-Year Investor Explains What You're Missing While Chasing AI | TELUS Global Ventures, Terry Doyle",
+      "canonicalUrl": "https://www.youtube.com/watch?v=Drse9NLKG2s",
+      "anchorPlatform": "youtube",
+      "ipSeries": "Deal Makers: VC Stories",
+      "collectionTags": [],
+      "assetIds": [
+        "Drse9NLKG2s"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "4uqLAmjvBEY",
+      "title": "3 Lessons on Building $1B Business | John Kim, Sendbird",
+      "canonicalUrl": "https://www.youtube.com/watch?v=4uqLAmjvBEY",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [],
+      "assetIds": [
+        "4uqLAmjvBEY"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "Tk-EI2yYT3A",
+      "title": "30-Minute Masterclass on Product Thinking | Instagram Co-Founder & Anthropic CPO, Mike Krieger",
+      "canonicalUrl": "https://www.youtube.com/watch?v=Tk-EI2yYT3A",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Over $100 Billion CEO Interviews",
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "Tk-EI2yYT3A"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "7yMetPnsFT0",
+      "title": "35M Users. $100M ARR. My 10-Year Bet Was Right. | Otter.ai, Sam Liang",
+      "canonicalUrl": "https://www.youtube.com/watch?v=7yMetPnsFT0",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "7yMetPnsFT0"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "CjTTSa33axg",
+      "title": "5 Key Advice on Starting an AI Business | Syncly Joseph Lee",
+      "canonicalUrl": "https://www.youtube.com/watch?v=CjTTSa33axg",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [],
+      "assetIds": [
+        "CjTTSa33axg"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
       }
     },
     {
@@ -73,6 +251,23 @@
       }
     },
     {
+      "originalContentId": "apewL43Q8Tg",
+      "title": "9 Months Zero Code, $75M Raised | Merge, Shensi Ding",
+      "canonicalUrl": "https://www.youtube.com/watch?v=apewL43Q8Tg",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "apewL43Q8Tg"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
       "originalContentId": "FPYl7nIKRbA",
       "title": "9-Year Hustle to Achieve a Single GoalㅣNotion's Cofounders",
       "canonicalUrl": "https://www.youtube.com/watch?v=FPYl7nIKRbA",
@@ -90,6 +285,89 @@
       "assetTypeCounts": {
         "long_form": 1,
         "shorts": 2
+      }
+    },
+    {
+      "originalContentId": "At9Ti-O-NqA",
+      "title": "A College Dropout Builds $1B Startup at 22 | Injective, Eric Chen",
+      "canonicalUrl": "https://www.youtube.com/watch?v=At9Ti-O-NqA",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "At9Ti-O-NqA"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "xutwpmlTYmE",
+      "title": "A Designer Who Saved 150M+ Developers | GitHub, Diana Mounter(Former Head of Design)",
+      "canonicalUrl": "https://www.youtube.com/watch?v=xutwpmlTYmE",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "xutwpmlTYmE"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "MG0CPqjjOvk",
+      "title": "A Top Mathematician's 9 Lessons for Anyone Who Feels Behind | Ken Ono, Axiom Math",
+      "canonicalUrl": "https://www.youtube.com/watch?v=MG0CPqjjOvk",
+      "anchorPlatform": "youtube",
+      "ipSeries": "The Thinking Mode",
+      "collectionTags": [],
+      "assetIds": [
+        "MG0CPqjjOvk"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "8Nd_39d5q9A",
+      "title": "A Yale Student Raised $3.1M in 2 Weeks for an AI Social App | Series, Nathaneo Johnson",
+      "canonicalUrl": "https://www.youtube.com/watch?v=8Nd_39d5q9A",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "8Nd_39d5q9A"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "PgdsItdmtMk",
+      "title": "Advice for the future entrepreneurs l Saeju Jeong (2/2)",
+      "canonicalUrl": "https://www.youtube.com/watch?v=PgdsItdmtMk",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "PgdsItdmtMk"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
       }
     },
     {
@@ -147,6 +425,21 @@
       }
     },
     {
+      "originalContentId": "OHJJKrJCSRU",
+      "title": "AI is way Underhyped. He Runs His Entire Marketing Team with 40 AI Agents | Relay.app, Jacob Bank",
+      "canonicalUrl": "https://www.youtube.com/watch?v=OHJJKrJCSRU",
+      "anchorPlatform": "youtube",
+      "ipSeries": "The Thinking Mode",
+      "collectionTags": [],
+      "assetIds": [
+        "OHJJKrJCSRU"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
       "originalContentId": "BfBGhSqvcu4",
       "title": "AI Will Create New Wealth, But Not Where You Think | Carnegie Mellon University, Po-Shen Loh",
       "canonicalUrl": "https://www.youtube.com/watch?v=BfBGhSqvcu4",
@@ -163,6 +456,23 @@
       "assetTypeCounts": {
         "long_form": 1,
         "shorts": 3
+      }
+    },
+    {
+      "originalContentId": "WeNnc3_xn2A",
+      "title": "Behind Figma's IPO: The Principles of Building Products People Love | Yuhki Yamashita, Figma CPO",
+      "canonicalUrl": "https://www.youtube.com/watch?v=WeNnc3_xn2A",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "WeNnc3_xn2A"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
       }
     },
     {
@@ -185,6 +495,23 @@
       }
     },
     {
+      "originalContentId": "my7HXZSGecw",
+      "title": "Big Tech is NOT the Only Answer to Win | Relay.app, Jacob Bank",
+      "canonicalUrl": "https://www.youtube.com/watch?v=my7HXZSGecw",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "my7HXZSGecw"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
       "originalContentId": "GG77NdMC3kk",
       "title": "Building AI Search Engine for the GPT-5 Era | Will Bryk, Exa",
       "canonicalUrl": "https://www.youtube.com/watch?v=GG77NdMC3kk",
@@ -201,6 +528,38 @@
       "assetTypeCounts": {
         "long_form": 1,
         "shorts": 1
+      }
+    },
+    {
+      "originalContentId": "x2toVUTPEX4",
+      "title": "Building High-value AI Startups in 3 Days | John Whaley, Inception Studio",
+      "canonicalUrl": "https://www.youtube.com/watch?v=x2toVUTPEX4",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [],
+      "assetIds": [
+        "x2toVUTPEX4"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "249tl3G2WIM",
+      "title": "Building the Most Loved Analytics Tool ($1.05B, $100M ARR, 60+ NPS) | Mixpanel, Amir Movafaghi",
+      "canonicalUrl": "https://www.youtube.com/watch?v=249tl3G2WIM",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "249tl3G2WIM"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
       }
     },
     {
@@ -293,6 +652,40 @@
       }
     },
     {
+      "originalContentId": "KeD5i7K-q2Q",
+      "title": "Everyone's Chasing AI But This Matters The Most | Ron Gutman, Intrivo",
+      "canonicalUrl": "https://www.youtube.com/watch?v=KeD5i7K-q2Q",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "KeD5i7K-q2Q"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "90UkODFm5P8",
+      "title": "Everything You Should Know Before Mythos Arrives | Nebulock, Damien Lewke",
+      "canonicalUrl": "https://www.youtube.com/watch?v=90UkODFm5P8",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "90UkODFm5P8"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
       "originalContentId": "UA_gYKaXHS0",
       "title": "First Lesson Taught in Harvard MBA in 18 Minutes | Thales Teixeira",
       "canonicalUrl": "https://www.youtube.com/watch?v=UA_gYKaXHS0",
@@ -310,6 +703,53 @@
       "assetTypeCounts": {
         "long_form": 1,
         "shorts": 2
+      }
+    },
+    {
+      "originalContentId": "FIxLJVthW6I",
+      "title": "Fix your AI-limited mindset in 12 mins | Caltech, Anima Anandkumar",
+      "canonicalUrl": "https://www.youtube.com/watch?v=FIxLJVthW6I",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [],
+      "assetIds": [
+        "FIxLJVthW6I"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "lV61TDHiALo",
+      "title": "Follow this 2-week plan to build a great businessㅣPhil Libin (2/2)",
+      "canonicalUrl": "https://www.youtube.com/watch?v=lV61TDHiALo",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "lV61TDHiALo"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "xxeUVwjUm5M",
+      "title": "From a Graduate Who Left Google to Stripe's 28th Employee | Linear Cristina Cordova",
+      "canonicalUrl": "https://www.youtube.com/watch?v=xxeUVwjUm5M",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [],
+      "assetIds": [
+        "xxeUVwjUm5M"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
       }
     },
     {
@@ -356,6 +796,23 @@
       "assetTypeCounts": {
         "long_form": 1,
         "shorts": 2
+      }
+    },
+    {
+      "originalContentId": "P5QXWrHnTzw",
+      "title": "From Google DeepMind to a $8B Superintelligence Startup | ReflectionAI, Misha Laskin",
+      "canonicalUrl": "https://www.youtube.com/watch?v=P5QXWrHnTzw",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "P5QXWrHnTzw"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
       }
     },
     {
@@ -464,6 +921,23 @@
       }
     },
     {
+      "originalContentId": "gQEkCFzZfPA",
+      "title": "How a 3-Person Founder Team Beat Big Tech ㅣMangomint, Daniel Lang",
+      "canonicalUrl": "https://www.youtube.com/watch?v=gQEkCFzZfPA",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "gQEkCFzZfPA"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
       "originalContentId": "llMFdIVBDBQ",
       "title": "How a Solo Dev Went From $0 to $57M Raised | Laravel, Taylor Otwell",
       "canonicalUrl": "https://www.youtube.com/watch?v=llMFdIVBDBQ",
@@ -499,6 +973,23 @@
       "assetTypeCounts": {
         "long_form": 1,
         "shorts": 2
+      }
+    },
+    {
+      "originalContentId": "cweJsYgLRRc",
+      "title": "How an Indian Immigrant with No Background Raised $25M | FurtherAI, Aman Gour",
+      "canonicalUrl": "https://www.youtube.com/watch?v=cweJsYgLRRc",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "cweJsYgLRRc"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
       }
     },
     {
@@ -573,6 +1064,72 @@
       }
     },
     {
+      "originalContentId": "wgaFopzQI6Y",
+      "title": "How High Will Bitcoin Go? Here's the Better Question | Flare, Hugo Philion",
+      "canonicalUrl": "https://www.youtube.com/watch?v=wgaFopzQI6Y",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [],
+      "assetIds": [
+        "wgaFopzQI6Y"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "bfD4oFQXHTs",
+      "title": "How I Built $15M Annual Revenue Vertical SaaS | Dan Uyemura, PushPress",
+      "canonicalUrl": "https://www.youtube.com/watch?v=bfD4oFQXHTs",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "bfD4oFQXHTs"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "WAPJ8F0Nv7Q",
+      "title": "How I built $2B AI Translation Startup | DeepL, Jarek Kutylowski",
+      "canonicalUrl": "https://www.youtube.com/watch?v=WAPJ8F0Nv7Q",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "WAPJ8F0Nv7Q"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "NWZB3Q5cyJ8",
+      "title": "How I built $3B Next-Gen Identity Startup for AGI Era | World, Alex Blania",
+      "canonicalUrl": "https://www.youtube.com/watch?v=NWZB3Q5cyJ8",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "NWZB3Q5cyJ8"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
       "originalContentId": "9c3oNP8yiKs",
       "title": "How I Built a $1.3B Startup by Pivoting Fast | Windsurf, Varun Mohan, Co-Founder & CEO",
       "canonicalUrl": "https://www.youtube.com/watch?v=9c3oNP8yiKs",
@@ -613,6 +1170,57 @@
       }
     },
     {
+      "originalContentId": "_jEnJYU3e7k",
+      "title": "How I Built a $300M Startup with No Degree and No NetworkㅣSelfbook, Khalid Meniri",
+      "canonicalUrl": "https://www.youtube.com/watch?v=_jEnJYU3e7k",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "_jEnJYU3e7k"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "dqUPMR26vGg",
+      "title": "How I Built an $80M Annual Revenue Business in Just 5 Years | Sandbox VR, Steven Zhao",
+      "canonicalUrl": "https://www.youtube.com/watch?v=dqUPMR26vGg",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "dqUPMR26vGg"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "_1oX3Sas8u8",
+      "title": "How I Built Silicon Valley's Most Beloved Coffee Brand | Philz Coffee, Jacob Jaber",
+      "canonicalUrl": "https://www.youtube.com/watch?v=_1oX3Sas8u8",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "_1oX3Sas8u8"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
       "originalContentId": "oiWwyt3HVT0",
       "title": "How I Built Three Billion-dollar CompaniesㅣFrank Slootman, CEO at SnowFlake",
       "canonicalUrl": "https://www.youtube.com/watch?v=oiWwyt3HVT0",
@@ -623,6 +1231,57 @@
       ],
       "assetIds": [
         "oiWwyt3HVT0"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "zMuGbkFtE9E",
+      "title": "How I Got Half a Million Users in Just 16 Weeks | Rocket.new, Vishal Virani",
+      "canonicalUrl": "https://www.youtube.com/watch?v=zMuGbkFtE9E",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "zMuGbkFtE9E"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "aGY3QSuOz-E",
+      "title": "How I Hit 10M Users in Just 1 Year l Creati, Ella Zhang",
+      "canonicalUrl": "https://www.youtube.com/watch?v=aGY3QSuOz-E",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "aGY3QSuOz-E"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "rSe0wMBzFUw",
+      "title": "How I learned to invest from making 400+ investments | Paul Bragiel, 101 Fellowship",
+      "canonicalUrl": "https://www.youtube.com/watch?v=rSe0wMBzFUw",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "rSe0wMBzFUw"
       ],
       "assetCount": 1,
       "assetTypeCounts": {
@@ -666,6 +1325,21 @@
       }
     },
     {
+      "originalContentId": "TlUZrm2jlCw",
+      "title": "How our AI Startup Grew 60x After a Pivot | Raza Habib, Jordan Burgess of Humanloop",
+      "canonicalUrl": "https://www.youtube.com/watch?v=TlUZrm2jlCw",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [],
+      "assetIds": [
+        "TlUZrm2jlCw"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
       "originalContentId": "LgewaIpQVko",
       "title": "How Prompt Engineering Inventor Built $1.5B in 3 Years | You.com, Richard Socher",
       "canonicalUrl": "https://www.youtube.com/watch?v=LgewaIpQVko",
@@ -700,6 +1374,138 @@
       "assetTypeCounts": {
         "long_form": 1,
         "shorts": 4
+      }
+    },
+    {
+      "originalContentId": "kPXvf2-C_Hs",
+      "title": "How This AI Startup Grew by 100x in Just 6 Months | Fireworks AI, Lin Qiao",
+      "canonicalUrl": "https://www.youtube.com/watch?v=kPXvf2-C_Hs",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "kPXvf2-C_Hs"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "hbGQaAXZ5UU",
+      "title": "How to Build a Product that Hits PMF on Day 1 | Granola, Christopher Pedregal",
+      "canonicalUrl": "https://www.youtube.com/watch?v=hbGQaAXZ5UU",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "hbGQaAXZ5UU"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "EqAknJoNayk",
+      "title": "How to Build a Product with 10 Customers and a Boring Tech Stack | Gravity Climate",
+      "canonicalUrl": "https://www.youtube.com/watch?v=EqAknJoNayk",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "EqAknJoNayk"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "99qc199Y9vQ",
+      "title": "How to Build a Profitable Product from Day 1 | Smith.ai Aaron Lee",
+      "canonicalUrl": "https://www.youtube.com/watch?v=99qc199Y9vQ",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [],
+      "assetIds": [
+        "99qc199Y9vQ"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "XAdCstLe2Fw",
+      "title": "How to Do Good AND Make Money | Carnegie Mellon University Po-Shen Loh",
+      "canonicalUrl": "https://www.youtube.com/watch?v=XAdCstLe2Fw",
+      "anchorPlatform": "youtube",
+      "ipSeries": "EO School",
+      "collectionTags": [],
+      "assetIds": [
+        "XAdCstLe2Fw"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "PcbPBj_xXes",
+      "title": "How to Find $100M+ Startup Ideas in Any Market | Counsel Health, Muthu Alagappan",
+      "canonicalUrl": "https://www.youtube.com/watch?v=PcbPBj_xXes",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "PcbPBj_xXes"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "Xqsudhg-8qk",
+      "title": "How to Find $10M+ Ideas in Markets We’d Never Worked In | Comulate, Jordan Katz & Michael Mattheakis",
+      "canonicalUrl": "https://www.youtube.com/watch?v=Xqsudhg-8qk",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "Xqsudhg-8qk"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "kO8-dxzkq_o",
+      "title": "How to find a Killer Idea worth $40B | Co-founder of Snowflake, Benoit Dageville",
+      "canonicalUrl": "https://www.youtube.com/watch?v=kO8-dxzkq_o",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Over $100 Billion CEO Interviews"
+      ],
+      "assetIds": [
+        "kO8-dxzkq_o"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
       }
     },
     {
@@ -745,6 +1551,38 @@
       }
     },
     {
+      "originalContentId": "qNXUaijIPCQ",
+      "title": "How to Scale Up When You’re Stuck Between Early and Growth | Postscript, Alex Beller",
+      "canonicalUrl": "https://www.youtube.com/watch?v=qNXUaijIPCQ",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "qNXUaijIPCQ"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "dTIL_8odehk",
+      "title": "How to Stay Great When AI Is Good Enough | Matt Beane, UC Santa BarBara",
+      "canonicalUrl": "https://www.youtube.com/watch?v=dTIL_8odehk",
+      "anchorPlatform": "youtube",
+      "ipSeries": "The Thinking Mode",
+      "collectionTags": [],
+      "assetIds": [
+        "dTIL_8odehk"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
       "originalContentId": "TDBXoIiYFdQ",
       "title": "How To Validate PMF EffectivelyㅣSean Ellis, Hacking Growth",
       "canonicalUrl": "https://www.youtube.com/watch?v=TDBXoIiYFdQ",
@@ -764,6 +1602,23 @@
       }
     },
     {
+      "originalContentId": "FbeB91Jx_O8",
+      "title": "How to Win in the AI Hype Cycle | Guru, Rick Nucci",
+      "canonicalUrl": "https://www.youtube.com/watch?v=FbeB91Jx_O8",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "FbeB91Jx_O8"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
       "originalContentId": "I08ZeY7QcrE",
       "title": "How Top 1% AI-Native Organizations Actually Make Money | Harvard Business School, Rem Koning",
       "canonicalUrl": "https://www.youtube.com/watch?v=I08ZeY7QcrE",
@@ -780,6 +1635,38 @@
       "assetTypeCounts": {
         "long_form": 1,
         "shorts": 3
+      }
+    },
+    {
+      "originalContentId": "bwttXIyQmno",
+      "title": "How We 5X Our Revenue While Others Chase AI Updates | Lindy, Flo Crivello",
+      "canonicalUrl": "https://www.youtube.com/watch?v=bwttXIyQmno",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "bwttXIyQmno"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "hAKFIl73I30",
+      "title": "How We Captured Silicon Valley in just 4 months | Crush-it Conference, Rahul Vohra",
+      "canonicalUrl": "https://www.youtube.com/watch?v=hAKFIl73I30",
+      "anchorPlatform": "youtube",
+      "ipSeries": "BayNow",
+      "collectionTags": [],
+      "assetIds": [
+        "hAKFIl73I30"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
       }
     },
     {
@@ -817,6 +1704,57 @@
       "assetTypeCounts": {
         "long_form": 1,
         "shorts": 2
+      }
+    },
+    {
+      "originalContentId": "VGPUg24tsQ8",
+      "title": "How We Went from Zero Buyers to One of the Fastest-Growing B2B StartupsㅣTranscend, Ben Brook",
+      "canonicalUrl": "https://www.youtube.com/watch?v=VGPUg24tsQ8",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "VGPUg24tsQ8"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "GkGWBGJlQrs",
+      "title": "I Built $200M Nuclear Energy Startup at 19 | JC.B, Fuse",
+      "canonicalUrl": "https://www.youtube.com/watch?v=GkGWBGJlQrs",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "GkGWBGJlQrs"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "rQ3luEIcKes",
+      "title": "I Built a General AI Agent After School at Age 13 | Flowe AI, Michael Goldstein",
+      "canonicalUrl": "https://www.youtube.com/watch?v=rQ3luEIcKes",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "rQ3luEIcKes"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
       }
     },
     {
@@ -871,6 +1809,85 @@
       }
     },
     {
+      "originalContentId": "spGQpp7twgs",
+      "title": "Knowledge of A Lifelong Software Engineer | Benjamin Mann, Delivery Hero",
+      "canonicalUrl": "https://www.youtube.com/watch?v=spGQpp7twgs",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [],
+      "assetIds": [
+        "spGQpp7twgs"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "jMc6CjJvJoI",
+      "title": "Lessons from an Early-Stage Startup Over 4 Years | Handprint.tech",
+      "canonicalUrl": "https://www.youtube.com/watch?v=jMc6CjJvJoI",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "jMc6CjJvJoI"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "e5Tf6g5sdD0",
+      "title": "Lessons from Investing in 700+ Startups | Goodwater Capital, Eric Kim",
+      "canonicalUrl": "https://www.youtube.com/watch?v=e5Tf6g5sdD0",
+      "anchorPlatform": "youtube",
+      "ipSeries": "Deal Makers: VC Stories",
+      "collectionTags": [],
+      "assetIds": [
+        "e5Tf6g5sdD0"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "n3sK790QHJg",
+      "title": "Lessons Learned as Second Time Founders | Paragon Co-founders, Brandon Foo, Ishmael Samuel",
+      "canonicalUrl": "https://www.youtube.com/watch?v=n3sK790QHJg",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [],
+      "assetIds": [
+        "n3sK790QHJg"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "WWSn6NceO7s",
+      "title": "Next Tesla in the B2B Market | Captain of SEOUL ROBOTICS, Hanbin Lee",
+      "canonicalUrl": "https://www.youtube.com/watch?v=WWSn6NceO7s",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "WWSn6NceO7s"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
       "originalContentId": "9MQNO9DbaYQ",
       "title": "Pivot and Fail Fast: Most Valuable Lessons During Our 12-Year Journey to IPO  | SES AI, Qichao Hu",
       "canonicalUrl": "https://www.youtube.com/watch?v=9MQNO9DbaYQ",
@@ -905,6 +1922,38 @@
       "assetTypeCounts": {
         "long_form": 1,
         "shorts": 2
+      }
+    },
+    {
+      "originalContentId": "wJ-Ahf0K_z0",
+      "title": "Room Temperature Superconductors Will Change Everything",
+      "canonicalUrl": "https://www.youtube.com/watch?v=wJ-Ahf0K_z0",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "wJ-Ahf0K_z0"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "vDu2cWor3S4",
+      "title": "Secrets of an AI Chatbot Loved by 200+ Enterprises | Kata.ai Irzan Raditya",
+      "canonicalUrl": "https://www.youtube.com/watch?v=vDu2cWor3S4",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [],
+      "assetIds": [
+        "vDu2cWor3S4"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
       }
     },
     {
@@ -969,6 +2018,57 @@
       }
     },
     {
+      "originalContentId": "vrY8x-iGsFs",
+      "title": "Stop Feeding AI for Free | OpenLedger, Ram Kumar",
+      "canonicalUrl": "https://www.youtube.com/watch?v=vrY8x-iGsFs",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "vrY8x-iGsFs"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "B8FIp_VL1t8",
+      "title": "Stop Overthinking and Just Start Now | Vesto, Benjamin Döpfner",
+      "canonicalUrl": "https://www.youtube.com/watch?v=B8FIp_VL1t8",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "B8FIp_VL1t8"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "RqIqlmb8BYM",
+      "title": "Success Starts at the End of Your Comfort ZoneㅣChartmetric, Sung M. Cho",
+      "canonicalUrl": "https://www.youtube.com/watch?v=RqIqlmb8BYM",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "RqIqlmb8BYM"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
       "originalContentId": "ZA9K0JMrbWg",
       "title": "Survival Strategies in the Era of AI Taught by Stanford | Stanford AIRE Director",
       "canonicalUrl": "https://www.youtube.com/watch?v=ZA9K0JMrbWg",
@@ -987,6 +2087,23 @@
       "assetTypeCounts": {
         "long_form": 1,
         "shorts": 3
+      }
+    },
+    {
+      "originalContentId": "al8nDmjVzxo",
+      "title": "The $2.2B Founder's First Advice | Sadi Khan, Aven",
+      "canonicalUrl": "https://www.youtube.com/watch?v=al8nDmjVzxo",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "al8nDmjVzxo"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
       }
     },
     {
@@ -1021,6 +2138,55 @@
       ],
       "assetIds": [
         "d9SKd-zqYAc"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "4n28-DoNxWs",
+      "title": "The Biggest Mistake in My 25-Year Journey Building Unicorn Startup | Godard Abel, G2",
+      "canonicalUrl": "https://www.youtube.com/watch?v=4n28-DoNxWs",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "4n28-DoNxWs"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "3TyfA0FmsQI",
+      "title": "The Biggest Risk Is Not Taking Any Risk | HIS Challenge, BORYUNG",
+      "canonicalUrl": "https://www.youtube.com/watch?v=3TyfA0FmsQI",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [],
+      "assetIds": [
+        "3TyfA0FmsQI"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "xR9pPlLSwJI",
+      "title": "The Fastest Way to Know if Your Product Market Fit Is Real | Serval CEO, Jake Stauch",
+      "canonicalUrl": "https://www.youtube.com/watch?v=xR9pPlLSwJI",
+      "anchorPlatform": "youtube",
+      "ipSeries": "Playbook",
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "xR9pPlLSwJI"
       ],
       "assetCount": 1,
       "assetTypeCounts": {
@@ -1084,6 +2250,23 @@
       }
     },
     {
+      "originalContentId": "IfNPcmoFYn0",
+      "title": "The Navy Leadership Lesson That Built a $450M Company | Blue Water Autonomy, Rylan Hamilton",
+      "canonicalUrl": "https://www.youtube.com/watch?v=IfNPcmoFYn0",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "IfNPcmoFYn0"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
       "originalContentId": "Do_LjDsisIE",
       "title": "The One Discipline That Made Me a Billionaire by Age 30 | Lucy Guo, Passes",
       "canonicalUrl": "https://www.youtube.com/watch?v=Do_LjDsisIE",
@@ -1121,6 +2304,23 @@
       "assetTypeCounts": {
         "long_form": 1,
         "shorts": 3
+      }
+    },
+    {
+      "originalContentId": "wRDk9_JoIic",
+      "title": "The Problem with AI Agents No One is Talking About | Yutori, Abhishek Das",
+      "canonicalUrl": "https://www.youtube.com/watch?v=wRDk9_JoIic",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "wRDk9_JoIic"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
       }
     },
     {
@@ -1162,6 +2362,23 @@
       }
     },
     {
+      "originalContentId": "TRqA9XzGLok",
+      "title": "They Invested Their Own $1.5M For 6 Years in a Robot | Matic",
+      "canonicalUrl": "https://www.youtube.com/watch?v=TRqA9XzGLok",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "TRqA9XzGLok"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
       "originalContentId": "cpTqYOiJcfQ",
       "title": "They Made $0 for 4 Years. Then Built a $22B Startup | The Kalshi Story",
       "canonicalUrl": "https://www.youtube.com/watch?v=cpTqYOiJcfQ",
@@ -1181,6 +2398,23 @@
       "assetTypeCounts": {
         "long_form": 1,
         "shorts": 4
+      }
+    },
+    {
+      "originalContentId": "b_UMhn8E8lI",
+      "title": "This 24-Year-Old Founder Raised $64M to Build World’s First AI Mathematician | Axiom, Carina Hong",
+      "canonicalUrl": "https://www.youtube.com/watch?v=b_UMhn8E8lI",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "b_UMhn8E8lI"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
       }
     },
     {
@@ -1258,6 +2492,23 @@
       }
     },
     {
+      "originalContentId": "_-ybKTL2ehg",
+      "title": "This Founder is Making 1B+ Excel Workers 20x Faster | Meridian, John Ling",
+      "canonicalUrl": "https://www.youtube.com/watch?v=_-ybKTL2ehg",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "_-ybKTL2ehg"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
       "originalContentId": "Fr_5Gk_w_o8",
       "title": "This Humanoid Robot Just Got Human-Level Hands. Here's the Man Behind It | 1X, Bernt Børnich",
       "canonicalUrl": "https://www.youtube.com/watch?v=Fr_5Gk_w_o8",
@@ -1311,6 +2562,53 @@
       }
     },
     {
+      "originalContentId": "WXLVCZIUxpY",
+      "title": "This is the Biggest Hidden Risk of AI | Traversal, Anish Agarwal",
+      "canonicalUrl": "https://www.youtube.com/watch?v=WXLVCZIUxpY",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "WXLVCZIUxpY"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "6jRFZbOxwrs",
+      "title": "To Run a $5.2B Company with $200M ARR, I Focused on This | 6Sense, Jason Zintak",
+      "canonicalUrl": "https://www.youtube.com/watch?v=6jRFZbOxwrs",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [],
+      "assetIds": [
+        "6jRFZbOxwrs"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "cTv113vtUy4",
+      "title": "Venture DifferentlyㅣAltos Ventures, Tae Yoon",
+      "canonicalUrl": "https://www.youtube.com/watch?v=cTv113vtUy4",
+      "anchorPlatform": "youtube",
+      "ipSeries": "Deal Makers: VC Stories",
+      "collectionTags": [],
+      "assetIds": [
+        "cTv113vtUy4"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
       "originalContentId": "x57DYc-k81w",
       "title": "We helped 100m job applicants across the world | Fountain",
       "canonicalUrl": "https://www.youtube.com/watch?v=x57DYc-k81w",
@@ -1330,6 +2628,72 @@
       }
     },
     {
+      "originalContentId": "J_pWyYxu6qE",
+      "title": "What 30 years in Silicon Valley taught me | Nextdoor, Nirav Tolia",
+      "canonicalUrl": "https://www.youtube.com/watch?v=J_pWyYxu6qE",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "J_pWyYxu6qE"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "i1MQ91jLRzQ",
+      "title": "What I Learned Building AI That Competes with TeslaㅣHelm.ai, Vlad Voroninski",
+      "canonicalUrl": "https://www.youtube.com/watch?v=i1MQ91jLRzQ",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "i1MQ91jLRzQ"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "ZfNox6j8oxM",
+      "title": "What I learned from building $3.5B business | Verkada, Filip Kaliszan",
+      "canonicalUrl": "https://www.youtube.com/watch?v=ZfNox6j8oxM",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "ZfNox6j8oxM"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "52oBJncG-D4",
+      "title": "What Makes a Seed & Series A Startup Worth Investing In? | Andrew Beebe, Obvious Ventures",
+      "canonicalUrl": "https://www.youtube.com/watch?v=52oBJncG-D4",
+      "anchorPlatform": "youtube",
+      "ipSeries": "Deal Makers: VC Stories",
+      "collectionTags": [],
+      "assetIds": [
+        "52oBJncG-D4"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
       "originalContentId": "0SStbzK1VRU",
       "title": "What VCs Actually Want Beyond an AI Demo | Rebecca Lynn, Canvas Ventures",
       "canonicalUrl": "https://www.youtube.com/watch?v=0SStbzK1VRU",
@@ -1338,6 +2702,23 @@
       "collectionTags": [],
       "assetIds": [
         "0SStbzK1VRU"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "C0AlI0oc9q4",
+      "title": "What Young Founders Get Wrong About Startups | Articul8, Arun Subramaniyan",
+      "canonicalUrl": "https://www.youtube.com/watch?v=C0AlI0oc9q4",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "C0AlI0oc9q4"
       ],
       "assetCount": 1,
       "assetTypeCounts": {
@@ -1384,6 +2765,55 @@
       "assetTypeCounts": {
         "long_form": 1,
         "shorts": 5
+      }
+    },
+    {
+      "originalContentId": "xo3eKArnIo4",
+      "title": "Why Every Founder Needs to Care About AI Safety Right Now | Glen Wise, Cinder",
+      "canonicalUrl": "https://www.youtube.com/watch?v=xo3eKArnIo4",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "xo3eKArnIo4"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "fDdeXx8lND8",
+      "title": "Why I Left Palantir and Faced 50 RejectionsㅣMosaic, Bijan Moallemi",
+      "canonicalUrl": "https://www.youtube.com/watch?v=fDdeXx8lND8",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "fDdeXx8lND8"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
+      "originalContentId": "XPK5qHhBEhE",
+      "title": "Why Your Best Ideas Come When You Stop Trying | Marcus du Sautoy",
+      "canonicalUrl": "https://www.youtube.com/watch?v=XPK5qHhBEhE",
+      "anchorPlatform": "youtube",
+      "ipSeries": "The Thinking Mode",
+      "collectionTags": [],
+      "assetIds": [
+        "XPK5qHhBEhE"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
       }
     },
     {
@@ -1452,11 +2882,11 @@
       ],
       "ipSeries": "The Thinking Mode",
       "collectionTags": [],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "XPK5qHhBEhE",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "XAdCstLe2Fw",
@@ -1469,11 +2899,11 @@
       ],
       "ipSeries": "EO School",
       "collectionTags": [],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "XAdCstLe2Fw",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "MG0CPqjjOvk",
@@ -1486,11 +2916,11 @@
       ],
       "ipSeries": "The Thinking Mode",
       "collectionTags": [],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "MG0CPqjjOvk",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "dTIL_8odehk",
@@ -1503,11 +2933,11 @@
       ],
       "ipSeries": "The Thinking Mode",
       "collectionTags": [],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "dTIL_8odehk",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "PGp-RAC8oTA",
@@ -1560,11 +2990,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "90UkODFm5P8",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "bVSzAkuuymw",
@@ -1635,11 +3065,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "xR9pPlLSwJI",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "SC4hr_U8298",
@@ -1765,11 +3195,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "wRDk9_JoIic",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "sdN7zw_XbuU",
@@ -1871,11 +3301,11 @@
       ],
       "ipSeries": "The Thinking Mode",
       "collectionTags": [],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "OHJJKrJCSRU",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "7yMetPnsFT0",
@@ -1890,11 +3320,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "7yMetPnsFT0",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "kvZKl7eLSX8",
@@ -1945,11 +3375,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "_-ybKTL2ehg",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "I-BERqPprrc",
@@ -2034,11 +3464,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "IfNPcmoFYn0",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "BfBGhSqvcu4",
@@ -2142,11 +3572,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "hbGQaAXZ5UU",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "h6aqpjrUd5c",
@@ -2180,11 +3610,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "b_UMhn8E8lI",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "KBY0z6jSQsA",
@@ -2231,11 +3661,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "pztijFSlfZs",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "d6lKyaPgvzs",
@@ -2327,11 +3757,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "4n28-DoNxWs",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "zMuGbkFtE9E",
@@ -2346,11 +3776,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "zMuGbkFtE9E",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "C0AlI0oc9q4",
@@ -2365,11 +3795,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "C0AlI0oc9q4",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "P5QXWrHnTzw",
@@ -2384,11 +3814,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "P5QXWrHnTzw",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "PcbPBj_xXes",
@@ -2403,11 +3833,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "PcbPBj_xXes",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "Do_LjDsisIE",
@@ -2441,11 +3871,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "cweJsYgLRRc",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "xo3eKArnIo4",
@@ -2460,11 +3890,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "xo3eKArnIo4",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "CvpMjBDHFGM",
@@ -2551,11 +3981,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "al8nDmjVzxo",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "xutwpmlTYmE",
@@ -2570,11 +4000,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "xutwpmlTYmE",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "vrY8x-iGsFs",
@@ -2589,11 +4019,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "vrY8x-iGsFs",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "bRBLPJguU-0",
@@ -2646,11 +4076,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "8Nd_39d5q9A",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "WXLVCZIUxpY",
@@ -2665,11 +4095,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "WXLVCZIUxpY",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "xWYb7tImErI",
@@ -2703,11 +4133,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "J_pWyYxu6qE",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "Fr_5Gk_w_o8",
@@ -2741,11 +4171,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "Xqsudhg-8qk",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "Z2GmRgmq3Ls",
@@ -2798,11 +4228,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "rQ3luEIcKes",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "3TyfA0FmsQI",
@@ -2813,11 +4243,11 @@
       "playlistRaw": [],
       "ipSeries": null,
       "collectionTags": [],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "3TyfA0FmsQI",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "bwttXIyQmno",
@@ -2832,11 +4262,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "bwttXIyQmno",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "Djeykrg3WkM",
@@ -2925,11 +4355,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "KeD5i7K-q2Q",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "llMFdIVBDBQ",
@@ -2961,11 +4391,11 @@
       ],
       "ipSeries": "Deal Makers: VC Stories",
       "collectionTags": [],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "Drse9NLKG2s",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "vmGRRt3GJYI",
@@ -2995,11 +4425,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "aGY3QSuOz-E",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "Ns-rmhAqPN4",
@@ -3137,11 +4567,11 @@
       "playlistRaw": [],
       "ipSeries": null,
       "collectionTags": [],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "FIxLJVthW6I",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "yVcCywnPuC8",
@@ -3226,11 +4656,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "GkGWBGJlQrs",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "IPVCnBaneak",
@@ -3264,11 +4694,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "VGPUg24tsQ8",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "pLSA-9xwIRE",
@@ -3338,11 +4768,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "At9Ti-O-NqA",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "nj_D5mw5Peg",
@@ -3395,11 +4825,11 @@
         "Over $100 Billion CEO Interviews",
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "Tk-EI2yYT3A",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "i1MQ91jLRzQ",
@@ -3414,11 +4844,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "i1MQ91jLRzQ",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "YTj2SkZ13hw",
@@ -3469,11 +4899,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "qNXUaijIPCQ",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "iJraivDKYkA",
@@ -3520,11 +4950,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "bfD4oFQXHTs",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "WWSn6NceO7s",
@@ -3539,11 +4969,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "WWSn6NceO7s",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "MoP4btRlHdU",
@@ -3573,11 +5003,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "apewL43Q8Tg",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "gQEkCFzZfPA",
@@ -3592,11 +5022,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "gQEkCFzZfPA",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "j6Z-JGoqFpM",
@@ -3630,11 +5060,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "fDdeXx8lND8",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "cTv113vtUy4",
@@ -3647,11 +5077,11 @@
       ],
       "ipSeries": "Deal Makers: VC Stories",
       "collectionTags": [],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "cTv113vtUy4",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "kvIDk4-QtlM",
@@ -3759,11 +5189,11 @@
       ],
       "ipSeries": "Deal Makers: VC Stories",
       "collectionTags": [],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "e5Tf6g5sdD0",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "B2SM5_4pSag",
@@ -3789,11 +5219,11 @@
       "playlistRaw": [],
       "ipSeries": null,
       "collectionTags": [],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "6jRFZbOxwrs",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "249tl3G2WIM",
@@ -3808,11 +5238,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "249tl3G2WIM",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "qzTT6KjnmnM",
@@ -3842,11 +5272,11 @@
       "playlistRaw": [],
       "ipSeries": null,
       "collectionTags": [],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "wgaFopzQI6Y",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "yhjsw2q790Q",
@@ -3880,11 +5310,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "my7HXZSGecw",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "EWOZrIZDbqc",
@@ -3895,11 +5325,11 @@
       "playlistRaw": [],
       "ipSeries": null,
       "collectionTags": [],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "EWOZrIZDbqc",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "WAPJ8F0Nv7Q",
@@ -3914,11 +5344,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "WAPJ8F0Nv7Q",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "NWZB3Q5cyJ8",
@@ -3933,11 +5363,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "NWZB3Q5cyJ8",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "zFE51Sgl8hM",
@@ -3965,11 +5395,11 @@
       ],
       "ipSeries": "BayNow",
       "collectionTags": [],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "hAKFIl73I30",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "jMc6CjJvJoI",
@@ -3984,11 +5414,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "jMc6CjJvJoI",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "6FhMNvhTsrA",
@@ -4022,11 +5452,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "dqUPMR26vGg",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "EqAknJoNayk",
@@ -4041,11 +5471,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "EqAknJoNayk",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "A-IsoneWlzE",
@@ -4130,11 +5560,11 @@
       ],
       "ipSeries": "Deal Makers: VC Stories",
       "collectionTags": [],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "52oBJncG-D4",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "orZUIquv09E",
@@ -4168,11 +5598,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "FbeB91Jx_O8",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "kPXvf2-C_Hs",
@@ -4187,11 +5617,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "kPXvf2-C_Hs",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "rSe0wMBzFUw",
@@ -4206,11 +5636,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "rSe0wMBzFUw",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "FMNqCthCZCc",
@@ -4259,11 +5689,11 @@
       "playlistRaw": [],
       "ipSeries": null,
       "collectionTags": [],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "n3sK790QHJg",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "VNlHzDTVSMk",
@@ -4316,11 +5746,11 @@
       "collectionTags": [
         "Over $100 Billion CEO Interviews"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "kO8-dxzkq_o",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "O4a4bVIe5As",
@@ -4367,11 +5797,11 @@
       "playlistRaw": [],
       "ipSeries": null,
       "collectionTags": [],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "4uqLAmjvBEY",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "xgeu8JOxbnA",
@@ -4405,11 +5835,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "TRqA9XzGLok",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "4C8s6CmcJcQ",
@@ -4439,11 +5869,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "ZfNox6j8oxM",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "spGQpp7twgs",
@@ -4454,11 +5884,11 @@
       "playlistRaw": [],
       "ipSeries": null,
       "collectionTags": [],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "spGQpp7twgs",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "x2toVUTPEX4",
@@ -4469,11 +5899,11 @@
       "playlistRaw": [],
       "ipSeries": null,
       "collectionTags": [],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "x2toVUTPEX4",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "QSZoccA62Xk",
@@ -4537,11 +5967,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "JiSjMKptCKY",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "UWUjA-7YFao",
@@ -4673,11 +6103,11 @@
       "playlistRaw": [],
       "ipSeries": null,
       "collectionTags": [],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "TlUZrm2jlCw",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "au9ZSBgqRMc",
@@ -4703,11 +6133,11 @@
       "playlistRaw": [],
       "ipSeries": null,
       "collectionTags": [],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "vDu2cWor3S4",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "h_aGO5CVZh8",
@@ -4813,11 +6243,11 @@
       "playlistRaw": [],
       "ipSeries": null,
       "collectionTags": [],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "99qc199Y9vQ",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "YRQfzph-Yqg",
@@ -4885,11 +6315,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "K0s86-6kqvs",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "xxeUVwjUm5M",
@@ -4900,11 +6330,11 @@
       "playlistRaw": [],
       "ipSeries": null,
       "collectionTags": [],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "xxeUVwjUm5M",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "CjTTSa33axg",
@@ -4915,11 +6345,11 @@
       "playlistRaw": [],
       "ipSeries": null,
       "collectionTags": [],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "CjTTSa33axg",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "_1oX3Sas8u8",
@@ -4934,11 +6364,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "_1oX3Sas8u8",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "ofh5VdqQvwI",
@@ -5010,11 +6440,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "FZieYYj0ImE",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "RqIqlmb8BYM",
@@ -5029,11 +6459,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "RqIqlmb8BYM",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "OQdvVgLZHd0",
@@ -5133,11 +6563,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "WeNnc3_xn2A",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "YN7DT39f_Ak",
@@ -5239,11 +6669,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "B8FIp_VL1t8",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "WosrxTp3ifA",
@@ -5288,11 +6718,11 @@
       "playlistRaw": [],
       "ipSeries": null,
       "collectionTags": [],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "3RYUA-ccgbw",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "dXeqodByjT4",
@@ -6204,11 +7634,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "PgdsItdmtMk",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "ZHRLOnGdKIA",
@@ -6337,11 +7767,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "lV61TDHiALo",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "XM6NHNxS39E",
@@ -9111,11 +10541,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "_jEnJYU3e7k",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "wJ-Ahf0K_z0",
@@ -9130,11 +10560,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "wJ-Ahf0K_z0",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     }
   ]
 }

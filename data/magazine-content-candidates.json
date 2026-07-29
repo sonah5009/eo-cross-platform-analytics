@@ -37,7 +37,7 @@
     "newAnchorRule": "A matched unassigned YouTube long-form must be promoted to an anchor before linking."
   },
   "summary": {
-    "generatedAt": "2026-07-29T22:50:42.779Z",
+    "generatedAt": "2026-07-29T22:59:09.462Z",
     "articleCount": 219,
     "categoryCounts": {
       "Founder Focused": 186,
@@ -46,11 +46,11 @@
       "Raise Report": 6,
       "The Thinking Mode": 11
     },
-    "suggestedCount": 123,
-    "approvedLinkedCount": 20,
-    "existingAnchorCandidateCount": 29,
-    "newAnchorCandidateCount": 94,
-    "magazineNativeCandidateCount": 76
+    "suggestedCount": 0,
+    "approvedLinkedCount": 144,
+    "existingAnchorCandidateCount": 0,
+    "newAnchorCandidateCount": 0,
+    "magazineNativeCandidateCount": 75
   },
   "articles": [
     {
@@ -71,18 +71,18 @@
       "magazine_category_raw": "The Thinking Mode",
       "ip_series": "The Thinking Mode",
       "collection_tags": [],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "XPK5qHhBEhE",
       "parent_candidate": "XPK5qHhBEhE",
       "parent_candidate_url": "https://www.youtube.com/watch?v=XPK5qHhBEhE",
       "matched_youtube_title": "Why Your Best Ideas Come When You Stop Trying | Marcus du Sautoy",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.514,
-      "match_confidence": "Medium",
-      "match_reason": "shared phrase: marcus du sautoy; title tokens: marcus, sautoy",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 399,
@@ -102,18 +102,18 @@
       "magazine_category_raw": "Inside Hacker Houses",
       "ip_series": null,
       "collection_tags": [],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "jMc6CjJvJoI",
       "parent_candidate": "jMc6CjJvJoI",
       "parent_candidate_url": "https://www.youtube.com/watch?v=jMc6CjJvJoI",
       "matched_youtube_title": "Lessons from an Early-Stage Startup Over 4 Years | Handprint.tech",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.584,
-      "match_confidence": "Medium",
-      "match_reason": "shared phrase: early stage; title tokens: early, stage",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 398,
@@ -133,18 +133,18 @@
       "magazine_category_raw": "The Thinking Mode",
       "ip_series": "The Thinking Mode",
       "collection_tags": [],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "MG0CPqjjOvk",
       "parent_candidate": "MG0CPqjjOvk",
       "parent_candidate_url": "https://www.youtube.com/watch?v=MG0CPqjjOvk",
       "matched_youtube_title": "A Top Mathematician's 9 Lessons for Anyone Who Feels Behind | Ken Ono, Axiom Math",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.842,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: axiom math; title tokens: mathematician, ken, ono, axiom, math; distinctive tokens: mathematician",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 397,
@@ -226,18 +226,18 @@
       "magazine_category_raw": "Inside Hacker Houses",
       "ip_series": null,
       "collection_tags": [],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "jMc6CjJvJoI",
       "parent_candidate": "jMc6CjJvJoI",
       "parent_candidate_url": "https://www.youtube.com/watch?v=jMc6CjJvJoI",
       "matched_youtube_title": "Lessons from an Early-Stage Startup Over 4 Years | Handprint.tech",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.576,
-      "match_confidence": "Medium",
-      "match_reason": "shared phrase: early stage; title tokens: early, stage",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 395,
@@ -257,18 +257,18 @@
       "magazine_category_raw": "The Thinking Mode",
       "ip_series": "The Thinking Mode",
       "collection_tags": [],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "dTIL_8odehk",
       "parent_candidate": "dTIL_8odehk",
       "parent_candidate_url": "https://www.youtube.com/watch?v=dTIL_8odehk",
       "matched_youtube_title": "How to Stay Great When AI Is Good Enough | Matt Beane, UC Santa BarBara",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.923,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: how to stay great when ai is good; title tokens: stay, great, good, enough, matt, beane",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 392,
@@ -290,18 +290,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "90UkODFm5P8",
       "parent_candidate": "90UkODFm5P8",
       "parent_candidate_url": "https://www.youtube.com/watch?v=90UkODFm5P8",
       "matched_youtube_title": "Everything You Should Know Before Mythos Arrives | Nebulock, Damien Lewke",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.625,
-      "match_confidence": "Medium",
-      "match_reason": "shared phrase: damien lewke; title tokens: damien, lewke, nebulock; distinctive tokens: nebulock",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 391,
@@ -608,18 +608,18 @@
       "magazine_category_raw": "Raise Report",
       "ip_series": null,
       "collection_tags": [],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "cpTqYOiJcfQ",
       "parent_candidate": "cpTqYOiJcfQ",
       "parent_candidate_url": "https://www.youtube.com/watch?v=cpTqYOiJcfQ",
       "matched_youtube_title": "They Made $0 for 4 Years. Then Built a $22B Startup | The Kalshi Story",
       "matched_youtube_status": "Linked",
-      "match_score": 0.522,
-      "match_confidence": "Medium",
-      "match_reason": "title tokens: kalshi, 22b",
-      "recommended_action": "Review and link to existing anchor",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 372,
@@ -639,18 +639,18 @@
       "magazine_category_raw": "The Thinking Mode",
       "ip_series": "The Thinking Mode",
       "collection_tags": [],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "MG0CPqjjOvk",
       "parent_candidate": "MG0CPqjjOvk",
       "parent_candidate_url": "https://www.youtube.com/watch?v=MG0CPqjjOvk",
       "matched_youtube_title": "A Top Mathematician's 9 Lessons for Anyone Who Feels Behind | Ken Ono, Axiom Math",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.554,
-      "match_confidence": "Medium",
-      "match_reason": "title tokens: mathematician, ken, ono, who; distinctive tokens: mathematician",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 371,
@@ -672,18 +672,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "wRDk9_JoIic",
       "parent_candidate": "wRDk9_JoIic",
       "parent_candidate_url": "https://www.youtube.com/watch?v=wRDk9_JoIic",
       "matched_youtube_title": "The Problem with AI Agents No One is Talking About | Yutori, Abhishek Das",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.712,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: abhishek das; title tokens: abhishek, das, yutori; distinctive tokens: abhishek",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 370,
@@ -738,18 +738,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "oCojK75W-N8",
       "parent_candidate": "oCojK75W-N8",
       "parent_candidate_url": "https://www.youtube.com/watch?v=oCojK75W-N8",
       "matched_youtube_title": "This Ex-Quant Had to Quit Wall Street to Build a 24/7 Stock Exchange | QFEX, Annanay Kapila",
       "matched_youtube_status": "Linked",
-      "match_score": 0.764,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: annanay kapila; title tokens: quant, annanay, kapila, qfex; distinctive tokens: annanay",
-      "recommended_action": "Review and link to existing anchor",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 369,
@@ -771,18 +771,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "OlbVneKLyD0",
       "parent_candidate": "OlbVneKLyD0",
       "parent_candidate_url": "https://www.youtube.com/watch?v=OlbVneKLyD0",
       "matched_youtube_title": "This 26 y/o 10x'd Revenue Doing the Opposite of Every AI Startup | Paraform, John Kim",
       "matched_youtube_status": "Linked",
-      "match_score": 0.495,
-      "match_confidence": "Medium",
-      "match_reason": "title tokens: john, kim, paraform; distinctive tokens: paraform",
-      "recommended_action": "Review and link to existing anchor",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 365,
@@ -833,18 +833,18 @@
       "magazine_category_raw": "The Thinking Mode",
       "ip_series": "The Thinking Mode",
       "collection_tags": [],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "FX0De_ccROU",
       "parent_candidate": "FX0De_ccROU",
       "parent_candidate_url": "https://www.youtube.com/watch?v=FX0De_ccROU",
       "matched_youtube_title": "AI Is Killing the Career Ladder. A Stanford Economist Explains What Comes Next | Bharat Chandar",
       "matched_youtube_status": "Linked",
-      "match_score": 0.795,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: bharat chandar; title tokens: bharat, chandar, economist, stanford; distinctive tokens: chandar, economist, stanford",
-      "recommended_action": "Review and link to existing anchor",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 345,
@@ -926,18 +926,18 @@
       "magazine_category_raw": "The Thinking Mode",
       "ip_series": "The Thinking Mode",
       "collection_tags": [],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "OHJJKrJCSRU",
       "parent_candidate": "OHJJKrJCSRU",
       "parent_candidate_url": "https://www.youtube.com/watch?v=OHJJKrJCSRU",
       "matched_youtube_title": "AI is way Underhyped. He Runs His Entire Marketing Team with 40 AI Agents | Relay.app, Jacob Bank",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.549,
-      "match_confidence": "Medium",
-      "match_reason": "shared phrase: relay app; title tokens: agents, relay, app",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 342,
@@ -990,18 +990,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "7yMetPnsFT0",
       "parent_candidate": "7yMetPnsFT0",
       "parent_candidate_url": "https://www.youtube.com/watch?v=7yMetPnsFT0",
       "matched_youtube_title": "35M Users. $100M ARR. My 10-Year Bet Was Right. | Otter.ai, Sam Liang",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.859,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: users 100m arr; title tokens: users, arr, sam, liang, otter",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 339,
@@ -1021,18 +1021,18 @@
       "magazine_category_raw": "The Thinking Mode",
       "ip_series": "The Thinking Mode",
       "collection_tags": [],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "kvZKl7eLSX8",
       "parent_candidate": "kvZKl7eLSX8",
       "parent_candidate_url": "https://www.youtube.com/watch?v=kvZKl7eLSX8",
       "matched_youtube_title": "How the Top 1% of Learners Use AI to Think Better | Anthropic, Drew Bent",
       "matched_youtube_status": "Linked",
-      "match_score": 0.675,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: drew bent; title tokens: drew, bent, anthropic; distinctive tokens: anthropic",
-      "recommended_action": "Review and link to existing anchor",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 318,
@@ -1141,24 +1141,24 @@
       "open_graph_image_url": "https://eo-mag-backend.s3.us-west-1.amazonaws.com/article/82/589dc949-ac90-43dd-9713-23760336214d",
       "published_at": "2026-03-07T08:00:00+00:00",
       "reading_time_minutes": 14,
-      "view_count_at_import": 134,
+      "view_count_at_import": 135,
       "written_by": "Jeebin Lee",
       "magazine_category_id": 6,
       "magazine_category_raw": "The Thinking Mode",
       "ip_series": "The Thinking Mode",
       "collection_tags": [],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "XAdCstLe2Fw",
       "parent_candidate": "XAdCstLe2Fw",
       "parent_candidate_url": "https://www.youtube.com/watch?v=XAdCstLe2Fw",
       "matched_youtube_title": "How to Do Good AND Make Money | Carnegie Mellon University Po-Shen Loh",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.963,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: po shen loh; title tokens: shen, loh, carnegie, mellon, university; distinctive tokens: carnegie, university",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 81,
@@ -1178,18 +1178,18 @@
       "magazine_category_raw": "The Thinking Mode",
       "ip_series": "The Thinking Mode",
       "collection_tags": [],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "wEsjK3Smovw",
       "parent_candidate": "wEsjK3Smovw",
       "parent_candidate_url": "https://www.youtube.com/watch?v=wEsjK3Smovw",
       "matched_youtube_title": "From Writing Code to Managing Agents. Most Engineers Aren't Ready | Stanford University, Mihail Eric",
       "matched_youtube_status": "Linked",
-      "match_score": 0.562,
-      "match_confidence": "Medium",
-      "match_reason": "shared phrase: mihail eric; title tokens: mihail, eric, stanford; distinctive tokens: stanford",
-      "recommended_action": "Review and link to existing anchor",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 80,
@@ -1209,18 +1209,18 @@
       "magazine_category_raw": "Behind The Scenes",
       "ip_series": null,
       "collection_tags": [],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "jMc6CjJvJoI",
       "parent_candidate": "jMc6CjJvJoI",
       "parent_candidate_url": "https://www.youtube.com/watch?v=jMc6CjJvJoI",
       "matched_youtube_title": "Lessons from an Early-Stage Startup Over 4 Years | Handprint.tech",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.568,
-      "match_confidence": "Medium",
-      "match_reason": "shared phrase: early stage; title tokens: early, stage",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 79,
@@ -1240,18 +1240,18 @@
       "magazine_category_raw": "Raise Report",
       "ip_series": null,
       "collection_tags": [],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "FX0De_ccROU",
       "parent_candidate": "FX0De_ccROU",
       "parent_candidate_url": "https://www.youtube.com/watch?v=FX0De_ccROU",
       "matched_youtube_title": "AI Is Killing the Career Ladder. A Stanford Economist Explains What Comes Next | Bharat Chandar",
       "matched_youtube_status": "Linked",
-      "match_score": 0.471,
-      "match_confidence": "Low",
-      "match_reason": "shared phrase: what comes next; title tokens: comes, next",
-      "recommended_action": "Review and link to existing anchor",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 77,
@@ -1273,18 +1273,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "IfNPcmoFYn0",
       "parent_candidate": "IfNPcmoFYn0",
       "parent_candidate_url": "https://www.youtube.com/watch?v=IfNPcmoFYn0",
       "matched_youtube_title": "The Navy Leadership Lesson That Built a $450M Company | Blue Water Autonomy, Rylan Hamilton",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.958,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: blue water autonomy; title tokens: navy, rylan, hamilton, blue, water, autonomy; distinctive tokens: hamilton, autonomy",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 73,
@@ -1304,18 +1304,18 @@
       "magazine_category_raw": "Raise Report",
       "ip_series": null,
       "collection_tags": [],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "_-ybKTL2ehg",
       "parent_candidate": "_-ybKTL2ehg",
       "parent_candidate_url": "https://www.youtube.com/watch?v=_-ybKTL2ehg",
       "matched_youtube_title": "This Founder is Making 1B+ Excel Workers 20x Faster | Meridian, John Ling",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.794,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: john ling; title tokens: meridian, excel, john, ling; distinctive tokens: meridian",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 71,
@@ -1432,18 +1432,18 @@
       "magazine_category_raw": "Inside Hacker Houses",
       "ip_series": null,
       "collection_tags": [],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "J_pWyYxu6qE",
       "parent_candidate": "J_pWyYxu6qE",
       "parent_candidate_url": "https://www.youtube.com/watch?v=J_pWyYxu6qE",
       "matched_youtube_title": "What 30 years in Silicon Valley taught me | Nextdoor, Nirav Tolia",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.55,
-      "match_confidence": "Medium",
-      "match_reason": "shared phrase: silicon valley; title tokens: silicon, valley; distinctive tokens: silicon",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 61,
@@ -1465,18 +1465,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "fqGTIyrtnBU",
       "parent_candidate": "fqGTIyrtnBU",
       "parent_candidate_url": "https://www.youtube.com/watch?v=fqGTIyrtnBU",
       "matched_youtube_title": "The Strategy That Turned a Dying $1.3B Company Into a $100M AI Agent | Intercom, Eoghan McCabe",
       "matched_youtube_status": "Linked",
-      "match_score": 0.675,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: eoghan mccabe; title tokens: intercom, eoghan, mccabe; distinctive tokens: intercom",
-      "recommended_action": "Review and link to existing anchor",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 60,
@@ -1498,18 +1498,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "hbGQaAXZ5UU",
       "parent_candidate": "hbGQaAXZ5UU",
       "parent_candidate_url": "https://www.youtube.com/watch?v=hbGQaAXZ5UU",
       "matched_youtube_title": "How to Build a Product that Hits PMF on Day 1 | Granola, Christopher Pedregal",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.849,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: christopher pedregal; title tokens: granola, product, christopher, pedregal; distinctive tokens: granola, product, christopher, pedregal",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 42,
@@ -1595,18 +1595,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "b_UMhn8E8lI",
       "parent_candidate": "b_UMhn8E8lI",
       "parent_candidate_url": "https://www.youtube.com/watch?v=b_UMhn8E8lI",
       "matched_youtube_title": "This 24-Year-Old Founder Raised $64M to Build World’s First AI Mathematician | Axiom, Carina Hong",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.807,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: carina hong; title tokens: axiom, 64m, carina, hong",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 68,
@@ -1661,18 +1661,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "5qfwNBs3IVE",
       "parent_candidate": "5qfwNBs3IVE",
       "parent_candidate_url": "https://www.youtube.com/watch?v=5qfwNBs3IVE",
       "matched_youtube_title": "How Great Tech Leaders Think and Decide | Ex-Meta CTO & Gigascale Founder, Mike Schroepfer",
       "matched_youtube_status": "Linked",
-      "match_score": 0.875,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: ex meta cto and gigascale founder; title tokens: meta, cto, mike, schroepfer, gigascale; distinctive tokens: schroepfer, gigascale",
-      "recommended_action": "Review and link to existing anchor",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 29,
@@ -1725,18 +1725,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "pztijFSlfZs",
       "parent_candidate": "pztijFSlfZs",
       "parent_candidate_url": "https://www.youtube.com/watch?v=pztijFSlfZs",
       "matched_youtube_title": "25 Years of Building Startups Explained in 17 Minutes | TaleTree, Matt Hagger",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.768,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: matt hagger; title tokens: matt, hagger, taletree; distinctive tokens: taletree",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 240,
@@ -1824,18 +1824,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "4n28-DoNxWs",
       "parent_candidate": "4n28-DoNxWs",
       "parent_candidate_url": "https://www.youtube.com/watch?v=4n28-DoNxWs",
       "matched_youtube_title": "The Biggest Mistake in My 25-Year Journey Building Unicorn Startup | Godard Abel, G2",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.786,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: godard abel; title tokens: unicorn, godard, abel; distinctive tokens: unicorn",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 216,
@@ -1890,18 +1890,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "zMuGbkFtE9E",
       "parent_candidate": "zMuGbkFtE9E",
       "parent_candidate_url": "https://www.youtube.com/watch?v=zMuGbkFtE9E",
       "matched_youtube_title": "How I Got Half a Million Users in Just 16 Weeks | Rocket.new, Vishal Virani",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.816,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: vishal virani; title tokens: weeks, vishal, virani, rocket",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 175,
@@ -1923,18 +1923,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "C0AlI0oc9q4",
       "parent_candidate": "C0AlI0oc9q4",
       "parent_candidate_url": "https://www.youtube.com/watch?v=C0AlI0oc9q4",
       "matched_youtube_title": "What Young Founders Get Wrong About Startups | Articul8, Arun Subramaniyan",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.8,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: arun subramaniyan; title tokens: articul8, arun, subramaniyan; distinctive tokens: articul8, subramaniyan",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 226,
@@ -1956,18 +1956,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "P5QXWrHnTzw",
       "parent_candidate": "P5QXWrHnTzw",
       "parent_candidate_url": "https://www.youtube.com/watch?v=P5QXWrHnTzw",
       "matched_youtube_title": "From Google DeepMind to a $8B Superintelligence Startup | ReflectionAI, Misha Laskin",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.712,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: misha laskin; title tokens: misha, laskin, reflectionai; distinctive tokens: reflectionai",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 253,
@@ -1989,18 +1989,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "PcbPBj_xXes",
       "parent_candidate": "PcbPBj_xXes",
       "parent_candidate_url": "https://www.youtube.com/watch?v=PcbPBj_xXes",
       "matched_youtube_title": "How to Find $100M+ Startup Ideas in Any Market | Counsel Health, Muthu Alagappan",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.86,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: muthu alagappan; title tokens: alagappan, muthu, counsel, health; distinctive tokens: alagappan, counsel",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 178,
@@ -2022,18 +2022,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "Do_LjDsisIE",
       "parent_candidate": "Do_LjDsisIE",
       "parent_candidate_url": "https://www.youtube.com/watch?v=Do_LjDsisIE",
       "matched_youtube_title": "The One Discipline That Made Me a Billionaire by Age 30 | Lucy Guo, Passes",
       "matched_youtube_status": "Linked",
-      "match_score": 0.487,
-      "match_confidence": "Low",
-      "match_reason": "title tokens: lucy, guo, passes",
-      "recommended_action": "Review and link to existing anchor",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 243,
@@ -2055,18 +2055,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "cweJsYgLRRc",
       "parent_candidate": "cweJsYgLRRc",
       "parent_candidate_url": "https://www.youtube.com/watch?v=cweJsYgLRRc",
       "matched_youtube_title": "How an Indian Immigrant with No Background Raised $25M | FurtherAI, Aman Gour",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.749,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: aman gour; title tokens: 25m, aman, gour, furtherai; distinctive tokens: furtherai",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 27,
@@ -2086,18 +2086,18 @@
       "magazine_category_raw": "Behind The Scenes",
       "ip_series": null,
       "collection_tags": [],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "_1oX3Sas8u8",
       "parent_candidate": "_1oX3Sas8u8",
       "parent_candidate_url": "https://www.youtube.com/watch?v=_1oX3Sas8u8",
       "matched_youtube_title": "How I Built Silicon Valley's Most Beloved Coffee Brand | Philz Coffee, Jacob Jaber",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.61,
-      "match_confidence": "Medium",
-      "match_reason": "shared phrase: silicon valley; title tokens: brand, silicon, valley; distinctive tokens: silicon",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 331,
@@ -2119,18 +2119,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "xo3eKArnIo4",
       "parent_candidate": "xo3eKArnIo4",
       "parent_candidate_url": "https://www.youtube.com/watch?v=xo3eKArnIo4",
       "matched_youtube_title": "Why Every Founder Needs to Care About AI Safety Right Now | Glen Wise, Cinder",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.655,
-      "match_confidence": "Medium",
-      "match_reason": "shared phrase: glen wise; title tokens: glen, wise, cinder",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 176,
@@ -2152,18 +2152,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "CvpMjBDHFGM",
       "parent_candidate": "CvpMjBDHFGM",
       "parent_candidate_url": "https://www.youtube.com/watch?v=CvpMjBDHFGM",
       "matched_youtube_title": "This 25-year-old founder quit Yale and Big Tech to save 100 million lives | Michael Chime, Prepared",
       "matched_youtube_status": "Linked",
-      "match_score": 0.733,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: michael chime; title tokens: michael, chime, prepared; distinctive tokens: michael, prepared",
-      "recommended_action": "Review and link to existing anchor",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 259,
@@ -2185,18 +2185,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "X_ClPE5Y2q4",
       "parent_candidate": "X_ClPE5Y2q4",
       "parent_candidate_url": "https://www.youtube.com/watch?v=X_ClPE5Y2q4",
       "matched_youtube_title": "From Apple & Uber to Creating a Multi-Billion Dollar Wallet Industry | Magic Labs Documentary",
       "matched_youtube_status": "Linked",
-      "match_score": 0.556,
-      "match_confidence": "Medium",
-      "match_reason": "shared phrase: magic labs; title tokens: magic, labs",
-      "recommended_action": "Review and link to existing anchor",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 271,
@@ -2218,18 +2218,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "al8nDmjVzxo",
       "parent_candidate": "al8nDmjVzxo",
       "parent_candidate_url": "https://www.youtube.com/watch?v=al8nDmjVzxo",
       "matched_youtube_title": "The $2.2B Founder's First Advice | Sadi Khan, Aven",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.776,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: sadi khan; title tokens: sadi, khan, aven",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 332,
@@ -2251,18 +2251,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "xutwpmlTYmE",
       "parent_candidate": "xutwpmlTYmE",
       "parent_candidate_url": "https://www.youtube.com/watch?v=xutwpmlTYmE",
       "matched_youtube_title": "A Designer Who Saved 150M+ Developers | GitHub, Diana Mounter(Former Head of Design)",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.832,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: diana mounter former head of design; title tokens: github, design, diana, mounter, former, head; distinctive tokens: mounter",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 311,
@@ -2284,18 +2284,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "vrY8x-iGsFs",
       "parent_candidate": "vrY8x-iGsFs",
       "parent_candidate_url": "https://www.youtube.com/watch?v=vrY8x-iGsFs",
       "matched_youtube_title": "Stop Feeding AI for Free | OpenLedger, Ram Kumar",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.712,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: ram kumar; title tokens: openledger, ram, kumar; distinctive tokens: openledger",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 274,
@@ -2350,18 +2350,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "8Nd_39d5q9A",
       "parent_candidate": "8Nd_39d5q9A",
       "parent_candidate_url": "https://www.youtube.com/watch?v=8Nd_39d5q9A",
       "matched_youtube_title": "A Yale Student Raised $3.1M in 2 Weeks for an AI Social App | Series, Nathaneo Johnson",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.961,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: nathaneo johnson; title tokens: yale, nathaneo, johnson, series; distinctive tokens: nathaneo, johnson",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 256,
@@ -2383,18 +2383,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "WXLVCZIUxpY",
       "parent_candidate": "WXLVCZIUxpY",
       "parent_candidate_url": "https://www.youtube.com/watch?v=WXLVCZIUxpY",
       "matched_youtube_title": "This is the Biggest Hidden Risk of AI | Traversal, Anish Agarwal",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.805,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: anish agarwal; title tokens: anish, agarwal, traversal; distinctive tokens: agarwal, traversal",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 195,
@@ -2449,18 +2449,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "J_pWyYxu6qE",
       "parent_candidate": "J_pWyYxu6qE",
       "parent_candidate_url": "https://www.youtube.com/watch?v=J_pWyYxu6qE",
       "matched_youtube_title": "What 30 years in Silicon Valley taught me | Nextdoor, Nirav Tolia",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.705,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: nirav tolia; title tokens: nirav, tolia, nextdoor; distinctive tokens: nextdoor",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 149,
@@ -2515,18 +2515,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "Xqsudhg-8qk",
       "parent_candidate": "Xqsudhg-8qk",
       "parent_candidate_url": "https://www.youtube.com/watch?v=Xqsudhg-8qk",
       "matched_youtube_title": "How to Find $10M+ Ideas in Markets We’d Never Worked In | Comulate, Jordan Katz & Michael Mattheakis",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.891,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: jordan katz and michael mattheakis; title tokens: jordan, katz, michael, mattheakis, comulate; distinctive tokens: michael, mattheakis, comulate",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 263,
@@ -2614,18 +2614,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "rQ3luEIcKes",
       "parent_candidate": "rQ3luEIcKes",
       "parent_candidate_url": "https://www.youtube.com/watch?v=rQ3luEIcKes",
       "matched_youtube_title": "I Built a General AI Agent After School at Age 13 | Flowe AI, Michael Goldstein",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.9,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: michael goldstein; title tokens: agent, michael, goldstein, flowe; distinctive tokens: michael, goldstein",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 128,
@@ -2647,18 +2647,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "3TyfA0FmsQI",
       "parent_candidate": "3TyfA0FmsQI",
       "parent_candidate_url": "https://www.youtube.com/watch?v=3TyfA0FmsQI",
       "matched_youtube_title": "The Biggest Risk Is Not Taking Any Risk | HIS Challenge, BORYUNG",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.755,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: his challenge; title tokens: boryung, his, challenge; distinctive tokens: boryung, challenge",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 278,
@@ -2680,18 +2680,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "bwttXIyQmno",
       "parent_candidate": "bwttXIyQmno",
       "parent_candidate_url": "https://www.youtube.com/watch?v=bwttXIyQmno",
       "matched_youtube_title": "How We 5X Our Revenue While Others Chase AI Updates | Lindy, Flo Crivello",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.621,
-      "match_confidence": "Medium",
-      "match_reason": "shared phrase: flo crivello; title tokens: flo, crivello, lindy; distinctive tokens: crivello",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 177,
@@ -2713,18 +2713,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "Djeykrg3WkM",
       "parent_candidate": "Djeykrg3WkM",
       "parent_candidate_url": "https://www.youtube.com/watch?v=Djeykrg3WkM",
       "matched_youtube_title": "Built to Share: 2M Users in 18 Months | Julius AI, Rahul Sonwalkar",
       "matched_youtube_status": "Linked",
-      "match_score": 0.895,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: rahul sonwalkar; title tokens: julius, users, rahul, sonwalkar; distinctive tokens: sonwalkar",
-      "recommended_action": "Review and link to existing anchor",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 147,
@@ -2746,18 +2746,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "9c3oNP8yiKs",
       "parent_candidate": "9c3oNP8yiKs",
       "parent_candidate_url": "https://www.youtube.com/watch?v=9c3oNP8yiKs",
       "matched_youtube_title": "How I Built a $1.3B Startup by Pivoting Fast | Windsurf, Varun Mohan, Co-Founder & CEO",
       "matched_youtube_status": "Linked",
-      "match_score": 0.876,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: varun mohan co founder and ceo; title tokens: varun, mohan, ceo, windsurf; distinctive tokens: windsurf",
-      "recommended_action": "Review and link to existing anchor",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 242,
@@ -2779,18 +2779,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "ViAGOAc2LAo",
       "parent_candidate": "ViAGOAc2LAo",
       "parent_candidate_url": "https://www.youtube.com/watch?v=ViAGOAc2LAo",
       "matched_youtube_title": "How Bolt Hit $40M ARR in 5 Months with This AI Pivot Strategy | Stackblitz(Bolt.new), Eric Simons",
       "matched_youtube_status": "Linked",
-      "match_score": 0.847,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: stackblitz bolt new; title tokens: 40m, arr, bolt, eric, simons, stackblitz; distinctive tokens: stackblitz",
-      "recommended_action": "Review and link to existing anchor",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 224,
@@ -2812,18 +2812,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "KeD5i7K-q2Q",
       "parent_candidate": "KeD5i7K-q2Q",
       "parent_candidate_url": "https://www.youtube.com/watch?v=KeD5i7K-q2Q",
       "matched_youtube_title": "Everyone's Chasing AI But This Matters The Most | Ron Gutman, Intrivo",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.655,
-      "match_confidence": "Medium",
-      "match_reason": "shared phrase: ron gutman; title tokens: ron, gutman, intrivo; distinctive tokens: intrivo",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 298,
@@ -2845,18 +2845,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "llMFdIVBDBQ",
       "parent_candidate": "llMFdIVBDBQ",
       "parent_candidate_url": "https://www.youtube.com/watch?v=llMFdIVBDBQ",
       "matched_youtube_title": "How a Solo Dev Went From $0 to $57M Raised | Laravel, Taylor Otwell",
       "matched_youtube_status": "Linked",
-      "match_score": 0.675,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: taylor otwell; title tokens: taylor, otwell, laravel; distinctive tokens: laravel",
-      "recommended_action": "Review and link to existing anchor",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 218,
@@ -2878,18 +2878,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "Drse9NLKG2s",
       "parent_candidate": "Drse9NLKG2s",
       "parent_candidate_url": "https://www.youtube.com/watch?v=Drse9NLKG2s",
       "matched_youtube_title": "27-Year Investor Explains What You're Missing While Chasing AI | TELUS Global Ventures, Terry Doyle",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.754,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: telus global ventures; title tokens: terry, doyle, telus, ventures; distinctive tokens: ventures",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 204,
@@ -2911,18 +2911,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "Ns-rmhAqPN4",
       "parent_candidate": "Ns-rmhAqPN4",
       "parent_candidate_url": "https://www.youtube.com/watch?v=Ns-rmhAqPN4",
       "matched_youtube_title": "From Apple to Oculus-Now Taking On Consumer Hardware | Nirav Patel, Framework",
       "matched_youtube_status": "Linked",
-      "match_score": 0.769,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: nirav patel; title tokens: oculus, framework, nirav, patel; distinctive tokens: framework",
-      "recommended_action": "Review and link to existing anchor",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 197,
@@ -2944,18 +2944,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "KHSI0Qu4ovQ",
       "parent_candidate": "KHSI0Qu4ovQ",
       "parent_candidate_url": "https://www.youtube.com/watch?v=KHSI0Qu4ovQ",
       "matched_youtube_title": "Silicon Valley's Hottest Young Founder Right Now | Cluely, Roy Lee",
       "matched_youtube_status": "Linked",
-      "match_score": 0.48,
-      "match_confidence": "Low",
-      "match_reason": "title tokens: roy, lee, cluely",
-      "recommended_action": "Review and link to existing anchor",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 199,
@@ -2977,18 +2977,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "LBn0eAxQpb8",
       "parent_candidate": "LBn0eAxQpb8",
       "parent_candidate_url": "https://www.youtube.com/watch?v=LBn0eAxQpb8",
       "matched_youtube_title": "How Luma Built a $200M AI by Shipping Fast, Not Perfect | Luma AI, Amit Jain",
       "matched_youtube_status": "Linked",
-      "match_score": 0.666,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: amit jain; title tokens: amit, jain, luma",
-      "recommended_action": "Review and link to existing anchor",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 130,
@@ -3076,18 +3076,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "FIxLJVthW6I",
       "parent_candidate": "FIxLJVthW6I",
       "parent_candidate_url": "https://www.youtube.com/watch?v=FIxLJVthW6I",
       "matched_youtube_title": "Fix your AI-limited mindset in 12 mins | Caltech, Anima Anandkumar",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.76,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: anima anandkumar; title tokens: anima, anandkumar, caltech; distinctive tokens: anandkumar, caltech",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 336,
@@ -3109,18 +3109,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "yVcCywnPuC8",
       "parent_candidate": "yVcCywnPuC8",
       "parent_candidate_url": "https://www.youtube.com/watch?v=yVcCywnPuC8",
       "matched_youtube_title": "How I Built a $3.3B Blockchain Business Against All OddsㅣKonstantin Richter, Blockdaemon",
       "matched_youtube_status": "Linked",
-      "match_score": 0.891,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: konstantin richter; title tokens: konstantin, richter, blockdaemon; distinctive tokens: konstantin, richter, blockdaemon",
-      "recommended_action": "Review and link to existing anchor",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 310,
@@ -3142,18 +3142,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "uB-u2__tkHQ",
       "parent_candidate": "uB-u2__tkHQ",
       "parent_candidate_url": "https://www.youtube.com/watch?v=uB-u2__tkHQ",
       "matched_youtube_title": "The Journey from India to Building a $500M AI Video Product | Gaurav Misra, Captions",
       "matched_youtube_status": "Linked",
-      "match_score": 0.64,
-      "match_confidence": "Medium",
-      "match_reason": "shared phrase: gaurav misra; title tokens: captions, gaurav, misra; distinctive tokens: captions",
-      "recommended_action": "Review and link to existing anchor",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 281,
@@ -3208,18 +3208,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "GkGWBGJlQrs",
       "parent_candidate": "GkGWBGJlQrs",
       "parent_candidate_url": "https://www.youtube.com/watch?v=GkGWBGJlQrs",
       "matched_youtube_title": "I Built $200M Nuclear Energy Startup at 19 | JC.B, Fuse",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.44,
-      "match_confidence": "Low",
-      "match_reason": "title tokens: 200m, fuse",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 192,
@@ -3274,18 +3274,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "VGPUg24tsQ8",
       "parent_candidate": "VGPUg24tsQ8",
       "parent_candidate_url": "https://www.youtube.com/watch?v=VGPUg24tsQ8",
       "matched_youtube_title": "How We Went from Zero Buyers to One of the Fastest-Growing B2B StartupsㅣTranscend, Ben Brook",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.655,
-      "match_confidence": "Medium",
-      "match_reason": "shared phrase: ben brook; title tokens: transcend, ben, brook; distinctive tokens: transcend",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 305,
@@ -3307,18 +3307,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "pLSA-9xwIRE",
       "parent_candidate": "pLSA-9xwIRE",
       "parent_candidate_url": "https://www.youtube.com/watch?v=pLSA-9xwIRE",
       "matched_youtube_title": "From Google’s First PM to Backing 50 Unicorns — The 10X Principle | Felicis, Aydin Senkut",
       "matched_youtube_status": "Linked",
-      "match_score": 0.869,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: aydin senkut; title tokens: unicorns, senkut, aydin, felicis; distinctive tokens: unicorns, felicis",
-      "recommended_action": "Review and link to existing anchor",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 269,
@@ -3340,18 +3340,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "_jEnJYU3e7k",
       "parent_candidate": "_jEnJYU3e7k",
       "parent_candidate_url": "https://www.youtube.com/watch?v=_jEnJYU3e7k",
       "matched_youtube_title": "How I Built a $300M Startup with No Degree and No NetworkㅣSelfbook, Khalid Meniri",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.853,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: khalid meniri; title tokens: 300m, khalid, meniri, selfbook; distinctive tokens: selfbook",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 135,
@@ -3406,18 +3406,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "At9Ti-O-NqA",
       "parent_candidate": "At9Ti-O-NqA",
       "parent_candidate_url": "https://www.youtube.com/watch?v=At9Ti-O-NqA",
       "matched_youtube_title": "A College Dropout Builds $1B Startup at 22 | Injective, Eric Chen",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.953,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: eric chen; title tokens: dropout, eric, chen, injective; distinctive tokens: dropout, injective",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 228,
@@ -3439,18 +3439,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "PC6rHWC0qDw",
       "parent_candidate": "PC6rHWC0qDw",
       "parent_candidate_url": "https://www.youtube.com/watch?v=PC6rHWC0qDw",
       "matched_youtube_title": "Advice from a Founder Who Built a $390M Company at 57 | LucidLink, Peter Thompson",
       "matched_youtube_status": "Linked",
-      "match_score": 0.835,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: peter thompson; title tokens: thompson, lucidlink, peter; distinctive tokens: thompson, lucidlink",
-      "recommended_action": "Review and link to existing anchor",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 236,
@@ -3472,18 +3472,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "Tk-EI2yYT3A",
       "parent_candidate": "Tk-EI2yYT3A",
       "parent_candidate_url": "https://www.youtube.com/watch?v=Tk-EI2yYT3A",
       "matched_youtube_title": "30-Minute Masterclass on Product Thinking | Instagram Co-Founder & Anthropic CPO, Mike Krieger",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.903,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: instagram co founder and anthropic cpo; title tokens: krieger, mike, instagram, anthropic, cpo; distinctive tokens: krieger, instagram, anthropic",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 291,
@@ -3505,18 +3505,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "i1MQ91jLRzQ",
       "parent_candidate": "i1MQ91jLRzQ",
       "parent_candidate_url": "https://www.youtube.com/watch?v=i1MQ91jLRzQ",
       "matched_youtube_title": "What I Learned Building AI That Competes with TeslaㅣHelm.ai, Vlad Voroninski",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.869,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: vlad voroninski; title tokens: tesla, vlad, voroninski, helm; distinctive tokens: voroninski",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 262,
@@ -3571,18 +3571,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "qNXUaijIPCQ",
       "parent_candidate": "qNXUaijIPCQ",
       "parent_candidate_url": "https://www.youtube.com/watch?v=qNXUaijIPCQ",
       "matched_youtube_title": "How to Scale Up When You’re Stuck Between Early and Growth | Postscript, Alex Beller",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.621,
-      "match_confidence": "Medium",
-      "match_reason": "shared phrase: alex beller; title tokens: alex, beller, postscript; distinctive tokens: postscript",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 160,
@@ -3637,18 +3637,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "bfD4oFQXHTs",
       "parent_candidate": "bfD4oFQXHTs",
       "parent_candidate_url": "https://www.youtube.com/watch?v=bfD4oFQXHTs",
       "matched_youtube_title": "How I Built $15M Annual Revenue Vertical SaaS | Dan Uyemura, PushPress",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.721,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: dan uyemura; title tokens: pushpress, dan, uyemura; distinctive tokens: pushpress, uyemura",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 255,
@@ -3670,18 +3670,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "WWSn6NceO7s",
       "parent_candidate": "WWSn6NceO7s",
       "parent_candidate_url": "https://www.youtube.com/watch?v=WWSn6NceO7s",
       "matched_youtube_title": "Next Tesla in the B2B Market | Captain of SEOUL ROBOTICS, Hanbin Lee",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.95,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: captain of seoul robotics; title tokens: seoul, robotics, hanbin, lee, captain; distinctive tokens: robotics, captain",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 272,
@@ -3703,18 +3703,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "apewL43Q8Tg",
       "parent_candidate": "apewL43Q8Tg",
       "parent_candidate_url": "https://www.youtube.com/watch?v=apewL43Q8Tg",
       "matched_youtube_title": "9 Months Zero Code, $75M Raised | Merge, Shensi Ding",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.951,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: months zero code; title tokens: months, zero, code, merge, shensi, ding",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 289,
@@ -3736,18 +3736,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "gQEkCFzZfPA",
       "parent_candidate": "gQEkCFzZfPA",
       "parent_candidate_url": "https://www.youtube.com/watch?v=gQEkCFzZfPA",
       "matched_youtube_title": "How a 3-Person Founder Team Beat Big Tech ㅣMangomint, Daniel Lang",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.621,
-      "match_confidence": "Medium",
-      "match_reason": "shared phrase: daniel lang; title tokens: daniel, lang, mangomint; distinctive tokens: mangomint",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 202,
@@ -3769,18 +3769,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "cTv113vtUy4",
       "parent_candidate": "cTv113vtUy4",
       "parent_candidate_url": "https://www.youtube.com/watch?v=cTv113vtUy4",
       "matched_youtube_title": "Venture DifferentlyㅣAltos Ventures, Tae Yoon",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.869,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: altos ventures; title tokens: tae, yoon, altos, ventures; distinctive tokens: ventures",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 327,
@@ -3802,18 +3802,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "fDdeXx8lND8",
       "parent_candidate": "fDdeXx8lND8",
       "parent_candidate_url": "https://www.youtube.com/watch?v=fDdeXx8lND8",
       "matched_youtube_title": "Why I Left Palantir and Faced 50 RejectionsㅣMosaic, Bijan Moallemi",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.651,
-      "match_confidence": "Medium",
-      "match_reason": "shared phrase: bijan moallemi; title tokens: mosaic, bijan, moallemi; distinctive tokens: moallemi",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 222,
@@ -3934,18 +3934,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "Ewgx5oBvMG8",
       "parent_candidate": "Ewgx5oBvMG8",
       "parent_candidate_url": "https://www.youtube.com/watch?v=Ewgx5oBvMG8",
       "matched_youtube_title": "This Insane AI Video Search Technology Selected by NVIDIA and Snowflake | Twelve Labs, Jae Lee",
       "matched_youtube_status": "Linked",
-      "match_score": 0.77,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: twelve labs; title tokens: video, jae, lee, twelve, labs",
-      "recommended_action": "Review and link to existing anchor",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 285,
@@ -3967,18 +3967,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "e5Tf6g5sdD0",
       "parent_candidate": "e5Tf6g5sdD0",
       "parent_candidate_url": "https://www.youtube.com/watch?v=e5Tf6g5sdD0",
       "matched_youtube_title": "Lessons from Investing in 700+ Startups | Goodwater Capital, Eric Kim",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.907,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: goodwater capital; title tokens: eric, kim, goodwater, capital; distinctive tokens: goodwater, capital",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 142,
@@ -4000,18 +4000,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "6jRFZbOxwrs",
       "parent_candidate": "6jRFZbOxwrs",
       "parent_candidate_url": "https://www.youtube.com/watch?v=6jRFZbOxwrs",
       "matched_youtube_title": "To Run a $5.2B Company with $200M ARR, I Focused on This | 6Sense, Jason Zintak",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.665,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: jason zintak; title tokens: jason, zintak, 6sense",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 124,
@@ -4033,18 +4033,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "249tl3G2WIM",
       "parent_candidate": "249tl3G2WIM",
       "parent_candidate_url": "https://www.youtube.com/watch?v=249tl3G2WIM",
       "matched_youtube_title": "Building the Most Loved Analytics Tool ($1.05B, $100M ARR, 60+ NPS) | Mixpanel, Amir Movafaghi",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.8,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: amir movafaghi; title tokens: mixpanel, amir, movafaghi; distinctive tokens: mixpanel, movafaghi",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 330,
@@ -4066,18 +4066,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "wgaFopzQI6Y",
       "parent_candidate": "wgaFopzQI6Y",
       "parent_candidate_url": "https://www.youtube.com/watch?v=wgaFopzQI6Y",
       "matched_youtube_title": "How High Will Bitcoin Go? Here's the Better Question | Flare, Hugo Philion",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.621,
-      "match_confidence": "Medium",
-      "match_reason": "shared phrase: hugo philion; title tokens: hugo, philion, flare; distinctive tokens: philion",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 335,
@@ -4132,18 +4132,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "my7HXZSGecw",
       "parent_candidate": "my7HXZSGecw",
       "parent_candidate_url": "https://www.youtube.com/watch?v=my7HXZSGecw",
       "matched_youtube_title": "Big Tech is NOT the Only Answer to Win | Relay.app, Jacob Bank",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.744,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: jacob bank; title tokens: jacob, bank, relay, app",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 179,
@@ -4165,18 +4165,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "EWOZrIZDbqc",
       "parent_candidate": "EWOZrIZDbqc",
       "parent_candidate_url": "https://www.youtube.com/watch?v=EWOZrIZDbqc",
       "matched_youtube_title": "20 Years, CEO, Lessons Learned | Anza, Mike Hall",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.7,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: mike hall; title tokens: anza, mike, hall",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 254,
@@ -4198,18 +4198,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "WAPJ8F0Nv7Q",
       "parent_candidate": "WAPJ8F0Nv7Q",
       "parent_candidate_url": "https://www.youtube.com/watch?v=WAPJ8F0Nv7Q",
       "matched_youtube_title": "How I built $2B AI Translation Startup | DeepL, Jarek Kutylowski",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.87,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: jarek kutylowski; title tokens: deepl, jarek, kutylowski; distinctive tokens: kutylowski",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 203,
@@ -4231,18 +4231,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "NWZB3Q5cyJ8",
       "parent_candidate": "NWZB3Q5cyJ8",
       "parent_candidate_url": "https://www.youtube.com/watch?v=NWZB3Q5cyJ8",
       "matched_youtube_title": "How I built $3B Next-Gen Identity Startup for AGI Era | World, Alex Blania",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.52,
-      "match_confidence": "Medium",
-      "match_reason": "shared phrase: alex blania; title tokens: alex, blania",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 290,
@@ -4264,18 +4264,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "hAKFIl73I30",
       "parent_candidate": "hAKFIl73I30",
       "parent_candidate_url": "https://www.youtube.com/watch?v=hAKFIl73I30",
       "matched_youtube_title": "How We Captured Silicon Valley in just 4 months | Crush-it Conference, Rahul Vohra",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.754,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: silicon valley; title tokens: silicon, valley, rahul, vohra; distinctive tokens: silicon",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 294,
@@ -4330,18 +4330,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "dqUPMR26vGg",
       "parent_candidate": "dqUPMR26vGg",
       "parent_candidate_url": "https://www.youtube.com/watch?v=dqUPMR26vGg",
       "matched_youtube_title": "How I Built an $80M Annual Revenue Business in Just 5 Years | Sandbox VR, Steven Zhao",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.853,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: steven zhao; title tokens: 80m, steven, zhao, sandbox; distinctive tokens: sandbox",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 180,
@@ -4363,18 +4363,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "EqAknJoNayk",
       "parent_candidate": "EqAknJoNayk",
       "parent_candidate_url": "https://www.youtube.com/watch?v=EqAknJoNayk",
       "matched_youtube_title": "How to Build a Product with 10 Customers and a Boring Tech Stack | Gravity Climate",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.86,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: boring tech; title tokens: boring, tech, climate; distinctive tokens: climate",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 31,
@@ -4462,18 +4462,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "paDb5w0DywU",
       "parent_candidate": "paDb5w0DywU",
       "parent_candidate_url": "https://www.youtube.com/watch?v=paDb5w0DywU",
       "matched_youtube_title": "Still The Coolest Smartphone Startup in Tech Scene 2025 | Nothing, Carl Pei",
       "matched_youtube_status": "Linked",
-      "match_score": 0.43,
-      "match_confidence": "Low",
-      "match_reason": "title tokens: carl, pei, nothing; distinctive tokens: nothing",
-      "recommended_action": "Review and link to existing anchor",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 315,
@@ -4528,18 +4528,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "52oBJncG-D4",
       "parent_candidate": "52oBJncG-D4",
       "parent_candidate_url": "https://www.youtube.com/watch?v=52oBJncG-D4",
       "matched_youtube_title": "What Makes a Seed & Series A Startup Worth Investing In? | Andrew Beebe, Obvious Ventures",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.813,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: obvious ventures; title tokens: obvious, ventures, andrew, beebe; distinctive tokens: obvious, ventures",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 304,
@@ -4594,18 +4594,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "FbeB91Jx_O8",
       "parent_candidate": "FbeB91Jx_O8",
       "parent_candidate_url": "https://www.youtube.com/watch?v=FbeB91Jx_O8",
       "matched_youtube_title": "How to Win in the AI Hype Cycle | Guru, Rick Nucci",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.72,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: rick nucci; title tokens: rick, nucci, guru",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 296,
@@ -4627,18 +4627,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "kPXvf2-C_Hs",
       "parent_candidate": "kPXvf2-C_Hs",
       "parent_candidate_url": "https://www.youtube.com/watch?v=kPXvf2-C_Hs",
       "matched_youtube_title": "How This AI Startup Grew by 100x in Just 6 Months | Fireworks AI, Lin Qiao",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.621,
-      "match_confidence": "Medium",
-      "match_reason": "title tokens: fireworks, 100x, lin, qiao; distinctive tokens: fireworks",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 308,
@@ -4660,18 +4660,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "rSe0wMBzFUw",
       "parent_candidate": "rSe0wMBzFUw",
       "parent_candidate_url": "https://www.youtube.com/watch?v=rSe0wMBzFUw",
       "matched_youtube_title": "How I learned to invest from making 400+ investments | Paul Bragiel, 101 Fellowship",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.93,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: 101 fellowship; title tokens: investments, 101, fellowship, paul, bragiel; distinctive tokens: investments, fellowship, bragiel",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 182,
@@ -4726,18 +4726,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "xR9pPlLSwJI",
       "parent_candidate": "xR9pPlLSwJI",
       "parent_candidate_url": "https://www.youtube.com/watch?v=xR9pPlLSwJI",
       "matched_youtube_title": "The Fastest Way to Know if Your Product Market Fit Is Real | Serval CEO, Jake Stauch",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.691,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: product market fit; title tokens: product, market, fit; distinctive tokens: product",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 301,
@@ -4759,18 +4759,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "n3sK790QHJg",
       "parent_candidate": "n3sK790QHJg",
       "parent_candidate_url": "https://www.youtube.com/watch?v=n3sK790QHJg",
       "matched_youtube_title": "Lessons Learned as Second Time Founders | Paragon Co-founders, Brandon Foo, Ishmael Samuel",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.897,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: brandon foo ishmael samuel; title tokens: brandon, foo, ishmael, samuel, paragon; distinctive tokens: brandon, ishmael, paragon",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 325,
@@ -4825,18 +4825,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "kO8-dxzkq_o",
       "parent_candidate": "kO8-dxzkq_o",
       "parent_candidate_url": "https://www.youtube.com/watch?v=kO8-dxzkq_o",
       "matched_youtube_title": "How to find a Killer Idea worth $40B | Co-founder of Snowflake, Benoit Dageville",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.86,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: benoit dageville; title tokens: 40b, benoit, dageville, snowflake; distinctive tokens: dageville, snowflake",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 181,
@@ -4891,18 +4891,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "4uqLAmjvBEY",
       "parent_candidate": "4uqLAmjvBEY",
       "parent_candidate_url": "https://www.youtube.com/watch?v=4uqLAmjvBEY",
       "matched_youtube_title": "3 Lessons on Building $1B Business | John Kim, Sendbird",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.63,
-      "match_confidence": "Medium",
-      "match_reason": "title tokens: sendbird, john, kim; distinctive tokens: sendbird",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 316,
@@ -4957,18 +4957,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "TRqA9XzGLok",
       "parent_candidate": "TRqA9XzGLok",
       "parent_candidate_url": "https://www.youtube.com/watch?v=TRqA9XzGLok",
       "matched_youtube_title": "They Invested Their Own $1.5M For 6 Years in a Robot | Matic",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.413,
-      "match_confidence": "Low",
-      "match_reason": "title tokens: robot, matic",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 168,
@@ -5023,18 +5023,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "ZfNox6j8oxM",
       "parent_candidate": "ZfNox6j8oxM",
       "parent_candidate_url": "https://www.youtube.com/watch?v=ZfNox6j8oxM",
       "matched_youtube_title": "What I learned from building $3.5B business | Verkada, Filip Kaliszan",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.96,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: filip kaliszan; title tokens: filip, kaliszan, verkada; distinctive tokens: kaliszan, verkada",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 328,
@@ -5056,18 +5056,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "spGQpp7twgs",
       "parent_candidate": "spGQpp7twgs",
       "parent_candidate_url": "https://www.youtube.com/watch?v=spGQpp7twgs",
       "matched_youtube_title": "Knowledge of A Lifelong Software Engineer | Benjamin Mann, Delivery Hero",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.844,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: delivery hero; title tokens: delivery, hero, benjamin, mann; distinctive tokens: delivery, benjamin",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 313,
@@ -5089,18 +5089,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "x2toVUTPEX4",
       "parent_candidate": "x2toVUTPEX4",
       "parent_candidate_url": "https://www.youtube.com/watch?v=x2toVUTPEX4",
       "matched_youtube_title": "Building High-value AI Startups in 3 Days | John Whaley, Inception Studio",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.807,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: inception studio; title tokens: inception, studio, john, whaley; distinctive tokens: inception",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 231,
@@ -5122,18 +5122,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "QSZoccA62Xk",
       "parent_candidate": "QSZoccA62Xk",
       "parent_candidate_url": "https://www.youtube.com/watch?v=QSZoccA62Xk",
       "matched_youtube_title": "Age 27, Built a $230M AI Lawyer Business | Joshua Browder, DoNotPay",
       "matched_youtube_status": "Linked",
-      "match_score": 0.82,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: joshua browder; title tokens: donotpay, joshua, browder; distinctive tokens: donotpay, browder",
-      "recommended_action": "Review and link to existing anchor",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 205,
@@ -5188,18 +5188,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "JiSjMKptCKY",
       "parent_candidate": "JiSjMKptCKY",
       "parent_candidate_url": "https://www.youtube.com/watch?v=JiSjMKptCKY",
       "matched_youtube_title": "10K Users from Product Launch Day 1 | TomoCredit Kristy Kim",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.869,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: kristy kim; title tokens: kristy, kim, users, tomocredit; distinctive tokens: tomocredit",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 238,
@@ -5320,18 +5320,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "TlUZrm2jlCw",
       "parent_candidate": "TlUZrm2jlCw",
       "parent_candidate_url": "https://www.youtube.com/watch?v=TlUZrm2jlCw",
       "matched_youtube_title": "How our AI Startup Grew 60x After a Pivot | Raza Habib, Jordan Burgess of Humanloop",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.891,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: jordan burgess of humanloop; title tokens: humanloop, jordan, burgess, raza, habib; distinctive tokens: humanloop, burgess",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 275,
@@ -5386,18 +5386,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "vDu2cWor3S4",
       "parent_candidate": "vDu2cWor3S4",
       "parent_candidate_url": "https://www.youtube.com/watch?v=vDu2cWor3S4",
       "matched_youtube_title": "Secrets of an AI Chatbot Loved by 200+ Enterprises | Kata.ai Irzan Raditya",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.625,
-      "match_confidence": "Medium",
-      "match_reason": "shared phrase: irzan raditya; title tokens: kata, irzan, raditya; distinctive tokens: raditya",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 319,
@@ -5452,18 +5452,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "99qc199Y9vQ",
       "parent_candidate": "99qc199Y9vQ",
       "parent_candidate_url": "https://www.youtube.com/watch?v=99qc199Y9vQ",
       "matched_youtube_title": "How to Build a Profitable Product from Day 1 | Smith.ai Aaron Lee",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.55,
-      "match_confidence": "Medium",
-      "match_reason": "shared phrase: aaron lee; title tokens: aaron, lee",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 194,
@@ -5518,18 +5518,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "xxeUVwjUm5M",
       "parent_candidate": "xxeUVwjUm5M",
       "parent_candidate_url": "https://www.youtube.com/watch?v=xxeUVwjUm5M",
       "matched_youtube_title": "From a Graduate Who Left Google to Stripe's 28th Employee | Linear Cristina Cordova",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.794,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: stripe s 28th employee; title tokens: google, stripe, 28th, employee; distinctive tokens: employee",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 217,
@@ -5551,18 +5551,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "CjTTSa33axg",
       "parent_candidate": "CjTTSa33axg",
       "parent_candidate_url": "https://www.youtube.com/watch?v=CjTTSa33axg",
       "matched_youtube_title": "5 Key Advice on Starting an AI Business | Syncly Joseph Lee",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.55,
-      "match_confidence": "Medium",
-      "match_reason": "shared phrase: joseph lee; title tokens: joseph, lee",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 267,
@@ -5584,18 +5584,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "_1oX3Sas8u8",
       "parent_candidate": "_1oX3Sas8u8",
       "parent_candidate_url": "https://www.youtube.com/watch?v=_1oX3Sas8u8",
       "matched_youtube_title": "How I Built Silicon Valley's Most Beloved Coffee Brand | Philz Coffee, Jacob Jaber",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.807,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: jacob jaber; title tokens: philz, jacob, jaber, coffee",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 302,
@@ -5650,18 +5650,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "FZieYYj0ImE",
       "parent_candidate": "FZieYYj0ImE",
       "parent_candidate_url": "https://www.youtube.com/watch?v=FZieYYj0ImE",
       "matched_youtube_title": "$8B in Just 2 Years, The World's Fastest-Growing Startup | Perplexity AI, Aravind Srinivas",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.876,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: aravind srinivas; title tokens: perplexity, aravind, srinivas; distinctive tokens: perplexity, aravind, srinivas",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 232,
@@ -5683,18 +5683,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "RqIqlmb8BYM",
       "parent_candidate": "RqIqlmb8BYM",
       "parent_candidate_url": "https://www.youtube.com/watch?v=RqIqlmb8BYM",
       "matched_youtube_title": "Success Starts at the End of Your Comfort ZoneㅣChartmetric, Sung M. Cho",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.385,
-      "match_confidence": "Low",
-      "match_reason": "title tokens: sung, cho, chartmetric; distinctive tokens: chartmetric",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 129,
@@ -5716,18 +5716,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "wJ-Ahf0K_z0",
       "parent_candidate": "wJ-Ahf0K_z0",
       "parent_candidate_url": "https://www.youtube.com/watch?v=wJ-Ahf0K_z0",
       "matched_youtube_title": "Room Temperature Superconductors Will Change Everything",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.899,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: room temperature superconductors will; title tokens: room, temperature, superconductors; distinctive tokens: temperature, superconductors",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 126,
@@ -5782,18 +5782,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "K0s86-6kqvs",
       "parent_candidate": "K0s86-6kqvs",
       "parent_candidate_url": "https://www.youtube.com/watch?v=K0s86-6kqvs",
       "matched_youtube_title": "$100M Food Truck Brand After Betrayal by Cofounder | CUPBOP (3/3)",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.597,
-      "match_confidence": "Medium",
-      "match_reason": "shared phrase: 100m food truck; title tokens: food, truck",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 257,
@@ -5815,18 +5815,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "WeNnc3_xn2A",
       "parent_candidate": "WeNnc3_xn2A",
       "parent_candidate_url": "https://www.youtube.com/watch?v=WeNnc3_xn2A",
       "matched_youtube_title": "Behind Figma's IPO: The Principles of Building Products People Love | Yuhki Yamashita, Figma CPO",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.85,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: figma cpo; title tokens: figma, cpo, love, yuhki, yamashita; distinctive tokens: yamashita",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 260,
@@ -5848,18 +5848,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "YN7DT39f_Ak",
       "parent_candidate": "YN7DT39f_Ak",
       "parent_candidate_url": "https://www.youtube.com/watch?v=YN7DT39f_Ak",
       "matched_youtube_title": "College Dropout Builds $30M Startup While Fighting Cancer | Jenni AI David Park",
       "matched_youtube_status": "Linked",
-      "match_score": 0.812,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: david park; title tokens: cancer, 30m, david, park, jenni",
-      "recommended_action": "Review and link to existing anchor",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 188,
@@ -5980,18 +5980,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "B8FIp_VL1t8",
       "parent_candidate": "B8FIp_VL1t8",
       "parent_candidate_url": "https://www.youtube.com/watch?v=B8FIp_VL1t8",
       "matched_youtube_title": "Stop Overthinking and Just Start Now | Vesto, Benjamin Döpfner",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.805,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: benjamin dopfner; title tokens: benjamin, dopfner, vesto; distinctive tokens: benjamin, dopfner",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 258,
@@ -6079,18 +6079,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "3RYUA-ccgbw",
       "parent_candidate": "3RYUA-ccgbw",
       "parent_candidate_url": "https://www.youtube.com/watch?v=3RYUA-ccgbw",
       "matched_youtube_title": "$400M-Worth Issue Tracker with No Marketing | Linear Karri Saarinen",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.513,
-      "match_confidence": "Medium",
-      "match_reason": "title tokens: linear, marketing; distinctive tokens: marketing",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 282,
@@ -6277,18 +6277,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "KKH5ncDaHyw",
       "parent_candidate": "KKH5ncDaHyw",
       "parent_candidate_url": "https://www.youtube.com/watch?v=KKH5ncDaHyw",
       "matched_youtube_title": "You MUST Watch This Before Tackling Problems | Pinhome Dara & Ahmed #eo #Indonesia #property",
       "matched_youtube_status": "Linked",
-      "match_score": 0.53,
-      "match_confidence": "Medium",
-      "match_reason": "title tokens: problems, dara, pinhome; distinctive tokens: problems, pinhome",
-      "recommended_action": "Review and link to existing anchor",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 288,
@@ -6475,18 +6475,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "4uqLAmjvBEY",
       "parent_candidate": "4uqLAmjvBEY",
       "parent_candidate_url": "https://www.youtube.com/watch?v=4uqLAmjvBEY",
       "matched_youtube_title": "3 Lessons on Building $1B Business | John Kim, Sendbird",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.605,
-      "match_confidence": "Medium",
-      "match_reason": "title tokens: sendbird, john, kim; distinctive tokens: sendbird",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 123,
@@ -6508,18 +6508,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "xR9pPlLSwJI",
       "parent_candidate": "xR9pPlLSwJI",
       "parent_candidate_url": "https://www.youtube.com/watch?v=xR9pPlLSwJI",
       "matched_youtube_title": "The Fastest Way to Know if Your Product Market Fit Is Real | Serval CEO, Jake Stauch",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.691,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: product market fit; title tokens: product, market, fit; distinctive tokens: product",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 137,
@@ -6541,18 +6541,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "magazine_native_candidate",
-      "original_content_id": null,
-      "parent_candidate": null,
-      "parent_candidate_url": "",
-      "matched_youtube_title": "",
-      "matched_youtube_status": "",
-      "match_score": null,
-      "match_confidence": "",
-      "match_reason": "",
-      "recommended_action": "Review as magazine-native original",
-      "link_status": "Unassigned",
-      "review_status": "Not reviewed"
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "JiSjMKptCKY",
+      "parent_candidate": "JiSjMKptCKY",
+      "parent_candidate_url": "https://www.youtube.com/watch?v=JiSjMKptCKY",
+      "matched_youtube_title": "10K Users from Product Launch Day 1 | TomoCredit Kristy Kim",
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 230,
@@ -6904,18 +6904,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "aGY3QSuOz-E",
       "parent_candidate": "aGY3QSuOz-E",
       "parent_candidate_url": "https://www.youtube.com/watch?v=aGY3QSuOz-E",
       "matched_youtube_title": "How I Hit 10M Users in Just 1 Year l Creati, Ella Zhang",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.42,
-      "match_confidence": "Low",
-      "match_reason": "title tokens: hit, users",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 264,
@@ -6937,18 +6937,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "ZA9K0JMrbWg",
       "parent_candidate": "ZA9K0JMrbWg",
       "parent_candidate_url": "https://www.youtube.com/watch?v=ZA9K0JMrbWg",
       "matched_youtube_title": "Survival Strategies in the Era of AI Taught by Stanford | Stanford AIRE Director",
       "matched_youtube_status": "Linked",
-      "match_score": 0.425,
-      "match_confidence": "Low",
-      "match_reason": "title tokens: stanford, director; distinctive tokens: stanford, director",
-      "recommended_action": "Review and link to existing anchor",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 206,
@@ -7036,18 +7036,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "PgdsItdmtMk",
       "parent_candidate": "PgdsItdmtMk",
       "parent_candidate_url": "https://www.youtube.com/watch?v=PgdsItdmtMk",
       "matched_youtube_title": "Advice for the future entrepreneurs l Saeju Jeong (2/2)",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.762,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: saeju jeong; title tokens: saeju, jeong",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 244,
@@ -7135,18 +7135,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "lV61TDHiALo",
       "parent_candidate": "lV61TDHiALo",
       "parent_candidate_url": "https://www.youtube.com/watch?v=lV61TDHiALo",
       "matched_youtube_title": "Follow this 2-week plan to build a great businessㅣPhil Libin (2/2)",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.665,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: phil libin; title tokens: phil, libin, week",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 297,

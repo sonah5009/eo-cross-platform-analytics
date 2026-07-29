@@ -6,6 +6,7 @@
   "scripts": {
     "build": "node scripts/build.mjs",
     "data:magazine": "node scripts/build-magazine-candidates.mjs",
-    "data:reviews": "node scripts/apply-review-decisions.mjs"
+    "data:reviews": "node scripts/apply-review-decisions.mjs",
+    "data:approve-all": "node scripts/approve-all-magazine-candidates.mjs"
   }
 }

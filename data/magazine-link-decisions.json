@@ -3,25 +3,726 @@
   "reviewedAt": "2026-07-29",
   "reviewedBy": "User",
   "decisions": [
-    { "magazineId": 391, "youtubeId": "_Q2ZEBhVyTw", "decision": "Approved" },
-    { "magazineId": 388, "youtubeId": "PGp-RAC8oTA", "decision": "Approved" },
-    { "magazineId": 393, "youtubeId": "bVSzAkuuymw", "decision": "Approved" },
-    { "magazineId": 379, "youtubeId": "CCX1Zc3q5cY", "decision": "Approved" },
-    { "magazineId": 345, "youtubeId": "yPux3-jDW9g", "decision": "Approved" },
-    { "magazineId": 67, "youtubeId": "LgewaIpQVko", "decision": "Approved" },
-    { "magazineId": 46, "youtubeId": "h6aqpjrUd5c", "decision": "Approved" },
-    { "magazineId": 68, "youtubeId": "KBY0z6jSQsA", "decision": "Approved" },
-    { "magazineId": 149, "youtubeId": "Fr_5Gk_w_o8", "decision": "Approved" },
-    { "magazineId": 262, "youtubeId": "YTj2SkZ13hw", "decision": "Approved" },
-    { "magazineId": 160, "youtubeId": "0SStbzK1VRU", "decision": "Approved" },
-    { "magazineId": 222, "youtubeId": "I5YOjn1V1fU", "decision": "Approved" },
-    { "magazineId": 335, "youtubeId": "yhjsw2q790Q", "decision": "Approved" },
-    { "magazineId": 316, "youtubeId": "xgeu8JOxbnA", "decision": "Approved" },
-    { "magazineId": 303, "youtubeId": "oiWwyt3HVT0", "decision": "Approved" },
-    { "magazineId": 240, "youtubeId": "UwoflMkwL40", "decision": "Approved" },
-    { "magazineId": 168, "youtubeId": "4C8s6CmcJcQ", "decision": "Approved" },
-    { "magazineId": 211, "youtubeId": "I08ZeY7QcrE", "decision": "Approved" },
-    { "magazineId": 279, "youtubeId": "d9SKd-zqYAc", "decision": "Approved" },
-    { "magazineId": 315, "youtubeId": "x6pJhK0LegI", "decision": "Approved" }
-  ]
+    {
+      "magazineId": 27,
+      "youtubeId": "_1oX3Sas8u8",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 44,
+      "youtubeId": "b_UMhn8E8lI",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 46,
+      "youtubeId": "h6aqpjrUd5c",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 50,
+      "youtubeId": "pztijFSlfZs",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 59,
+      "youtubeId": "J_pWyYxu6qE",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 60,
+      "youtubeId": "hbGQaAXZ5UU",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 61,
+      "youtubeId": "fqGTIyrtnBU",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 67,
+      "youtubeId": "LgewaIpQVko",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 68,
+      "youtubeId": "KBY0z6jSQsA",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 73,
+      "youtubeId": "_-ybKTL2ehg",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 77,
+      "youtubeId": "IfNPcmoFYn0",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 79,
+      "youtubeId": "FX0De_ccROU",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 80,
+      "youtubeId": "jMc6CjJvJoI",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 81,
+      "youtubeId": "wEsjK3Smovw",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 82,
+      "youtubeId": "XAdCstLe2Fw",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 123,
+      "youtubeId": "xR9pPlLSwJI",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 124,
+      "youtubeId": "249tl3G2WIM",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 127,
+      "youtubeId": "3RYUA-ccgbw",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 128,
+      "youtubeId": "3TyfA0FmsQI",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 129,
+      "youtubeId": "wJ-Ahf0K_z0",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 132,
+      "youtubeId": "4n28-DoNxWs",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 133,
+      "youtubeId": "4uqLAmjvBEY",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 134,
+      "youtubeId": "52oBJncG-D4",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 136,
+      "youtubeId": "xR9pPlLSwJI",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 137,
+      "youtubeId": "JiSjMKptCKY",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 138,
+      "youtubeId": "5qfwNBs3IVE",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 140,
+      "youtubeId": "lV61TDHiALo",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 142,
+      "youtubeId": "6jRFZbOxwrs",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 144,
+      "youtubeId": "8Nd_39d5q9A",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 146,
+      "youtubeId": "99qc199Y9vQ",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 147,
+      "youtubeId": "9c3oNP8yiKs",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 149,
+      "youtubeId": "Fr_5Gk_w_o8",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 160,
+      "youtubeId": "0SStbzK1VRU",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 168,
+      "youtubeId": "4C8s6CmcJcQ",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 170,
+      "youtubeId": "aGY3QSuOz-E",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 171,
+      "youtubeId": "At9Ti-O-NqA",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 172,
+      "youtubeId": "B8FIp_VL1t8",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 175,
+      "youtubeId": "C0AlI0oc9q4",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 176,
+      "youtubeId": "CvpMjBDHFGM",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 177,
+      "youtubeId": "Djeykrg3WkM",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 178,
+      "youtubeId": "Do_LjDsisIE",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 179,
+      "youtubeId": "EWOZrIZDbqc",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 180,
+      "youtubeId": "EqAknJoNayk",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 183,
+      "youtubeId": "FZieYYj0ImE",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 184,
+      "youtubeId": "FbeB91Jx_O8",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 187,
+      "youtubeId": "GkGWBGJlQrs",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 193,
+      "youtubeId": "JiSjMKptCKY",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 196,
+      "youtubeId": "KKH5ncDaHyw",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 197,
+      "youtubeId": "KHSI0Qu4ovQ",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 198,
+      "youtubeId": "K0s86-6kqvs",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 199,
+      "youtubeId": "LBn0eAxQpb8",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 202,
+      "youtubeId": "cTv113vtUy4",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 203,
+      "youtubeId": "NWZB3Q5cyJ8",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 204,
+      "youtubeId": "Ns-rmhAqPN4",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 211,
+      "youtubeId": "I08ZeY7QcrE",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 217,
+      "youtubeId": "CjTTSa33axg",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 218,
+      "youtubeId": "Drse9NLKG2s",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 219,
+      "youtubeId": "Ewgx5oBvMG8",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 220,
+      "youtubeId": "FIxLJVthW6I",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 222,
+      "youtubeId": "I5YOjn1V1fU",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 223,
+      "youtubeId": "J_pWyYxu6qE",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 224,
+      "youtubeId": "KeD5i7K-q2Q",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 226,
+      "youtubeId": "P5QXWrHnTzw",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 228,
+      "youtubeId": "PC6rHWC0qDw",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 231,
+      "youtubeId": "QSZoccA62Xk",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 232,
+      "youtubeId": "RqIqlmb8BYM",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 235,
+      "youtubeId": "TRqA9XzGLok",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 236,
+      "youtubeId": "Tk-EI2yYT3A",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 237,
+      "youtubeId": "TlUZrm2jlCw",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 240,
+      "youtubeId": "UwoflMkwL40",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 241,
+      "youtubeId": "VGPUg24tsQ8",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 242,
+      "youtubeId": "ViAGOAc2LAo",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 243,
+      "youtubeId": "cweJsYgLRRc",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 253,
+      "youtubeId": "PcbPBj_xXes",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 254,
+      "youtubeId": "WAPJ8F0Nv7Q",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 255,
+      "youtubeId": "WWSn6NceO7s",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 256,
+      "youtubeId": "WXLVCZIUxpY",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 257,
+      "youtubeId": "WeNnc3_xn2A",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 259,
+      "youtubeId": "X_ClPE5Y2q4",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 260,
+      "youtubeId": "YN7DT39f_Ak",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 262,
+      "youtubeId": "YTj2SkZ13hw",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 264,
+      "youtubeId": "ZA9K0JMrbWg",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 265,
+      "youtubeId": "PgdsItdmtMk",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 266,
+      "youtubeId": "ZfNox6j8oxM",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 267,
+      "youtubeId": "_1oX3Sas8u8",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 269,
+      "youtubeId": "_jEnJYU3e7k",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 270,
+      "youtubeId": "4uqLAmjvBEY",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 271,
+      "youtubeId": "al8nDmjVzxo",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 272,
+      "youtubeId": "apewL43Q8Tg",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 277,
+      "youtubeId": "bfD4oFQXHTs",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 278,
+      "youtubeId": "bwttXIyQmno",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 279,
+      "youtubeId": "d9SKd-zqYAc",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 283,
+      "youtubeId": "dqUPMR26vGg",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 285,
+      "youtubeId": "e5Tf6g5sdD0",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 289,
+      "youtubeId": "gQEkCFzZfPA",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 290,
+      "youtubeId": "hAKFIl73I30",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 291,
+      "youtubeId": "i1MQ91jLRzQ",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 295,
+      "youtubeId": "kO8-dxzkq_o",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 296,
+      "youtubeId": "kPXvf2-C_Hs",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 298,
+      "youtubeId": "llMFdIVBDBQ",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 300,
+      "youtubeId": "my7HXZSGecw",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 301,
+      "youtubeId": "n3sK790QHJg",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 303,
+      "youtubeId": "oiWwyt3HVT0",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 305,
+      "youtubeId": "pLSA-9xwIRE",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 306,
+      "youtubeId": "paDb5w0DywU",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 307,
+      "youtubeId": "qNXUaijIPCQ",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 308,
+      "youtubeId": "rSe0wMBzFUw",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 309,
+      "youtubeId": "rQ3luEIcKes",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 310,
+      "youtubeId": "uB-u2__tkHQ",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 311,
+      "youtubeId": "vrY8x-iGsFs",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 313,
+      "youtubeId": "x2toVUTPEX4",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 315,
+      "youtubeId": "x6pJhK0LegI",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 316,
+      "youtubeId": "xgeu8JOxbnA",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 326,
+      "youtubeId": "Xqsudhg-8qk",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 327,
+      "youtubeId": "fDdeXx8lND8",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 328,
+      "youtubeId": "spGQpp7twgs",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 329,
+      "youtubeId": "vDu2cWor3S4",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 330,
+      "youtubeId": "wgaFopzQI6Y",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 331,
+      "youtubeId": "xo3eKArnIo4",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 332,
+      "youtubeId": "xutwpmlTYmE",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 333,
+      "youtubeId": "xxeUVwjUm5M",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 335,
+      "youtubeId": "yhjsw2q790Q",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 336,
+      "youtubeId": "yVcCywnPuC8",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 337,
+      "youtubeId": "zMuGbkFtE9E",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 339,
+      "youtubeId": "kvZKl7eLSX8",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 341,
+      "youtubeId": "7yMetPnsFT0",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 344,
+      "youtubeId": "OHJJKrJCSRU",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 345,
+      "youtubeId": "yPux3-jDW9g",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 366,
+      "youtubeId": "FX0De_ccROU",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 368,
+      "youtubeId": "oCojK75W-N8",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 369,
+      "youtubeId": "OlbVneKLyD0",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 371,
+      "youtubeId": "wRDk9_JoIic",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 372,
+      "youtubeId": "MG0CPqjjOvk",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 374,
+      "youtubeId": "cpTqYOiJcfQ",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 379,
+      "youtubeId": "CCX1Zc3q5cY",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 388,
+      "youtubeId": "PGp-RAC8oTA",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 391,
+      "youtubeId": "_Q2ZEBhVyTw",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 392,
+      "youtubeId": "90UkODFm5P8",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 393,
+      "youtubeId": "bVSzAkuuymw",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 394,
+      "youtubeId": "jMc6CjJvJoI",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 395,
+      "youtubeId": "dTIL_8odehk",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 398,
+      "youtubeId": "MG0CPqjjOvk",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 399,
+      "youtubeId": "jMc6CjJvJoI",
+      "decision": "Approved"
+    },
+    {
+      "magazineId": 400,
+      "youtubeId": "XPK5qHhBEhE",
+      "decision": "Approved"
+    }
+  ],
+  "policy": "All remaining suggested relationships approved by user"
 }
