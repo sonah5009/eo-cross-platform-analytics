@@ -40,3 +40,7 @@ data.
 Serve the project directory with any static file server and open `index.html`.
 The page loads the JSON master with `fetch`, so it should not be opened directly
 through a `file://` URL.
+
+## Build
+
+Run `npm run build` to generate the Cloudflare Worker bundle used by Sites.
