@@ -560,24 +560,34 @@ const initializeDetail = async () => {
     ownerCopy.textContent = `EO Magazine · ${content.magazine_category_raw}`;
     publishedPosts.innerHTML = `
       <li class="eo-published">
-        <span class="eo-badge" style="background: var(--eo-magazine)">M</span>
-        <div class="eo-published-main">
-          <a class="eo-published-name eo-published-link" href="${escapeHtml(content.article_url)}" target="_blank" rel="noreferrer">${escapeHtml(content.title)}</a>
-          <div class="eo-published-date">${formatDate(content.published_at)} · ${content.reading_time_minutes || "—"} min read</div>
-        </div>
-        <span class="eo-source-badge">Owned</span>
+        <a class="eo-published-link" href="${escapeHtml(content.article_url)}" target="_blank" rel="noreferrer" aria-label="${escapeHtml(content.title)} (opens external page)">
+          <span class="eo-badge" style="background: var(--eo-magazine)">M</span>
+          <span class="eo-published-main">
+            <span class="eo-published-name">${escapeHtml(content.title)}</span>
+            <span class="eo-published-date">${formatDate(content.published_at)} · ${content.reading_time_minutes || "—"} min read</span>
+          </span>
+          <span class="eo-published-actions">
+            <span class="eo-source-badge">Owned</span>
+            <span class="eo-external-mark" aria-hidden="true">↗</span>
+          </span>
+        </a>
       </li>
       ${
         matchedYoutubeAsset
           ? `<li class="eo-published eo-candidate-row">
-              <span class="eo-badge" style="background: var(--eo-youtube)">YT</span>
-              <div class="eo-published-main">
-                <a class="eo-published-name eo-published-link" href="${escapeHtml(matchedYoutubeAsset.url)}" target="_blank" rel="noreferrer">${escapeHtml(matchedYoutubeAsset.title)}</a>
-                <div class="eo-published-date">${content.review_status === "Approved" ? "Approved same original" : `${escapeHtml(content.match_confidence)} candidate · score ${content.match_score}`}</div>
-              </div>
-              <span class="eo-source-badge ${content.review_status === "Approved" ? "" : "eo-review-badge"}">${escapeHtml(content.review_status)}</span>
+              <a class="eo-published-link" href="${escapeHtml(matchedYoutubeAsset.url)}" target="_blank" rel="noreferrer" aria-label="${escapeHtml(matchedYoutubeAsset.title)} (opens external page)">
+                <span class="eo-badge" style="background: var(--eo-youtube)">YT</span>
+                <span class="eo-published-main">
+                  <span class="eo-published-name">${escapeHtml(matchedYoutubeAsset.title)}</span>
+                  <span class="eo-published-date">${content.review_status === "Approved" ? "Approved same original" : `${escapeHtml(content.match_confidence)} candidate · score ${content.match_score}`}</span>
+                </span>
+                <span class="eo-published-actions">
+                  <span class="eo-source-badge ${content.review_status === "Approved" ? "" : "eo-review-badge"}">${escapeHtml(content.review_status)}</span>
+                  <span class="eo-external-mark" aria-hidden="true">↗</span>
+                </span>
+              </a>
             </li>`
-          : `<li class="eo-published eo-candidate-row">
+          : `<li class="eo-published eo-published-static eo-candidate-row">
               <span class="eo-badge" style="background: var(--eo-panel-2); color: var(--eo-ink-2)">—</span>
               <div class="eo-published-main">
                 <span class="eo-published-name">No YouTube relationship proposed</span>
@@ -615,12 +625,17 @@ const initializeDetail = async () => {
       .map(
         (asset) => `
         <li class="eo-published">
-          <span class="eo-badge" style="background: var(--eo-youtube)">${asset.isAnchor ? "YT" : "S"}</span>
-          <div class="eo-published-main">
-            <a class="eo-published-name eo-published-link" href="${escapeHtml(asset.url)}" target="_blank" rel="noreferrer">${escapeHtml(asset.title)}</a>
-            <div class="eo-published-date">${asset.isAnchor ? "Original long-form" : "YouTube Short"}</div>
-          </div>
-          <span class="eo-source-badge">Owned</span>
+          <a class="eo-published-link" href="${escapeHtml(asset.url)}" target="_blank" rel="noreferrer" aria-label="${escapeHtml(asset.title)} (opens external page)">
+            <span class="eo-badge" style="background: var(--eo-youtube)">${asset.isAnchor ? "YT" : "S"}</span>
+            <span class="eo-published-main">
+              <span class="eo-published-name">${escapeHtml(asset.title)}</span>
+              <span class="eo-published-date">${asset.isAnchor ? "Original long-form" : "YouTube Short"}</span>
+            </span>
+            <span class="eo-published-actions">
+              <span class="eo-source-badge">Owned</span>
+              <span class="eo-external-mark" aria-hidden="true">↗</span>
+            </span>
+          </a>
         </li>
       `,
       )
@@ -628,12 +643,17 @@ const initializeDetail = async () => {
         .map(
           (article) => `
             <li class="eo-published">
-              <span class="eo-badge" style="background: var(--eo-magazine)">M</span>
-              <div class="eo-published-main">
-                <a class="eo-published-name eo-published-link" href="${escapeHtml(article.article_url)}" target="_blank" rel="noreferrer">${escapeHtml(article.title)}</a>
-                <div class="eo-published-date">${formatDate(article.published_at)} · Approved same original</div>
-              </div>
-              <span class="eo-source-badge">Owned</span>
+              <a class="eo-published-link" href="${escapeHtml(article.article_url)}" target="_blank" rel="noreferrer" aria-label="${escapeHtml(article.title)} (opens external page)">
+                <span class="eo-badge" style="background: var(--eo-magazine)">M</span>
+                <span class="eo-published-main">
+                  <span class="eo-published-name">${escapeHtml(article.title)}</span>
+                  <span class="eo-published-date">${formatDate(article.published_at)} · Approved same original</span>
+                </span>
+                <span class="eo-published-actions">
+                  <span class="eo-source-badge">Owned</span>
+                  <span class="eo-external-mark" aria-hidden="true">↗</span>
+                </span>
+              </a>
             </li>
           `,
         )
