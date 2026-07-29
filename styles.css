@@ -1343,6 +1343,20 @@ html>body{padding:0}
     #eo-content-overview .eo-content-table th:nth-child(3) { width: 25%; }
     #eo-content-overview .eo-content-table th:nth-child(4) { width: 17%; }
 
+    #eo-content-overview .eo-content-row {
+      cursor: pointer;
+      transition: background-color 140ms ease;
+    }
+
+    #eo-content-overview .eo-content-row:hover,
+    #eo-content-overview .eo-content-row.is-expanded {
+      background: color-mix(in srgb, var(--eo-accent) 5%, var(--eo-panel));
+    }
+
+    #eo-content-overview .eo-content-row.is-expanded > td {
+      border-bottom-color: transparent;
+    }
+
     #eo-content-overview .eo-content-name {
       gap: 10px;
       min-width: 0;
@@ -1439,6 +1453,164 @@ html>body{padding:0}
       font-weight: 500;
     }
 
+    #eo-content-overview .eo-row-actions {
+      display: inline-flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 7px;
+    }
+
+    #eo-content-overview .eo-expand-button {
+      display: inline-grid;
+      width: 26px;
+      height: 26px;
+      padding: 0;
+      place-items: center;
+      border: 1px solid var(--eo-border-strong);
+      border-radius: 8px;
+      color: var(--eo-ink-2);
+      background: var(--eo-panel);
+      cursor: pointer;
+    }
+
+    #eo-content-overview .eo-expand-button span {
+      display: block;
+      font-size: 15px;
+      line-height: 1;
+      transition: transform 160ms ease;
+    }
+
+    #eo-content-overview .eo-expand-button[aria-expanded="true"] span {
+      transform: rotate(180deg);
+    }
+
+    #eo-content-overview .eo-expand-button:focus-visible {
+      outline: 2px solid var(--eo-accent-2);
+      outline-offset: 2px;
+    }
+
+    #eo-content-overview .eo-content-breakdown-row[hidden] {
+      display: none;
+    }
+
+    #eo-content-overview .eo-content-breakdown-row > td {
+      padding: 0 10px 14px;
+      background: color-mix(in srgb, var(--eo-accent) 5%, var(--eo-panel));
+    }
+
+    #eo-content-overview .eo-content-breakdown {
+      overflow: hidden;
+      border: 1px solid var(--eo-border);
+      border-radius: 12px;
+      background: var(--eo-panel);
+    }
+
+    #eo-content-overview .eo-breakdown-heading {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--eo-border);
+    }
+
+    #eo-content-overview .eo-breakdown-heading strong {
+      font-size: 11px;
+      font-weight: 600;
+    }
+
+    #eo-content-overview .eo-breakdown-heading span {
+      color: var(--eo-ink-3);
+      font-size: 10px;
+    }
+
+    #eo-content-overview .eo-breakdown-list {
+      display: grid;
+    }
+
+    #eo-content-overview .eo-breakdown-platform {
+      position: relative;
+      display: grid;
+      grid-template-columns: 30px minmax(130px, 1fr) minmax(92px, auto) 42px;
+      gap: 10px;
+      align-items: center;
+      padding: 11px 12px 14px;
+      border-bottom: 1px solid var(--eo-border);
+    }
+
+    #eo-content-overview .eo-breakdown-platform:last-child {
+      border-bottom: 0;
+    }
+
+    #eo-content-overview .eo-breakdown-platform.is-empty {
+      opacity: .52;
+    }
+
+    #eo-content-overview .eo-breakdown-badge {
+      display: inline-grid;
+      width: 28px;
+      height: 28px;
+      place-items: center;
+      border-radius: 8px;
+      color: #111213;
+      font-size: 10px;
+      font-weight: 650;
+    }
+
+    #eo-content-overview .eo-breakdown-copy,
+    #eo-content-overview .eo-breakdown-metric {
+      display: grid;
+      gap: 2px;
+    }
+
+    #eo-content-overview .eo-breakdown-copy strong,
+    #eo-content-overview .eo-breakdown-metric strong {
+      font-size: 12px;
+      font-variant-numeric: tabular-nums;
+      font-weight: 600;
+    }
+
+    #eo-content-overview .eo-breakdown-copy small,
+    #eo-content-overview .eo-breakdown-metric small {
+      color: var(--eo-ink-3);
+      font-size: 9px;
+    }
+
+    #eo-content-overview .eo-breakdown-metric {
+      text-align: right;
+    }
+
+    #eo-content-overview .eo-breakdown-share {
+      color: var(--eo-ink-2);
+      text-align: right;
+      font-size: 11px;
+      font-variant-numeric: tabular-nums;
+    }
+
+    #eo-content-overview .eo-breakdown-bar {
+      position: absolute;
+      right: 12px;
+      bottom: 7px;
+      left: 52px;
+      height: 3px;
+      overflow: hidden;
+      border-radius: 999px;
+      background: var(--eo-panel-2);
+    }
+
+    #eo-content-overview .eo-breakdown-bar i {
+      display: block;
+      height: 100%;
+      border-radius: inherit;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      #eo-content-overview .eo-content-row,
+      #eo-content-overview .eo-expand-button span {
+        transition: none;
+      }
+    }
+
     #eo-content-overview[data-external="false"] .eo-external-only {
       display: none;
     }
@@ -1457,6 +1629,11 @@ html>body{padding:0}
       #eo-content-overview .eo-content-table th:nth-child(1) { width: 56%; }
       #eo-content-overview .eo-content-table th:nth-child(2) { width: 22%; }
       #eo-content-overview .eo-content-table th:nth-child(4) { width: 22%; }
+
+      #eo-content-overview .eo-breakdown-platform {
+        grid-template-columns: 30px minmax(100px, 1fr) minmax(78px, auto) 34px;
+        gap: 8px;
+      }
     }
 
     @media (max-width: 470px) {
@@ -1483,6 +1660,31 @@ html>body{padding:0}
 
       #eo-content-overview .eo-content-table th:nth-child(1) { width: 65%; }
       #eo-content-overview .eo-content-table th:nth-child(2) { width: 35%; }
+
+      #eo-content-overview .eo-row-action {
+        display: none;
+      }
+
+      #eo-content-overview .eo-content-breakdown-row > td {
+        display: table-cell;
+      }
+
+      #eo-content-overview .eo-breakdown-heading {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      #eo-content-overview .eo-breakdown-platform {
+        grid-template-columns: 28px 1fr auto;
+      }
+
+      #eo-content-overview .eo-breakdown-share {
+        display: none;
+      }
+
+      #eo-content-overview .eo-breakdown-bar {
+        left: 50px;
+      }
 
       #eo-content-overview .eo-channel-donut-view {
         grid-template-columns: 1fr;
@@ -1601,6 +1803,42 @@ html>body{padding:0}
     #eo-content-detail .eo-breadcrumb a {
       color: var(--eo-ink-2);
       text-decoration: none;
+    }
+
+    #eo-content-detail .eo-back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 5px 8px 5px 6px;
+      border: 1px solid var(--eo-border);
+      border-radius: 8px;
+      background: var(--eo-panel);
+      font-weight: 500;
+      transition:
+        color 140ms ease,
+        border-color 140ms ease,
+        background-color 140ms ease;
+    }
+
+    #eo-content-detail .eo-back-link span {
+      font-size: 19px;
+      line-height: .8;
+    }
+
+    #eo-content-detail .eo-back-link:hover,
+    #eo-content-detail .eo-back-link:focus-visible {
+      border-color: var(--eo-accent-2);
+      color: var(--eo-ink);
+      background: color-mix(in srgb, var(--eo-accent) 8%, var(--eo-panel));
+    }
+
+    #eo-content-detail .eo-back-link:focus-visible {
+      outline: 2px solid var(--eo-accent-2);
+      outline-offset: 2px;
+    }
+
+    #eo-content-detail .eo-breadcrumb-separator {
+      color: var(--eo-ink-3);
     }
 
     #eo-content-detail .eo-content-head {

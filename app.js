@@ -54,6 +54,43 @@ const formatDate = (value) => {
   }).format(new Date(value));
 };
 
+const stableHash = (value) =>
+  [...String(value)].reduce(
+    (hash, character) => (hash * 31 + character.charCodeAt(0)) >>> 0,
+    0,
+  );
+
+const roundToThousand = (value) => Math.round(value / 1000) * 1000;
+
+const buildPrototypeViewBreakdown = (content) => {
+  if (content.platform === "magazine") {
+    const magazineViews =
+      content.views || 18_000 + (stableHash(content.id) % 68) * 1000;
+    return { youtube: 0, magazine: magazineViews, instagram: 0, x: 0 };
+  }
+
+  const seed = stableHash(content.id);
+  const totalViews =
+    420_000 +
+    Math.min(content.assetCount, 8) * 38_000 +
+    (seed % 145) * 1000;
+  const magazineShare = content.linkedMagazineCount
+    ? Math.min(.12, .04 + content.linkedMagazineCount * .015)
+    : 0;
+  const instagramShare = .16 + (seed % 5) / 100;
+  const xShare = .06 + (seed % 4) / 100;
+  const magazineViews = roundToThousand(totalViews * magazineShare);
+  const instagramViews = roundToThousand(totalViews * instagramShare);
+  const xViews = roundToThousand(totalViews * xShare);
+
+  return {
+    youtube: totalViews - magazineViews - instagramViews - xViews,
+    magazine: magazineViews,
+    instagram: instagramViews,
+    x: xViews,
+  };
+};
+
 const initializeOverview = async () => {
   const root = document.querySelector("#eo-content-overview");
   if (!root) return;
@@ -154,7 +191,15 @@ const initializeOverview = async () => {
           : "Magazine-native candidate",
   }));
   const contents = [...youtubeContents, ...magazineContents];
+  contents.forEach((content) => {
+    content.viewBreakdown = buildPrototypeViewBreakdown(content);
+    content.views = Object.values(content.viewBreakdown).reduce(
+      (sum, value) => sum + value,
+      0,
+    );
+  });
   let platform = "all";
+  const expandedContentIds = new Set();
 
   const taxonomies = [
     ...youtube.taxonomy.ipSeries,
@@ -288,9 +333,9 @@ const initializeOverview = async () => {
 
   const contentRow = (content) => {
     const isMagazine = content.platform === "magazine";
-    const platformColor = isMagazine
-      ? "var(--eo-magazine)"
-      : "var(--eo-youtube)";
+    const contentKey = `${content.platform}:${content.id}`;
+    const breakdownId = `platform-breakdown-${content.platform}-${String(content.id).replace(/[^a-zA-Z0-9_-]/g, "-")}`;
+    const isExpanded = expandedContentIds.has(contentKey);
     const platformEntries = PLATFORM_ORDER
       .map((platformName) => [
         platformName,
@@ -313,8 +358,58 @@ const initializeOverview = async () => {
           `<span class="eo-mix" style="width: ${(count / platformTotal) * 100}%; background: ${PLATFORM_COLORS[platformName]}" title="${escapeHtml(`${PLATFORM_LABELS[platformName]} ${Math.round((count / platformTotal) * 100)}%`)}"></span>`,
       )
       .join("");
+    const totalViews = Object.values(content.viewBreakdown).reduce(
+      (sum, value) => sum + value,
+      0,
+    );
+    const platformAssetLabel = (platformName) => {
+      if (platformName === "youtube") {
+        const count = content.platformCounts.youtube;
+        return count
+          ? `${count} ${count === 1 ? "asset" : "assets"}`
+          : "No connected asset";
+      }
+      if (platformName === "magazine") {
+        const count = content.platformCounts.magazine;
+        return count
+          ? `${count} linked ${count === 1 ? "article" : "articles"}`
+          : "No linked article";
+      }
+      return content.viewBreakdown[platformName]
+        ? "Prototype snapshot"
+        : "No tracked post";
+    };
+    const breakdownMarkup = PLATFORM_ORDER
+      .map((platformName) => {
+        const views = content.viewBreakdown[platformName];
+        const share = totalViews ? Math.round((views / totalViews) * 100) : 0;
+        const badge = {
+          youtube: "YT",
+          magazine: "M",
+          instagram: "IG",
+          x: "X",
+        }[platformName];
+        return `
+          <div class="eo-breakdown-platform${views ? "" : " is-empty"}">
+            <span class="eo-breakdown-badge" style="background: ${PLATFORM_COLORS[platformName]}">${badge}</span>
+            <span class="eo-breakdown-copy">
+              <strong>${PLATFORM_LABELS[platformName]}</strong>
+              <small>${platformAssetLabel(platformName)}</small>
+            </span>
+            <span class="eo-breakdown-metric">
+              <strong>${views.toLocaleString("en-US")}</strong>
+              <small>views</small>
+            </span>
+            <span class="eo-breakdown-share">${share}%</span>
+            <span class="eo-breakdown-bar" aria-hidden="true">
+              <i style="width: ${share}%; background: ${PLATFORM_COLORS[platformName]}"></i>
+            </span>
+          </div>
+        `;
+      })
+      .join("");
     return `
-      <tr data-platforms="${content.platform}">
+      <tr class="eo-content-row${isExpanded ? " is-expanded" : ""}" data-content-key="${escapeHtml(contentKey)}">
         <td>
           <div class="eo-content-name">
             <img class="eo-thumbnail" src="${escapeHtml(content.imageUrl)}" alt="" loading="lazy">
@@ -325,8 +420,8 @@ const initializeOverview = async () => {
           </div>
         </td>
         <td class="text-end">
-          <span class="eo-view-value">${isMagazine ? formatMetric(content.views) : "—"}</span>
-          <span class="eo-data-pending">${isMagazine ? "Imported snapshot" : "Snapshot pending"}</span>
+          <span class="eo-view-value">${formatMetric(content.views)}</span>
+          <span class="eo-data-pending">${isMagazine ? "Imported / prototype" : "Prototype snapshot"}</span>
         </td>
         <td>
           <div class="eo-platform-mix" aria-label="${platformLabel}">
@@ -343,7 +438,27 @@ const initializeOverview = async () => {
             }
           </div>
         </td>
-        <td class="text-end"><a class="eo-row-action" href="${detailUrl(content.platform, content.id)}">View detail ↗</a></td>
+        <td class="text-end">
+          <span class="eo-row-actions">
+            <a class="eo-row-action" href="${detailUrl(content.platform, content.id)}">View detail ↗</a>
+            <button class="eo-expand-button" type="button" aria-expanded="${isExpanded}" aria-controls="${breakdownId}" aria-label="${isExpanded ? "Collapse" : "Expand"} platform views for ${escapeHtml(content.title)}">
+              <span aria-hidden="true">⌄</span>
+            </button>
+          </span>
+        </td>
+      </tr>
+      <tr class="eo-content-breakdown-row" id="${breakdownId}"${isExpanded ? "" : " hidden"}>
+        <td colspan="4">
+          <div class="eo-content-breakdown">
+            <div class="eo-breakdown-heading">
+              <strong>Platform views</strong>
+              <span>Visible views · prototype snapshot</span>
+            </div>
+            <div class="eo-breakdown-list">
+              ${breakdownMarkup}
+            </div>
+          </div>
+        </td>
       </tr>
     `;
   };
@@ -369,6 +484,30 @@ const initializeOverview = async () => {
           : `${youtubeCount} YouTube originals · ${linkedMagazineCount} linked Magazine articles · ${magazineCount} Magazine originals`;
     contentCount.textContent = String(filtered.length);
   };
+
+  const toggleContentBreakdown = (contentRowElement) => {
+    const contentKey = contentRowElement.dataset.contentKey;
+    const toggle = contentRowElement.querySelector(".eo-expand-button");
+    const breakdown = root.querySelector(
+      `#${CSS.escape(toggle.getAttribute("aria-controls"))}`,
+    );
+    const nextExpanded = toggle.getAttribute("aria-expanded") !== "true";
+    toggle.setAttribute("aria-expanded", String(nextExpanded));
+    toggle.setAttribute(
+      "aria-label",
+      `${nextExpanded ? "Collapse" : "Expand"} platform views`,
+    );
+    contentRowElement.classList.toggle("is-expanded", nextExpanded);
+    breakdown.hidden = !nextExpanded;
+    if (nextExpanded) expandedContentIds.add(contentKey);
+    else expandedContentIds.delete(contentKey);
+  };
+
+  rowsContainer.addEventListener("click", (event) => {
+    if (event.target.closest(".eo-row-action")) return;
+    const contentRowElement = event.target.closest(".eo-content-row");
+    if (contentRowElement) toggleContentBreakdown(contentRowElement);
+  });
 
   const render = () => {
     const externalIncluded = external.checked;
