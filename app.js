@@ -91,6 +91,32 @@ const buildPrototypeViewBreakdown = (content) => {
   };
 };
 
+const prototypeDelta = (key, force = false) => {
+  const seed = stableHash(key);
+  if (!force && seed % 3 === 0) return null;
+  return [18.4, 12.7, 8.9, 24.2, 6.3][seed % 5];
+};
+
+const allocateAssetViews = (totalViews, assets) => {
+  if (!assets.length) return [];
+  if (assets.length === 1) return [{ ...assets[0], views: totalViews }];
+  const weights = assets.map(
+    (asset, index) =>
+      Math.max(1, assets.length - index) +
+      (stableHash(asset.id || asset.title) % 5) / 10,
+  );
+  const totalWeight = weights.reduce((sum, weight) => sum + weight, 0);
+  let allocated = 0;
+  return assets.map((asset, index) => {
+    const views =
+      index === assets.length - 1
+        ? totalViews - allocated
+        : roundToThousand((totalViews * weights[index]) / totalWeight);
+    allocated += views;
+    return { ...asset, views: Math.max(0, views) };
+  });
+};
+
 const initializeOverview = async () => {
   const root = document.querySelector("#eo-content-overview");
   if (!root) return;
@@ -127,11 +153,12 @@ const initializeOverview = async () => {
 
   const { youtube, magazine } = await loadMasterData();
   const youtubeContents = youtube.originalContents.map((content) => {
-    const linkedMagazineCount = magazine.articles.filter(
+    const linkedMagazineArticles = magazine.articles.filter(
       (article) =>
         article.review_status === "Approved" &&
         article.original_content_id === content.originalContentId,
-    ).length;
+    );
+    const linkedMagazineCount = linkedMagazineArticles.length;
     return {
       id: content.originalContentId,
       platform: "youtube",
@@ -145,6 +172,8 @@ const initializeOverview = async () => {
       ].filter(Boolean).join(" "),
       assetCount: content.assetCount + linkedMagazineCount,
       youtubeAssetCount: content.assetCount,
+      assetIds: content.assetIds,
+      linkedMagazineArticles,
       linkedMagazineCount,
       platformCounts: {
         youtube: content.assetCount,
@@ -173,6 +202,7 @@ const initializeOverview = async () => {
       article.written_by,
     ].filter(Boolean).join(" "),
     assetCount: 1,
+    articleUrl: article.article_url,
     shortCount: 0,
     isNative: article.review_status !== "Approved",
     platformCounts: {
@@ -362,48 +392,132 @@ const initializeOverview = async () => {
       (sum, value) => sum + value,
       0,
     );
+    const contentDelta = prototypeDelta(contentKey, content.assetCount >= 8);
+    const platformAssets = {
+      youtube: (content.assetIds || [])
+        .map((assetId) =>
+          youtube.assets.find((asset) => asset.youtubeId === assetId),
+        )
+        .filter(Boolean)
+        .map((asset) => ({
+          id: asset.youtubeId,
+          title: asset.title,
+          meta: asset.isAnchor ? "Original long-form" : "YouTube Short",
+          url: asset.url,
+        })),
+      magazine:
+        content.platform === "magazine"
+          ? [
+              {
+                id: content.id,
+                title: content.title,
+                meta: "Magazine article",
+                url: content.articleUrl,
+              },
+            ]
+          : (content.linkedMagazineArticles || []).map((article) => ({
+              id: article.magazine_id,
+              title: article.title,
+              meta: "Linked Magazine article",
+              url: article.article_url,
+            })),
+      instagram: content.viewBreakdown.instagram
+        ? [
+            {
+              id: `${content.id}-instagram-reel`,
+              title: "Instagram Reel",
+              meta: "Prototype asset",
+              url: null,
+            },
+          ]
+        : [],
+      x: content.viewBreakdown.x
+        ? [
+            {
+              id: `${content.id}-x-post-01`,
+              title: "X post 01",
+              meta: "Prototype asset",
+              url: null,
+            },
+            {
+              id: `${content.id}-x-post-02`,
+              title: "X post 02",
+              meta: "Prototype asset",
+              url: null,
+            },
+          ]
+        : [],
+    };
     const platformAssetLabel = (platformName) => {
-      if (platformName === "youtube") {
-        const count = content.platformCounts.youtube;
-        return count
-          ? `${count} ${count === 1 ? "asset" : "assets"}`
-          : "No connected asset";
-      }
-      if (platformName === "magazine") {
-        const count = content.platformCounts.magazine;
-        return count
-          ? `${count} linked ${count === 1 ? "article" : "articles"}`
-          : "No linked article";
-      }
-      return content.viewBreakdown[platformName]
-        ? "Prototype snapshot"
-        : "No tracked post";
+      const count = platformAssets[platformName].length;
+      return count
+        ? `${count} ${count === 1 ? "asset" : "assets"}`
+        : "No connected asset";
     };
     const breakdownMarkup = PLATFORM_ORDER
       .map((platformName) => {
         const views = content.viewBreakdown[platformName];
         const share = totalViews ? Math.round((views / totalViews) * 100) : 0;
+        const assets = allocateAssetViews(
+          views,
+          platformAssets[platformName],
+        );
+        const assetListId = `${breakdownId}-${platformName}-assets`;
+        const platformDelta = prototypeDelta(
+          `${contentKey}:${platformName}`,
+          platformName === "youtube" && content.assetCount >= 8,
+        );
         const badge = {
           youtube: "YT",
           magazine: "M",
           instagram: "IG",
           x: "X",
         }[platformName];
+        const assetMarkup = assets
+          .map((asset, index) => {
+            const delta = prototypeDelta(
+              `${contentKey}:${platformName}:${asset.id}`,
+              platformName === "youtube" && index === 0,
+            );
+            const titleMarkup = asset.url
+              ? `<a href="${escapeHtml(asset.url)}" target="_blank" rel="noreferrer">${escapeHtml(asset.title)} <span aria-hidden="true">↗</span></a>`
+              : `<span>${escapeHtml(asset.title)}</span>`;
+            return `
+              <div class="eo-asset-row">
+                <span class="eo-asset-copy">
+                  ${titleMarkup}
+                  <small>${escapeHtml(asset.meta)}</small>
+                </span>
+                <span class="eo-asset-metric">
+                  <strong>${asset.views.toLocaleString("en-US")}</strong>
+                  <small>views</small>
+                </span>
+                <span class="eo-asset-delta${delta ? " is-positive" : ""}">${delta ? `▲ ${delta.toFixed(1)}%` : "—"}</span>
+              </div>
+            `;
+          })
+          .join("");
         return `
-          <div class="eo-breakdown-platform${views ? "" : " is-empty"}">
-            <span class="eo-breakdown-badge" style="background: ${PLATFORM_COLORS[platformName]}">${badge}</span>
-            <span class="eo-breakdown-copy">
-              <strong>${PLATFORM_LABELS[platformName]}</strong>
-              <small>${platformAssetLabel(platformName)}</small>
-            </span>
-            <span class="eo-breakdown-metric">
-              <strong>${views.toLocaleString("en-US")}</strong>
-              <small>views</small>
-            </span>
-            <span class="eo-breakdown-share">${share}%</span>
-            <span class="eo-breakdown-bar" aria-hidden="true">
-              <i style="width: ${share}%; background: ${PLATFORM_COLORS[platformName]}"></i>
-            </span>
+          <div class="eo-platform-group${views ? "" : " is-empty"}">
+            <button class="eo-breakdown-platform eo-platform-toggle" type="button" aria-expanded="false" aria-controls="${assetListId}"${assets.length ? "" : " disabled"}>
+              <span class="eo-breakdown-badge" style="background: ${PLATFORM_COLORS[platformName]}">${badge}</span>
+              <span class="eo-breakdown-copy">
+                <strong>${PLATFORM_LABELS[platformName]}</strong>
+                <small>${platformAssetLabel(platformName)}</small>
+              </span>
+              <span class="eo-breakdown-metric">
+                <strong>${views.toLocaleString("en-US")}</strong>
+                <small class="${platformDelta && views ? "is-positive" : ""}">${platformDelta && views ? `▲ ${platformDelta.toFixed(1)}%` : "views"}</small>
+              </span>
+              <span class="eo-breakdown-share">${share}%</span>
+              <span class="eo-platform-chevron" aria-hidden="true">⌄</span>
+              <span class="eo-breakdown-bar" aria-hidden="true">
+                <i style="width: ${share}%; background: ${PLATFORM_COLORS[platformName]}"></i>
+              </span>
+            </button>
+            <div class="eo-asset-list" id="${assetListId}" hidden>
+              ${assetMarkup}
+            </div>
           </div>
         `;
       })
@@ -421,7 +535,11 @@ const initializeOverview = async () => {
         </td>
         <td class="text-end">
           <span class="eo-view-value">${formatMetric(content.views)}</span>
-          <span class="eo-data-pending">${isMagazine ? "Imported / prototype" : "Prototype snapshot"}</span>
+          ${
+            contentDelta
+              ? `<span class="eo-view-delta">▲ ${contentDelta.toFixed(1)}%</span>`
+              : `<span class="eo-data-pending">${isMagazine ? "Imported / prototype" : "Prototype snapshot"}</span>`
+          }
         </td>
         <td>
           <div class="eo-platform-mix" aria-label="${platformLabel}">
@@ -505,6 +623,17 @@ const initializeOverview = async () => {
 
   rowsContainer.addEventListener("click", (event) => {
     if (event.target.closest(".eo-row-action")) return;
+    const platformToggle = event.target.closest(".eo-platform-toggle");
+    if (platformToggle) {
+      const assetList = root.querySelector(
+        `#${CSS.escape(platformToggle.getAttribute("aria-controls"))}`,
+      );
+      const nextExpanded =
+        platformToggle.getAttribute("aria-expanded") !== "true";
+      platformToggle.setAttribute("aria-expanded", String(nextExpanded));
+      assetList.hidden = !nextExpanded;
+      return;
+    }
     const contentRowElement = event.target.closest(".eo-content-row");
     if (contentRowElement) toggleContentBreakdown(contentRowElement);
   });
