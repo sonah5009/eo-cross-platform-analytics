@@ -5,9 +5,11 @@ Prototype dashboard for viewing EO content performance across YouTube, Magazine,
 ## Screens
 
 - `index.html` — cross-platform content overview
-- `detail.html` — content performance detail
+- `detail.html?id={originalContentId}` — content performance detail
+- `styles.css` — shared responsive design system
+- `app.js` — master-data loading, filtering, and page routing
 
-The prototype includes platform filters, period controls, owned/external view separation, content-level performance, and responsive light/dark themes.
+The prototype includes IP/series filters, real YouTube thumbnails, original-to-asset mapping, content-level navigation, and responsive layouts.
 
 ## Initial master data
 
@@ -29,10 +31,12 @@ should join to `originalContents[].originalContentId`, so YouTube, Magazine,
 Instagram, X, and external repost performance can roll up to one story without
 changing the canonical content identity.
 
-The view metrics currently shown in the HTML prototype are demonstration data.
-They should not be merged into the master data until dated analytics snapshots
-are available.
+View metrics remain empty until dated analytics snapshots are available. This
+prevents demonstration values from being mistaken for collected performance
+data.
 
 ## Run locally
 
-Open `index.html` directly in a browser, or serve the directory with any static file server.
+Serve the project directory with any static file server and open `index.html`.
+The page loads the JSON master with `fetch`, so it should not be opened directly
+through a `file://` URL.
