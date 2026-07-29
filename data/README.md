@@ -4,6 +4,10 @@
 
 - `youtube-content-master.csv` is the reviewed source mapping.
 - `youtube-content-master.json` is the dashboard-ready representation.
+- `magazine-content-candidates.csv` is the human-review queue for magazine
+  articles and proposed YouTube relationships.
+- `magazine-content-candidates.json` is the structured equivalent used by
+  future dashboard integration.
 
 ## Identity rules
 
@@ -25,3 +29,19 @@ platform + platformAssetId + snapshotDate
 Each platform asset should retain `originalContentId` as its roll-up key.
 Views, deltas, and 3/7/14/30/90-day performance belong in snapshot data rather
 than this identity master.
+
+## Magazine candidate rules
+
+- Magazine categories remain in `magazine_category_raw`.
+- `Founder Focused` is a collection tag; `The Thinking Mode` is an IP series.
+- `original_content_id` remains empty until a reviewer approves a match.
+- Matches to an approved YouTube group propose its existing anchor.
+- Matches to an unassigned YouTube long-form propose promoting that video to
+  an anchor before linking the magazine article.
+- Articles without a reliable match remain magazine-native candidates.
+
+Refresh the review queue with:
+
+```sh
+npm run data:magazine
+```

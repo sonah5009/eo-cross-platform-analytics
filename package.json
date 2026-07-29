@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node scripts/build.mjs"
+    "build": "node scripts/build.mjs",
+    "data:magazine": "node scripts/build-magazine-candidates.mjs"
   }
 }
