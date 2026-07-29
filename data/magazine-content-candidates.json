@@ -37,7 +37,7 @@
     "newAnchorRule": "A matched unassigned YouTube long-form must be promoted to an anchor before linking."
   },
   "summary": {
-    "generatedAt": "2026-07-29T22:45:05.358Z",
+    "generatedAt": "2026-07-29T22:50:42.779Z",
     "articleCount": 219,
     "categoryCounts": {
       "Founder Focused": 186,
@@ -46,10 +46,10 @@
       "Raise Report": 6,
       "The Thinking Mode": 11
     },
-    "suggestedCount": 133,
-    "approvedLinkedCount": 10,
-    "existingAnchorCandidateCount": 32,
-    "newAnchorCandidateCount": 101,
+    "suggestedCount": 123,
+    "approvedLinkedCount": 20,
+    "existingAnchorCandidateCount": 29,
+    "newAnchorCandidateCount": 94,
     "magazineNativeCandidateCount": 76
   },
   "articles": [
@@ -96,7 +96,7 @@
       "open_graph_image_url": "https://eo-mag-backend.s3.us-west-1.amazonaws.com/article/399/8a9339cb-f005-4a5a-bc37-0f62093a0328",
       "published_at": "2026-07-26T08:00:00+00:00",
       "reading_time_minutes": 14,
-      "view_count_at_import": 419,
+      "view_count_at_import": 420,
       "written_by": "Jason Jin",
       "magazine_category_id": 3,
       "magazine_category_raw": "Inside Hacker Houses",
@@ -189,7 +189,7 @@
       "open_graph_image_url": "https://eo-mag-backend.s3.us-west-1.amazonaws.com/article/396/76fcd1b4-1ceb-4c8f-b19a-3d932678a9b7",
       "published_at": "2026-07-15T08:00:00+00:00",
       "reading_time_minutes": 17,
-      "view_count_at_import": 182,
+      "view_count_at_import": 183,
       "written_by": "Jason Jin",
       "magazine_category_id": 3,
       "magazine_category_raw": "Inside Hacker Houses",
@@ -1083,18 +1083,18 @@
       "magazine_category_raw": "The Thinking Mode",
       "ip_series": "The Thinking Mode",
       "collection_tags": [],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "I08ZeY7QcrE",
       "parent_candidate": "I08ZeY7QcrE",
       "parent_candidate_url": "https://www.youtube.com/watch?v=I08ZeY7QcrE",
       "matched_youtube_title": "How Top 1% AI-Native Organizations Actually Make Money | Harvard Business School, Rem Koning",
       "matched_youtube_status": "Linked",
-      "match_score": 0.978,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: harvard business school; title tokens: rem, koning, harvard, school, native, organizations; distinctive tokens: harvard, organizations",
-      "recommended_action": "Review and link to existing anchor",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 83,
@@ -1758,18 +1758,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "UwoflMkwL40",
       "parent_candidate": "UwoflMkwL40",
       "parent_candidate_url": "https://www.youtube.com/watch?v=UwoflMkwL40",
       "matched_youtube_title": "How to Hit 2M Subs in 2 Years Building an AI Newsletter | The Rundown AI, Rowan Cheung",
       "matched_youtube_status": "Linked",
-      "match_score": 0.995,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: rowan cheung; title tokens: newsletter, rowan, cheung, rundown; distinctive tokens: newsletter, rundown",
-      "recommended_action": "Review and link to existing anchor",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 338,
@@ -2581,18 +2581,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "d9SKd-zqYAc",
       "parent_candidate": "d9SKd-zqYAc",
       "parent_candidate_url": "https://www.youtube.com/watch?v=d9SKd-zqYAc",
       "matched_youtube_title": "The 8-Year Journey to Building a $4B AI Company | Synthesia, Victor Riparbelli",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.97,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: victor riparbelli; title tokens: synthesia, victor, riparbelli; distinctive tokens: synthesia, riparbelli",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 309,
@@ -3604,18 +3604,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "0SStbzK1VRU",
       "parent_candidate": "0SStbzK1VRU",
       "parent_candidate_url": "https://www.youtube.com/watch?v=0SStbzK1VRU",
       "matched_youtube_title": "What VCs Actually Want Beyond an AI Demo | Rebecca Lynn, Canvas Ventures",
-      "matched_youtube_status": "Unassigned",
+      "matched_youtube_status": "Linked",
       "match_score": 1,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: rebecca lynn; title tokens: demo, rebecca, lynn, canvas, ventures; distinctive tokens: rebecca, ventures",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 277,
@@ -3835,18 +3835,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "I5YOjn1V1fU",
       "parent_candidate": "I5YOjn1V1fU",
       "parent_candidate_url": "https://www.youtube.com/watch?v=I5YOjn1V1fU",
       "matched_youtube_title": "From Zero to $1.5B Unicorn in 2 Years | Decagon, Jesse Zhang",
-      "matched_youtube_status": "Unassigned",
+      "matched_youtube_status": "Linked",
       "match_score": 1,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: jesse zhang; title tokens: jesse, zhang, unicorn, decagon; distinctive tokens: unicorn, decagon",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 148,
@@ -4099,18 +4099,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "yhjsw2q790Q",
       "parent_candidate": "yhjsw2q790Q",
       "parent_candidate_url": "https://www.youtube.com/watch?v=yhjsw2q790Q",
       "matched_youtube_title": "High School Dropout Made World’s #2 NFT Project | Pudgy Penguins, Luca Netz",
-      "matched_youtube_status": "Unassigned",
+      "matched_youtube_status": "Linked",
       "match_score": 1,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: high school dropout; title tokens: high, school, dropout, pudgy, penguins, luca, netz; distinctive tokens: dropout, penguins",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 300,
@@ -4495,18 +4495,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "x6pJhK0LegI",
       "parent_candidate": "x6pJhK0LegI",
       "parent_candidate_url": "https://www.youtube.com/watch?v=x6pJhK0LegI",
       "matched_youtube_title": "Is Web 3.0 Dead? | a16z Chris Dixon",
-      "matched_youtube_status": "Unassigned",
-      "match_score": 0.968,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: chris dixon; title tokens: chris, dixon, dead, web",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "matched_youtube_status": "Linked",
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 134,
@@ -4924,18 +4924,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "xgeu8JOxbnA",
       "parent_candidate": "xgeu8JOxbnA",
       "parent_candidate_url": "https://www.youtube.com/watch?v=xgeu8JOxbnA",
       "matched_youtube_title": "How He Helped Double Lung Cancer Survival Rates from 13% to 26% | Dorian Averbuch",
-      "matched_youtube_status": "Unassigned",
+      "matched_youtube_status": "Linked",
       "match_score": 1,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: lung cancer survival rates; title tokens: dorian, averbuch, lung, cancer, survival, rates; distinctive tokens: averbuch, survival",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 235,
@@ -4990,18 +4990,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "4C8s6CmcJcQ",
       "parent_candidate": "4C8s6CmcJcQ",
       "parent_candidate_url": "https://www.youtube.com/watch?v=4C8s6CmcJcQ",
       "matched_youtube_title": "How We Hit 1M Drone Delivery | Zipline, Keller Rinaudo Cliffton, Keenan Wyrobek",
       "matched_youtube_status": "Linked",
-      "match_score": 0.991,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: keller rinaudo cliffton keenan wyrobek; title tokens: zipline, keller, rinaudo, cliffton, keenan, wyrobek; distinctive tokens: zipline, rinaudo, cliffton, wyrobek",
-      "recommended_action": "Review and link to existing anchor",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_score": 1,
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 266,
@@ -6838,18 +6838,18 @@
       "collection_tags": [
         "Founder Focused"
       ],
-      "content_origin_candidate": "youtube_linked_candidate",
-      "original_content_id": null,
+      "content_origin_candidate": "youtube_linked",
+      "original_content_id": "oiWwyt3HVT0",
       "parent_candidate": "oiWwyt3HVT0",
       "parent_candidate_url": "https://www.youtube.com/watch?v=oiWwyt3HVT0",
       "matched_youtube_title": "How I Built Three Billion-dollar CompaniesㅣFrank Slootman, CEO at SnowFlake",
-      "matched_youtube_status": "Unassigned",
+      "matched_youtube_status": "Linked",
       "match_score": 1,
-      "match_confidence": "High",
-      "match_reason": "shared phrase: three billion dollar companies; title tokens: three, dollar, companies, frank, slootman, snowflake; distinctive tokens: companies, slootman, snowflake",
-      "recommended_action": "Review, promote YouTube long-form to anchor, then link",
-      "link_status": "Suggested",
-      "review_status": "Needs review"
+      "match_confidence": "Approved",
+      "match_reason": "User-approved as the same original content",
+      "recommended_action": "Linked to approved YouTube anchor",
+      "link_status": "Linked",
+      "review_status": "Approved"
     },
     {
       "magazine_id": 174,

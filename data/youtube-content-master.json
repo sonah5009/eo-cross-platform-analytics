@@ -7,11 +7,11 @@
   },
   "summary": {
     "assetCount": 433,
-    "originalContentCount": 67,
-    "linkedAssetCount": 187,
-    "linkedAnchorCount": 67,
+    "originalContentCount": 74,
+    "linkedAssetCount": 194,
+    "linkedAnchorCount": 74,
     "linkedShortCount": 120,
-    "unassignedAssetCount": 246,
+    "unassignedAssetCount": 239,
     "suggestedAssetCount": 0
   },
   "taxonomy": {
@@ -396,6 +396,23 @@
       }
     },
     {
+      "originalContentId": "I5YOjn1V1fU",
+      "title": "From Zero to $1.5B Unicorn in 2 Years | Decagon, Jesse Zhang",
+      "canonicalUrl": "https://www.youtube.com/watch?v=I5YOjn1V1fU",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "I5YOjn1V1fU"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
       "originalContentId": "_Q2ZEBhVyTw",
       "title": "He Built $100B at Google, Then Failed. Now He Runs an $80B+ Company | Snowflake, Sridhar Ramaswamy",
       "canonicalUrl": "https://www.youtube.com/watch?v=_Q2ZEBhVyTw",
@@ -427,6 +444,23 @@
       "assetTypeCounts": {
         "long_form": 1,
         "shorts": 1
+      }
+    },
+    {
+      "originalContentId": "yhjsw2q790Q",
+      "title": "High School Dropout Made World’s #2 NFT Project | Pudgy Penguins, Luca Netz",
+      "canonicalUrl": "https://www.youtube.com/watch?v=yhjsw2q790Q",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "yhjsw2q790Q"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
       }
     },
     {
@@ -522,6 +556,23 @@
       }
     },
     {
+      "originalContentId": "xgeu8JOxbnA",
+      "title": "How He Helped Double Lung Cancer Survival Rates from 13% to 26% | Dorian Averbuch",
+      "canonicalUrl": "https://www.youtube.com/watch?v=xgeu8JOxbnA",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "xgeu8JOxbnA"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
       "originalContentId": "9c3oNP8yiKs",
       "title": "How I Built a $1.3B Startup by Pivoting Fast | Windsurf, Varun Mohan, Co-Founder & CEO",
       "canonicalUrl": "https://www.youtube.com/watch?v=9c3oNP8yiKs",
@@ -559,6 +610,23 @@
       "assetTypeCounts": {
         "long_form": 1,
         "shorts": 1
+      }
+    },
+    {
+      "originalContentId": "oiWwyt3HVT0",
+      "title": "How I Built Three Billion-dollar CompaniesㅣFrank Slootman, CEO at SnowFlake",
+      "canonicalUrl": "https://www.youtube.com/watch?v=oiWwyt3HVT0",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Over $100 Billion CEO Interviews"
+      ],
+      "assetIds": [
+        "oiWwyt3HVT0"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
       }
     },
     {
@@ -788,6 +856,21 @@
       }
     },
     {
+      "originalContentId": "x6pJhK0LegI",
+      "title": "Is Web 3.0 Dead? | a16z Chris Dixon",
+      "canonicalUrl": "https://www.youtube.com/watch?v=x6pJhK0LegI",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [],
+      "assetIds": [
+        "x6pJhK0LegI"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
+      }
+    },
+    {
       "originalContentId": "9MQNO9DbaYQ",
       "title": "Pivot and Fail Fast: Most Valuable Lessons During Our 12-Year Journey to IPO  | SES AI, Qichao Hu",
       "canonicalUrl": "https://www.youtube.com/watch?v=9MQNO9DbaYQ",
@@ -925,6 +1008,23 @@
       "assetTypeCounts": {
         "long_form": 1,
         "shorts": 3
+      }
+    },
+    {
+      "originalContentId": "d9SKd-zqYAc",
+      "title": "The 8-Year Journey to Building a $4B AI Company | Synthesia, Victor Riparbelli",
+      "canonicalUrl": "https://www.youtube.com/watch?v=d9SKd-zqYAc",
+      "anchorPlatform": "youtube",
+      "ipSeries": null,
+      "collectionTags": [
+        "Founder Focused"
+      ],
+      "assetIds": [
+        "d9SKd-zqYAc"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
       }
     },
     {
@@ -1227,6 +1327,21 @@
       "assetTypeCounts": {
         "long_form": 1,
         "shorts": 1
+      }
+    },
+    {
+      "originalContentId": "0SStbzK1VRU",
+      "title": "What VCs Actually Want Beyond an AI Demo | Rebecca Lynn, Canvas Ventures",
+      "canonicalUrl": "https://www.youtube.com/watch?v=0SStbzK1VRU",
+      "anchorPlatform": "youtube",
+      "ipSeries": "Deal Makers: VC Stories",
+      "collectionTags": [],
+      "assetIds": [
+        "0SStbzK1VRU"
+      ],
+      "assetCount": 1,
+      "assetTypeCounts": {
+        "long_form": 1
       }
     },
     {
@@ -2664,11 +2779,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "d9SKd-zqYAc",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "rQ3luEIcKes",
@@ -3386,11 +3501,11 @@
       ],
       "ipSeries": "Deal Makers: VC Stories",
       "collectionTags": [],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "0SStbzK1VRU",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "bfD4oFQXHTs",
@@ -3570,11 +3685,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "I5YOjn1V1fU",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "9MQNO9DbaYQ",
@@ -3746,11 +3861,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "yhjsw2q790Q",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "my7HXZSGecw",
@@ -3998,11 +4113,11 @@
       "playlistRaw": [],
       "ipSeries": null,
       "collectionTags": [],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "x6pJhK0LegI",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "52oBJncG-D4",
@@ -4271,11 +4386,11 @@
       "collectionTags": [
         "Founder Focused"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "xgeu8JOxbnA",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "TRqA9XzGLok",
@@ -5823,11 +5938,11 @@
       "collectionTags": [
         "Over $100 Billion CEO Interviews"
       ],
-      "originalContentId": null,
-      "isAnchor": false,
+      "originalContentId": "oiWwyt3HVT0",
+      "isAnchor": true,
       "parentCandidate": null,
-      "linkStatus": "Unassigned",
-      "reviewStatus": "Not reviewed"
+      "linkStatus": "Linked",
+      "reviewStatus": "Approved"
     },
     {
       "youtubeId": "BYaP3SiofyU",
