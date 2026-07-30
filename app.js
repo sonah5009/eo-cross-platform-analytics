@@ -938,6 +938,7 @@ const initializeDetail = async () => {
   const ownedShare = root.querySelector("#owned-share");
   const externalViews = root.querySelector("#external-views");
   const externalShare = root.querySelector("#external-share");
+  const detailAssetBreakdown = root.querySelector("#detail-asset-breakdown");
   const chartSubtitle = root.querySelector("#chart-subtitle");
   const chartGrid = root.querySelector("#chart-grid");
   const chartMilestones = root.querySelector("#chart-milestones");
@@ -961,6 +962,161 @@ const initializeDetail = async () => {
         instagram: { owned: 214_000, external: 46_000 },
         x: { owned: 40_000, external: 10_000 },
       };
+
+  const relatedYoutubeContent = isMagazine
+    ? youtube.originalContents.find(
+        (item) => item.originalContentId === content.original_content_id,
+      )
+    : content;
+  const detailYoutubeAssets = (relatedYoutubeContent?.assetIds || [])
+    .map((assetId) =>
+      youtube.assets.find((asset) => asset.youtubeId === assetId),
+    )
+    .filter(Boolean)
+    .sort((a, b) => Number(b.isAnchor) - Number(a.isAnchor))
+    .map((asset) => ({
+      id: asset.youtubeId,
+      title: asset.title,
+      meta: asset.isAnchor ? "Original long-form" : "YouTube Short",
+      url: asset.url,
+    }));
+  const detailMagazineArticles = isMagazine
+    ? [content]
+    : magazine.articles.filter(
+        (article) =>
+          article.review_status === "Approved" &&
+          article.original_content_id === content.originalContentId,
+      );
+  const detailAssetsByPlatform = {
+    youtube: detailYoutubeAssets,
+    magazine: detailMagazineArticles.map((article) => ({
+      id: article.magazine_id,
+      title: article.title,
+      meta: "Magazine article",
+      url: article.article_url,
+    })),
+    instagram: data.instagram.owned
+      ? [
+          {
+            id: `${requestedId}-detail-instagram-reel`,
+            title: "Instagram Reel",
+            meta: "Prototype asset",
+            url: null,
+          },
+        ]
+      : [],
+    x: data.x.owned
+      ? [
+          {
+            id: `${requestedId}-detail-x-post-01`,
+            title: "X post 01",
+            meta: "Prototype asset",
+            url: null,
+          },
+          {
+            id: `${requestedId}-detail-x-post-02`,
+            title: "X post 02",
+            meta: "Prototype asset",
+            url: null,
+          },
+        ]
+      : [],
+  };
+  const detailBadge = {
+    youtube: "YT",
+    magazine: "M",
+    instagram: "IG",
+    x: "X",
+  };
+  const detailTotalOwned = data.all.owned || 0;
+
+  detailAssetBreakdown.innerHTML = PLATFORM_ORDER
+    .map((platformName) => {
+      const platformViews = data[platformName].owned;
+      let platformAssets = detailAssetsByPlatform[platformName];
+      if (!platformAssets.length && platformViews) {
+        platformAssets = [
+          {
+            id: `${requestedId}-${platformName}-prototype`,
+            title: `${PLATFORM_LABELS[platformName]} asset`,
+            meta: "Prototype asset",
+            url: null,
+          },
+        ];
+      }
+      const allocatedAssets = allocateAssetViews(
+        platformViews,
+        platformAssets,
+      );
+      const share = detailTotalOwned
+        ? Math.round((platformViews / detailTotalOwned) * 100)
+        : 0;
+      const assetListId = `detail-${platformName}-assets-${String(requestedId).replace(/[^a-zA-Z0-9_-]/g, "-")}`;
+      const platformDelta = prototypeDelta(
+        `${requestedId}:detail:${platformName}`,
+        platformName === "youtube" && !isMagazine,
+      );
+      const assetMarkup = allocatedAssets
+        .map((asset, index) => {
+          const delta = prototypeDelta(
+            `${requestedId}:detail:${platformName}:${asset.id}`,
+            platformName === "youtube" && index === 0 && !isMagazine,
+          );
+          const titleMarkup = asset.url
+            ? `<a href="${escapeHtml(asset.url)}" target="_blank" rel="noreferrer">${escapeHtml(asset.title)} <span aria-hidden="true">↗</span></a>`
+            : `<span>${escapeHtml(asset.title)}</span>`;
+          return `
+            <div class="eo-detail-asset-row">
+              <span class="eo-detail-asset-copy">
+                ${titleMarkup}
+                <small>${escapeHtml(asset.meta)}</small>
+              </span>
+              <span class="eo-detail-asset-metric">
+                <strong>${asset.views.toLocaleString("en-US")}</strong>
+                <small>views</small>
+              </span>
+              <span class="eo-detail-asset-delta${delta ? " is-positive" : ""}">${delta ? `▲ ${delta.toFixed(1)}%` : "—"}</span>
+            </div>
+          `;
+        })
+        .join("");
+      return `
+        <div class="eo-detail-platform-group${platformViews ? "" : " is-empty"}" data-detail-platform="${platformName}">
+          <button class="eo-detail-platform-toggle" type="button" aria-expanded="false" aria-controls="${assetListId}"${allocatedAssets.length ? "" : " disabled"}>
+            <span class="eo-detail-platform-badge" style="background: ${PLATFORM_COLORS[platformName]}">${detailBadge[platformName]}</span>
+            <span class="eo-detail-platform-copy">
+              <strong>${PLATFORM_LABELS[platformName]}</strong>
+              <small>${allocatedAssets.length} ${allocatedAssets.length === 1 ? "asset" : "assets"}</small>
+            </span>
+            <span class="eo-detail-platform-metric">
+              <strong>${platformViews.toLocaleString("en-US")}</strong>
+              <small class="${platformDelta && platformViews ? "is-positive" : ""}">${platformDelta && platformViews ? `▲ ${platformDelta.toFixed(1)}%` : "views"}</small>
+            </span>
+            <span class="eo-detail-platform-share">${share}%</span>
+            <span class="eo-detail-platform-chevron" aria-hidden="true">⌄</span>
+          </button>
+          <div class="eo-detail-asset-list" id="${assetListId}" hidden>
+            ${assetMarkup}
+          </div>
+        </div>
+      `;
+    })
+    .join("");
+  const detailPlatformGroups = [
+    ...detailAssetBreakdown.querySelectorAll("[data-detail-platform]"),
+  ];
+
+  detailAssetBreakdown.addEventListener("click", (event) => {
+    const toggle = event.target.closest(".eo-detail-platform-toggle");
+    if (!toggle) return;
+    const assetList = root.querySelector(
+      `#${CSS.escape(toggle.getAttribute("aria-controls"))}`,
+    );
+    const nextExpanded = toggle.getAttribute("aria-expanded") !== "true";
+    toggle.setAttribute("aria-expanded", String(nextExpanded));
+    assetList.hidden = !nextExpanded;
+  });
+
   let selectedPlatform = "all";
   let selectedRange = 30;
   let externalIncluded = true;
@@ -1107,6 +1263,11 @@ const initializeDetail = async () => {
       row.hidden =
         selectedPlatform !== "all" &&
         rowPlatform !== selectedPlatform;
+    });
+    detailPlatformGroups.forEach((group) => {
+      group.hidden =
+        selectedPlatform !== "all" &&
+        group.dataset.detailPlatform !== selectedPlatform;
     });
     renderChart(visibleTotal);
   };
